@@ -7,7 +7,6 @@
         "-search",
         "-highlight",
         "-livereload",
-        "gitbook@^3.2.2",
         "search-plus@^0.0.11",
         "github@^2.0.0",
         "github-buttons@2.1.0",

@@ -16,9 +16,14 @@
         }
     },
     "links": {
-        "sidebar": {
-            "Custom link name": "https://customlink.com"
-        }
+        "sharing": {
+            "all": null,
+            "facebook": null,
+            "google": null,
+            "twitter": null,
+            "weibo": null
+        },
+        "sidebar": {}
     },
 
 }

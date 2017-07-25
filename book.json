@@ -1,18 +1,76 @@
 {
-    "plugins": [ "theme-api" ],
+    "title": "上直播 API",
+    "description": "上直播 API 接口文档",
+    "author": "yang.sun",
+    "plugins": [
+        "-lunr",
+        "-search",
+        "-highlight",
+        "-livereload",
+        "search-plus@^0.0.11",
+        "github@^2.0.0",
+        "github-buttons@2.1.0",
+        "disqus@^0.1.0",
+        "prism@^2.1.0",
+        "prism-themes@^0.0.2",
+        "include-codeblock@^3.0.2",
+        "ace@^0.3.2",
+        "emphasize@^1.1.0",
+        "katex@^1.1.3",
+        "splitter@^0.0.8",
+        "expandable-chapters-small@^0.1.7",
+        "sectionx@^3.1.0",
+        "local-video@^1.0.1",
+        "favicon@^0.0.2",
+        "todo@^0.1.3"
+    ],
     "pluginsConfig": {
-        "theme-api": {
-            "languages": [
-                {
-                    "lang": "js",
-                    "name": "JavaScript",
-                    "default": true
-                },
-                {
-                    "lang": "go",
-                    "name": "Go"
-                }
+        "theme-default": {
+            "showLevel": false
+        },
+        "disqus": {
+            "shortName": "gitbookuse"
+        },
+        "prism": {
+            "css": [
+                "prism-themes/themes/prism-base16-ateliersulphurpool.light.css"
             ]
+        },
+        "github": {
+            "url": "https://github.com/tosunyang/shangzhibo-api"
+        },
+        "github-buttons": {
+            "repo": "tosunyang/shangzhibo-api",
+            "types": [
+                "star"
+            ],
+            "size": "small"
+        },
+        "include-codeblock": {
+            "template": "ace",
+            "unindent": true,
+            "edit": true
+        },
+        "sharing": {
+            "weibo": true,
+            "facebook": true,
+            "twitter": true,
+            "google": false,
+            "instapaper": false,
+            "vk": false,
+            "all": [
+                "facebook",
+                "google",
+                "twitter",
+                "weibo",
+                "instapaper"
+            ]
+        },
+        "sectionx": {
+            "tag": "b"
+        },
+        "favicon": {
+            "shortcut": "favicon.ico"
         }
-    }, 
+    }
 }

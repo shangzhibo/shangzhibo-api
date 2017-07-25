@@ -15,15 +15,5 @@
             ]
         }
     },
-    "links": {
-        "sharing": {
-            "all": null,
-            "facebook": null,
-            "google": null,
-            "twitter": null,
-            "weibo": null
-        },
-        "sidebar": {}
-    },
-
+    
 }

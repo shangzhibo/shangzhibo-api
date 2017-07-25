@@ -10,7 +10,6 @@
         "search-plus@^0.0.11",
         "github@^2.0.0",
         "github-buttons@2.1.0",
-        "disqus@^0.1.0",
         "prism@^2.1.0",
         "prism-themes@^0.0.2",
         "include-codeblock@^3.0.2",
@@ -27,9 +26,6 @@
     "pluginsConfig": {
         "theme-default": {
             "showLevel": false
-        },
-        "disqus": {
-            "shortName": "gitbookuse"
         },
         "prism": {
             "css": [

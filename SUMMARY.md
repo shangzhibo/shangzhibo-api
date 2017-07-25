@@ -1,5 +1,3 @@
-# Summary
-
 ## 总览
 
 * [上直播 API 简介](README.md)

@@ -35,10 +35,10 @@
             ]
         },
         "github": {
-            "url": "https://github.com/tosunyang/shangzhibo-api"
+            "url": "https://github.com/shangzhibo/shangzhibo-api"
         },
         "github-buttons": {
-            "repo": "tosunyang/shangzhibo-api",
+            "repo": "shangzhibo/shangzhibo-api",
             "types": [
                 "star"
             ],

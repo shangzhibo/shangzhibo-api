@@ -29,6 +29,7 @@ GET /activity/{id}/iframe
 | ---- | ------ | ----- |
 | code | string | 嵌入的代码 |
 
+#### 响应样例
 ```js
 {
   "code": "<iframe

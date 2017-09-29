@@ -1,7 +1,7 @@
-## 创建频道
+## 账号体系对接
 
 ### 接口
-创建频道
+账号体系对接
 
 ```js
 POST /api/callback/account

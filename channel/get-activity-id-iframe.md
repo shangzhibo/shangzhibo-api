@@ -4,7 +4,7 @@
 获取播放器嵌入
 
 ```js
-GET /activity/{id}/iframe
+GET /api/activity/{id}/iframe
 ```
 ### 授权
 无需授权
@@ -20,7 +20,7 @@ GET /activity/{id}/iframe
 #### 请求样例
 
 ```js
-/activity/8930091/iframe?type=playeronly&width=640&height=360
+/api/activity/8930091/iframe?type=playeronly&width=640&height=360
 ```
 
 ### 响应

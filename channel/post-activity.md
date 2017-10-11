@@ -4,7 +4,7 @@
 创建频道
 
 ```js
-POST /activity
+POST /api/activity
 ```
 ### 授权
 请求 header

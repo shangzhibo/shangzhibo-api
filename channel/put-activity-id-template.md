@@ -5,7 +5,7 @@
 修改模板
 
 ```js
-PUT /activity
+PUT /api/activity/{id}/template
 ```
 
 ### 授权

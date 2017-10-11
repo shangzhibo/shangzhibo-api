@@ -6,4 +6,6 @@
 * [频道 API](channel/get-activity-id-iframe.md)
   * [播放器嵌入](channel/get-activity-id-iframe.md)
   * [创建频道](channel/post-activity.md)
+  * [设置模板](channel/put-activity-id-template.md)
+
 

@@ -47,7 +47,7 @@ Content-Type: application/json
 #### 响应样例
 ```js
 {
-    "result": true,
+  "result": true,
 }
 ```
 

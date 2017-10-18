@@ -5,11 +5,9 @@
   * [播放页信息主动上报](live-page/post-message.md)
   * [发送评论](live-page/send-comment.md)
   * [获取历史评论](live-page/get-comment-history.md)
-  * [账号体系对接](live-page/account-callback.md)
+  * [回传用户数据](live-page/post-callback-user.md)
 * [频道 API](channel/get-activity-id-iframe.md)
   * [播放器嵌入](channel/get-activity-id-iframe.md)
   * [创建频道](channel/post-activity.md)
   * [修改模板](channel/put-activity-id-template.md)
   * [获取模板](channel/get-activity-id-template.md)
-
-

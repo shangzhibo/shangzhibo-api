@@ -21,6 +21,7 @@ Content-Type: application/json
 | 参数       | 参数类型    | 参数说明       | 是否必填 |
 | -------- | ------- | ---------- | ---- |
 | uid      | integer | 唯一标识用户的 ID | 是    |
+| sid      | string  | session ID | 是    |
 | nickname | string  | 用户微信昵称     | 是    |
 | avatar   | string  | 用户微信头像     | 是    |
 | sex      | string  | 用户性别       | 是    |
@@ -33,6 +34,7 @@ Content-Type: application/json
 ```js
 {
   "uid": 2580821,
+  "sid": "TkSA4HjIjuFQPyFSoB_0ULx821k4b1Fq",
   "nickname": "兰海ena",
   "avatar": "http://static.itdks.com/files/default/2017/09-28/17403642672f970434.jpg",
   "sex": "male",

@@ -38,11 +38,11 @@ Content-Type: application/json
 
 | 参数                    | 参数类型    | 参数说明                                     |
 | --------------------- | ------- | ---------------------------------------- |
-| id                    | string  | 频道 id                                    |
+| id                    | string  | 频道 ID                                    |
 | name                  | string  | 频道名称                                     |
-| categoryId            | integer | 活动分类 id                                  |
+| categoryId            | integer | 频道分类 ID                                  |
 | status                | string  | 频道状态，enabled 允许推流 disabled 禁止推流 forbidden 管理员禁止推流 deleted 频道已被删除 |
-| agentId               | integer | 账号 id                                    |
+| agentId               | integer | 账号 ID                                    |
 | startedAt             | string  | 频道开始时间                                   |
 | endedAt               | string  | 频道结束时间                                   |
 | pushDomain            | string  | 推流域名                                     |

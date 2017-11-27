@@ -20,10 +20,11 @@ Content-Type: application/json
 
 ### 参数
 
-| 参数            | 参数类型   | 参数说明    | 是否必填 |
-| ------------- | ------ | ------- | ---- |
-| imgCover      | string | 直播封面图片  | 否    |
-| imgBackground | string | 播放页背景图片 | 否    |
+| 参数            | 参数类型    | 参数说明     | 是否必填 |
+| ------------- | ------- | -------- | ---- |
+| imgCover      | string  | 直播封面图片   | 否    |
+| imgBackground | string  | 播放页背景图片  | 否    |
+| isGiftEnabled | boolean | 互动打赏功能开关 | 否    |
 
 #### 请求样例
 
@@ -31,7 +32,8 @@ Content-Type: application/json
 {
   "data": {
     "imgCover": "https://shangzhibo-img.b0.upaiyun.com/client/user/100020/1507690130834/1507690130805_01.jpg",
-    "imgBackground": "https://shangzhibo-img.b0.upaiyun.com/client/user/100020/1507693918419/1507693918391_08.jpg"
+    "imgBackground": "https://shangzhibo-img.b0.upaiyun.com/client/user/100020/1507693918419/1507693918391_08.jpg",
+    "isGiftEnabled": true
   }
 }
 ```

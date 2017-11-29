@@ -31,7 +31,7 @@ Content-Type: application/json
 | share.qq.image     | string  | QQ 分享 logo                    | 否    |
 | share.qq.text      | string  | QQ 分享文字                       | 否    |
 | share.wechat.image | string  | 微信分享 logo                     | 否    |
-| share.wehat.text   | string  | 微信分享文字                        | 否    |
+| share.wechat.text  | string  | 微信分享文字                        | 否    |
 | share.weibo.image  | string  | 微博分享 logo                     | 否    |
 | share.weibo.text   | string  | 微博分享文字                        | 否    |
 

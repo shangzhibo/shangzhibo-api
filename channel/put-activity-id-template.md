@@ -88,58 +88,58 @@ Content-Type: application/json
 
 ```js
 {
-    "data": {
-      "colorBackground": "",
-      "imgLogo": "https://shangzhibo-img.b0.upaiyun.com/system/activity/template/default-logo.svg",
-      "imgCover": "https://shangzhibo-img.b0.upaiyun.com/client/user/100020/1507690130834/1507690130805_01.jpg",
-      "imgMobileCover": "https://shangzhibo-img.b0.upaiyun.com/system/activity/template/default-mobile-index.png",
-      "imgDescription": [
-        {
-           "title": "活动简介",
-           "url": "https://shangzhibo-img.b0.upaiyun.com/client/user/100020/1511935321718/1511935321682_01.jpg"
-        }
-      ]
-      "share": {
-        "wechat": {
-          "text": "",
-          "image": "https://shangzhibo-img.b0.upaiyun.com/system/activity/template/default-share-img.png"
-        },
-        "qq": {
-          "text": "",
-          "image": "https://shangzhibo-img.b0.upaiyun.com/system/activity/template/default-share-img.png"
-        },
-        "weibo": {
-          "text": "",
-          "image": "https://shangzhibo-img.b0.upaiyun.com/system/activity/template/default-share-img.png"
-        }
+  "data": {
+    "colorBackground": "",
+    "imgLogo": "https://shangzhibo-img.b0.upaiyun.com/system/activity/template/default-logo.svg",
+    "imgCover": "https://shangzhibo-img.b0.upaiyun.com/client/user/100020/1507690130834/1507690130805_01.jpg",
+    "imgMobileCover": "https://shangzhibo-img.b0.upaiyun.com/system/activity/template/default-mobile-index.png",
+    "imgDescription": [
+      {
+        "title": "活动简介",
+        "url": "https://shangzhibo-img.b0.upaiyun.com/client/user/100020/1511935321718/1511935321682_01.jpg"
+      }
+    ]
+    "share": {
+      "wechat": {
+        "text": "",
+        "image": "https://shangzhibo-img.b0.upaiyun.com/system/activity/template/default-share-img.png"
       },
-      "imgBackground": "https://shangzhibo-img.b0.upaiyun.com/client/user/100020/1507693918419/1507693918391_08.jpg",
-      "positionLogo": "topLeft",
-      "isResolutionEnabled": false,
-      "resolutionTypes": [],
-      "isSubscribeEnabled": false,
-      "subscribeMessage": "",
-      "subscribedMobileList": [],
-      "isFollowEnabled": true,
-      "followImg": "",
-      "docs": [],
-      "isDocEnabled": false,
-      "isDocNotifyEnabled": false,
-      "isGiftEnabled": true,
-      "isGraphicEnabled": false,
-      "isCountdownEnabled": false,
-      "auth": {
-        "methods": [],
-        "payPrompt": "欢迎观看直播",
-        "payPrice": 1,
-        "isTrailEnabled": false,
-        "trailTimeout": 300,
-        "private": {}
+      "qq": {
+        "text": "",
+        "image": "https://shangzhibo-img.b0.upaiyun.com/system/activity/template/default-share-img.png"
       },
-      "isVoteEnabled": false,
-      "isAdEnabled": true
+      "weibo": {
+        "text": "",
+        "image": "https://shangzhibo-img.b0.upaiyun.com/system/activity/template/default-share-img.png"
+      }
     },
-    "updatedAt": "2017-10-11T03:52:04.000Z"
+    "imgBackground": "https://shangzhibo-img.b0.upaiyun.com/client/user/100020/1507693918419/1507693918391_08.jpg",
+    "positionLogo": "topLeft",
+    "isResolutionEnabled": false,
+    "resolutionTypes": [],
+    "isSubscribeEnabled": false,
+    "subscribeMessage": "",
+    "subscribedMobileList": [],
+    "isFollowEnabled": true,
+    "followImg": "",
+    "docs": [],
+    "isDocEnabled": false,
+    "isDocNotifyEnabled": false,
+    "isGiftEnabled": true,
+    "isGraphicEnabled": false,
+    "isCountdownEnabled": false,
+    "auth": {
+      "methods": [],
+      "payPrompt": "欢迎观看直播",
+      "payPrice": 1,
+      "isTrailEnabled": false,
+      "trailTimeout": 300,
+      "private": {}
+    },
+    "isVoteEnabled": false,
+    "isAdEnabled": true
+  },
+  "updatedAt": "2017-10-11T03:52:04.000Z"
 }
 ```
 

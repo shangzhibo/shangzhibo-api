@@ -20,11 +20,14 @@ Content-Type: application/json
 
 ### 参数
 
-| 参数            | 参数类型    | 参数说明     | 是否必填 |
-| ------------- | ------- | -------- | ---- |
-| imgCover      | string  | 直播封面图片   | 否    |
-| imgBackground | string  | 播放页背景图片  | 否    |
-| isGiftEnabled | boolean | 互动打赏功能开关 | 否    |
+| 参数             | 参数类型    | 参数说明                          | 是否必填 |
+| -------------- | ------- | ----------------------------- | ---- |
+| imgCover       | string  | 直播封面图片                        | 否    |
+| imgBackground  | string  | 播放页背景图片                       | 否    |
+| isGiftEnabled  | boolean | 互动打赏功能开关                      | 否    |
+| imgDescription | array   | 自定义菜单（数组元素定义见下表的 title 和 url） | 否    |
+| title          | string  | 菜单标签                          | 否    |
+| url            | string  | 图片链接                          | 否    |
 
 #### 请求样例
 
@@ -33,7 +36,13 @@ Content-Type: application/json
   "data": {
     "imgCover": "https://shangzhibo-img.b0.upaiyun.com/client/user/100020/1507690130834/1507690130805_01.jpg",
     "imgBackground": "https://shangzhibo-img.b0.upaiyun.com/client/user/100020/1507693918419/1507693918391_08.jpg",
-    "isGiftEnabled": true
+    "isGiftEnabled": true,
+    "imgDescription": [
+      {
+        "title": "活动简介",
+        "url": "https://shangzhibo-img.b0.upaiyun.com/client/user/100020/1511935321718/1511935321682_01.jpg"
+      } 
+    ]
   }
 }
 ```
@@ -48,6 +57,7 @@ Content-Type: application/json
 | data.imgCover             | string  | 封面图片               |
 | data.imgBackground        | string  | 背景图片               |
 | data.imgMobileCover       | string  | 直播内容介绍图片，点击进入直播    |
+| data.imgDescription       | array   | 自定义菜单              |
 | data.share.wechat         | object  | 微信分享设置，包括分享截图和文本   |
 | data.share.qq             | object  | QQ分享设置，包括分享截图和文本   |
 | data.share.weibo          | object  | 微博分享设置，包括分享截图和文本   |
@@ -83,6 +93,12 @@ Content-Type: application/json
       "imgLogo": "https://shangzhibo-img.b0.upaiyun.com/system/activity/template/default-logo.svg",
       "imgCover": "https://shangzhibo-img.b0.upaiyun.com/client/user/100020/1507690130834/1507690130805_01.jpg",
       "imgMobileCover": "https://shangzhibo-img.b0.upaiyun.com/system/activity/template/default-mobile-index.png",
+      "imgDescription": [
+        {
+           "title": "活动简介",
+           "url": "https://shangzhibo-img.b0.upaiyun.com/client/user/100020/1511935321718/1511935321682_01.jpg"
+        }
+      ]
       "share": {
         "wechat": {
           "text": "",

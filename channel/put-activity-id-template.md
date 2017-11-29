@@ -20,14 +20,20 @@ Content-Type: application/json
 
 ### 参数
 
-| 参数             | 参数类型    | 参数说明                          | 是否必填 |
-| -------------- | ------- | ----------------------------- | ---- |
-| imgCover       | string  | 直播封面图片                        | 否    |
-| imgBackground  | string  | 播放页背景图片                       | 否    |
-| isGiftEnabled  | boolean | 互动打赏功能开关                      | 否    |
-| imgDescription | array   | 自定义菜单（数组元素定义见下表的 title 和 url） | 否    |
-| title          | string  | 菜单标签                          | 否    |
-| url            | string  | 图片链接                          | 否    |
+| 参数                 | 参数类型    | 参数说明                          | 是否必填 |
+| ------------------ | ------- | ----------------------------- | ---- |
+| imgCover           | string  | 直播封面图片                        | 否    |
+| imgBackground      | string  | 播放页背景图片                       | 否    |
+| isGiftEnabled      | boolean | 互动打赏功能开关                      | 否    |
+| imgDescription     | array   | 自定义菜单（数组元素定义见下面的 title 和 url） | 否    |
+| title              | string  | 菜单标签                          | 否    |
+| url                | string  | 图片链接                          | 否    |
+| share.qq.image     | string  | QQ 分享 logo                    | 否    |
+| share.qq.text      | string  | QQ 分享文字                       | 否    |
+| share.wechat.image | string  | 微信分享 logo                     | 否    |
+| share.wehat.text   | string  | 微信分享文字                        | 否    |
+| share.weibo.image  | string  | 微博分享 logo                     | 否    |
+| share.weibo.text   | string  | 微博分享文字                        | 否    |
 
 #### 请求样例
 
@@ -43,6 +49,20 @@ Content-Type: application/json
         "url": "https://shangzhibo-img.b0.upaiyun.com/client/user/100020/1511935321718/1511935321682_01.jpg"
       } 
     ]
+    "share": {
+      "qq": {
+        "image": "https://shangzhibo-img.b0.upaiyun.com/system/activity/template/default-share-img.png",
+        "text": "QQ 分享测试"
+      },
+      "wechat": {
+        "image": "https://shangzhibo-img.b0.upaiyun.com/system/activity/template/default-share-img.png",
+        "text": "微信分享测试"
+      },
+      "weibo": {
+        "image": "https://shangzhibo-img.b0.upaiyun.com/system/activity/template/default-share-img.png",
+        "text": "微博分享测试"
+      }
+    }
   }
 }
 ```
@@ -100,17 +120,17 @@ Content-Type: application/json
       }
     ]
     "share": {
-      "wechat": {
-        "text": "",
-        "image": "https://shangzhibo-img.b0.upaiyun.com/system/activity/template/default-share-img.png"
-      },
       "qq": {
-        "text": "",
-        "image": "https://shangzhibo-img.b0.upaiyun.com/system/activity/template/default-share-img.png"
+        "image": "https://shangzhibo-img.b0.upaiyun.com/system/activity/template/default-share-img.png",
+        "text": "QQ 分享测试"
+      },
+      "wechat": {
+        "image": "https://shangzhibo-img.b0.upaiyun.com/system/activity/template/default-share-img.png",
+        "text": "微信分享测试"
       },
       "weibo": {
-        "text": "",
-        "image": "https://shangzhibo-img.b0.upaiyun.com/system/activity/template/default-share-img.png"
+        "image": "https://shangzhibo-img.b0.upaiyun.com/system/activity/template/default-share-img.png",
+        "text": "微博分享测试"
       }
     },
     "imgBackground": "https://shangzhibo-img.b0.upaiyun.com/client/user/100020/1507693918419/1507693918391_08.jpg",

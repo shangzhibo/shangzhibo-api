@@ -14,5 +14,6 @@
   * [修改频道](channel/put-activity-id.md)
   * [修改模板](channel/put-activity-id-template.md)
   * [获取模板](channel/get-activity-id-template.md)
+)
 
 

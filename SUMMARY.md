@@ -5,7 +5,7 @@
   * [播放页信息主动上报](live-page/post-message.md)
   * [发送评论](live-page/send-comment.md)
   * [获取历史评论](live-page/get-comment-history.md)
-  * [回传用户数据](live-page/post-callback-user.md)
+  * [客户网站授权登录](live-page/post-callback-user.md)
   * [回传订单数据](live-page/post-callback-pay.md)
 * [频道 API](channel/get-activity-id-iframe.md)
   * [播放器嵌入](channel/get-activity-id-iframe.md)

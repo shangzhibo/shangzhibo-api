@@ -1,4 +1,14 @@
-## 回传用户数据
+## 客户网站授权登录
+
+客户网站授权登录可以在终端观众登录上直播活动页时，指定使用客户自己的用户系统进行登录，并将用户数据回传给上直播作用于数据统计、聊天头像昵称展示、付费判断依据等功能场景。
+### 业务流程图
+#### 场景一
+未登录用户通过客户网站进入直播
+<img src="http://shangzhibo-img.b0.upaiyun.com/test/Scenes1.png" alt="场景一" width="500" height="411">
+
+#### 场景二
+未登录用户通过上直播页面进入直播
+<img src="http://shangzhibo-img.b0.upaiyun.com/test/Scenes2.png" alt="场景一" width="500" height="411">
 
 ### 接口
 回传用户数据

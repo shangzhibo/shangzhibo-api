@@ -23,6 +23,7 @@ Content-Type: application/json
 | 参数                 | 参数类型    | 参数说明                          | 是否必填 |
 | ------------------ | ------- | ----------------------------- | ---- |
 | imgCover           | string  | 直播封面图片                        | 否    |
+| imgLogo            | string  | 直播 Logo                       | 否    |
 | imgBackground      | string  | 播放页背景图片                       | 否    |
 | isGiftEnabled      | boolean | 互动打赏功能开关                      | 否    |
 | imgDescription     | array   | 自定义菜单（数组元素定义见下面的 title 和 url） | 否    |

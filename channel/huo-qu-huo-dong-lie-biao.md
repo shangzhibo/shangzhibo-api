@@ -2,10 +2,10 @@
 
 ### 接口
 
-获取活动列表
+请求地址
 
 ```
-GET/activity
+GET http://shangzhibo.tv/api/activity
 ```
 
 ### 授权
@@ -24,6 +24,8 @@ Content-Type: application/json
 | 参数 | 参数类型 | 是否必填 | 描述 |
 | :--- | :--- | :--- | :--- |
 | status | string | 是 | 活动状态，分别为“可用”（enabled）、“已结束”（disabled）、“已禁用”（forbidden） 和”已归档“（deleted） |
+| page | integer | 是 | 页码 |
+| pageSize | integer | 是 | 每页几条 |
 
 ### 请求样例
 
@@ -61,6 +63,5 @@ Content-Type: application/json
 }
 ```
 
-  
 
 

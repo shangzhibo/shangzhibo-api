@@ -14,6 +14,6 @@
   * [获取活动列表](channel/huo-qu-huo-dong-lie-biao.md)
   * [修改指定 ID 活动](channel/put-activity-id.md)
   * [修改指定 ID 活动模板](channel/put-activity-id-template.md)
-  * [获取模板](channel/get-activity-id-template.md)
+  * [获取指定 ID 活动模板](channel/get-activity-id-template.md)
   * [修改授权](channel/put-activity-id-auth.md)
 

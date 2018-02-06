@@ -9,11 +9,10 @@
   * [回传订单数据](live-page/post-callback-pay.md)
 * [频道 API](channel/get-activity-id-iframe.md)
   * [播放器嵌入](channel/get-activity-id-iframe.md)
-  * [创建频道](channel/post-activity.md)
-  * [获取频道](channel/get-activity-id.md)
-  * [修改频道](channel/put-activity-id.md)
+  * [创建活动](channel/post-activity.md)
+  * [获取活动](channel/get-activity-id.md)
+  * [修改活动](channel/put-activity-id.md)
   * [修改模板](channel/put-activity-id-template.md)
   * [获取模板](channel/get-activity-id-template.md)
   * [修改授权](channel/put-activity-id-auth.md)
-
 

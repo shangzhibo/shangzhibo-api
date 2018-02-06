@@ -5,7 +5,7 @@
 请求地址
 
 ```
-GET http://shangzhibo.tv/api/activity
+GET api/activity
 ```
 
 ### 授权

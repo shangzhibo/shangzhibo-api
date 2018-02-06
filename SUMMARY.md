@@ -2,12 +2,8 @@
 
 * [简介](README.md)
 * [播放页 API](live-page/post-message.md)
-  * [客户网站授权登录](live-page/post-callback-user.md)
-  * [获取指定活动历史评论信息](live-page/get-comment-history.md)
-  * [给指定活动发送评论](live-page/send-comment.md)
   * [获取指定活动播放器嵌入代码](channel/get-activity-id-iframe.md)
   * [播放页信息主动上报](live-page/post-message.md)
-  * [回传订单数据](live-page/post-callback-pay.md)
 * [活动 API](channel/get-activity-id-iframe.md)
   * [创建活动](channel/post-activity.md)
   * [获取指定活动信息](channel/get-activity-id.md)
@@ -16,4 +12,10 @@
   * [修改指定活动模板](channel/put-activity-id-template.md)
   * [获取指定活动模板](channel/get-activity-id-template.md)
   * [修改授权](channel/put-activity-id-auth.md)
+* [评论 API](ping-lun-api.md)
+  * [获取指定活动历史评论信息](live-page/get-comment-history.md)
+  * [给指定活动发送评论](live-page/send-comment.md)
+* [观众账户 API](guan-zhong-zhang-hu-api.md)
+  * [客户网站授权登录](live-page/post-callback-user.md)
+  * [回传订单数据](live-page/post-callback-pay.md)
 

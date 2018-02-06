@@ -35,14 +35,14 @@ Content-Type: application/json
 
 ### 响应参数
 
-| 参数 | 类型 | 是否必填 | 描述 | 示例 |
-| :--- | :--- | :--- | :--- | :--- |
-| page | string | 是 | 一页显示几条 | 2 |
-| pageSize | string | 是 | 页码 | 10 |
-| total | string | 是 | 总条数 | 100 |
-| id | string | 是 | 活动 ID | 8050309 |
-| name | string | 是 | 活动名称 | 分享禁用测试活动 |
-| status | string | 是 | 活动状态 | enabled |
+| 参数 | 类型 | 描述 | 示例 |
+| :--- | :--- | :--- | :--- |
+| page | string | 一页显示几条 | 2 |
+| pageSize | string | 页码 | 10 |
+| total | string | 总条数 | 100 |
+| id | string | 活动 ID | 8050309 |
+| name | string | 活动名称 | 分享禁用测试活动 |
+| status | string | 活动状态 | enabled |
 
 ### 响应示例
 

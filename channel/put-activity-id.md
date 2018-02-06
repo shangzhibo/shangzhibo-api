@@ -1,12 +1,15 @@
-## 修改频道
+## 修改指定 ID 活动
 
 ### 接口
-修改频道
+
+修改活动
 
 ```js
 PUT /api/activity/{id}
 ```
+
 ### 授权
+
 请求 header
 
 ```
@@ -18,11 +21,11 @@ Content-Type: application/json
 
 ### 参数
 
-| 参数        | 参数类型     | 参数说明   | 是否必填 |
-| --------- | -------- | ------ | ---- |
-| name      | string   | 频道名称   | 否    |
-| startedAt | datetime | 直播开始时间 | 否    |
-| endedAt   | datetime | 直播结束时间 | 否    |
+| 参数 | 参数类型 | 参数说明 | 是否必填 |
+| --- | --- | --- | --- |
+| name | string | 活动名称 | 否 |
+| startedAt | datetime | 直播开始时间 | 否 |
+| endedAt | datetime | 直播结束时间 | 否 |
 
 #### 请求样例
 
@@ -37,10 +40,12 @@ Content-Type: application/json
 ### 响应
 
 #### 响应样例
+
 ```js
 {
   "result": true
 }
 ```
+
 
 

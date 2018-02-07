@@ -2,7 +2,7 @@
 
 ### 接口
 
-获取付费观看记录
+获取登录观众列表
 
 ```
 GET /activity/{id}/pay
@@ -63,6 +63,5 @@ Content-Type: application/json
 ]
 ```
 
-  
 
 

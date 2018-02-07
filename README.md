@@ -42,7 +42,5 @@ Content-Type: application/json
 
 #### API 域名 {#api域名}
 
-`http://shangzhibo.tv`
-
-support https
+API 请求域名统一为：`http://shangzhibo.tv    同时也支持 https`
 

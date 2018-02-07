@@ -1,9 +1,28 @@
 # 上直播 API 简介
 
-## 简介
+### API介绍 {#api介绍}
 
-上直播 API 提供灵活的资源控制方式，满足您的定制化需求。
+#### 简介 {#简介}
 
-base url: shangzhibo.tv
+上直播 API 提供基础的功能接口，满足您的二次开发需求。
+
+上直播 API 需要使用 ACCESS TOKEN 发起 API 请求。
+
+#### API使用步骤 {#api使用步骤}
+
+API的使用分为三步：
+
+1.成为旗舰版用户
+
+2.得到 ACCESS TOKEN：请咨询我司商务，杨经理（18968187008）、彭经理（15167172618）。
+
+3.使用第二步中得到的 ACCESS TOKEN，便可以访问上直播 API 中的全部接口服务，如果请求没有带上 ACCESS TOKEN，上直播 API 的安全机制将会视其为未授权访问操作，并将其拦截。
+
+#### API域名 {#api域名}
+
+`http://shangzhibo.tv`
 
 support https
+
+
+

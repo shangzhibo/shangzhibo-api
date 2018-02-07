@@ -31,7 +31,7 @@ Content-Type: application/json
 
 ```js
 {
-  "name": "哈哈哈",
+  "name": "创想人工智能峰会-深圳站",
   "start_time": "2017-08-09 12:00:00",
   "end_time": "2017-08-10 13:00:00"
 }

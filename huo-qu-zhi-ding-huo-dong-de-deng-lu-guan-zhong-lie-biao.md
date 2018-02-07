@@ -48,18 +48,21 @@ Content-Type: application/json
 
 ```
 [
-  {
-    "id": 42,
-    "nickname": "stringValue",
-    "sex": "male",
-    "province": "stringValue",
-    "city": "stringValue",
-    "country": "stringValue",
-    "avatar": "stringValue",
-    "wechatId": "stringValue",
-    "createdAt": "stringValue",
-    "updatedAt": "stringValue"
-  }
+    {
+        "id": 737961,
+        "nickname": "鹿大大",
+        "sex": "male",
+        "province": "Zhejiang",
+        "city": "Hangzhou",
+        "country": "China",
+        "avatar": "http://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKdTOKORMFGGUgib8thbKENnzZtpy0iabWcdVkh9eiaK9Ros4tcJtE88babelA7VuibGWbheFOmhd9Mxw/132",
+        "wechatId": "oqaFLxDTwQTN2Hxlz_VcrW2-mA64",
+        "createdAt": "2017-11-28T04:01:14.000Z",
+        "updatedAt": "2018-01-11T12:03:21.000Z",
+        "agentId": null,
+        "identity": null,
+        "uid": null
+    }
 ]
 ```
 

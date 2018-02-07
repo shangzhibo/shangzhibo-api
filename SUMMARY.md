@@ -1,9 +1,6 @@
 # Summary
 
 * [简介](README.md)
-* [播放页 API](/channel/get-activity-id-iframe.md#获取指定活动播放器嵌入代码)
-  * [获取指定活动播放器嵌入代码](channel/get-activity-id-iframe.md)
-  * [播放页信息主动上报](live-page/post-message.md)
 * [活动 API](/channel/post-activity.md#创建活动)
   * [创建活动](channel/post-activity.md)
   * [获取指定活动信息](channel/get-activity-id.md)
@@ -22,4 +19,7 @@
 * [观众账号 API](/live-page/post-callback-pay.md#回传用户数据)
   * [回传订单数据](live-page/post-callback-pay.md)
   * [客户网站授权登录](live-page/post-callback-user.md)
+* [播放页 API](/channel/get-activity-id-iframe.md#获取指定活动播放器嵌入代码)
+  * [获取指定活动播放器嵌入代码](channel/get-activity-id-iframe.md)
+  * [播放页信息主动上报](live-page/post-message.md)
 

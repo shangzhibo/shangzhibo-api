@@ -12,7 +12,7 @@
 
 API 的使用分为三步：
 
-1.成为旗舰版用户：[前往官升级](http://shangzhibo.tv/price)
+1.成为旗舰版用户：[前往官网升级](http://shangzhibo.tv/price)
 
 2.得到 accessToken：请咨询我司商务，杨经理（18968187008）、彭经理（15167172618）。
 

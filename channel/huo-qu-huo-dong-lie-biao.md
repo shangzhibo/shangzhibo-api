@@ -48,18 +48,51 @@ Content-Type: application/json
 
 ```
 {
-  "pager": {
-    "page": 2,
-    "pageSize": 10,
-    "total": 100
-  },
-  "items": [
-    {
-      "id": "8050309",
-      "name": "分享禁用测试活动",
-      "status": "enabled",
-      }
-  ]
+    "pager": {
+        "page": 1,
+        "pageSize": 10,
+        "total": 16
+    },
+    "items": [
+        {
+            "id": "2837888",
+            "name": "创想人工智能峰会-深圳站",
+            "categoryId": 1,
+            "status": "disabled",
+            "agentId": 101691,
+            "startedAt": "2018-01-29T06:58:26.000Z",
+            "endedAt": "2018-01-29T10:58:26.000Z",
+            "pushDomain": "push.shangzhibo.tv",
+            "pullDomain": "play.shangzhibo.tv",
+            "isPushing": false,
+            "createdAt": "2018-01-29T05:58:28.000Z",
+            "updatedAt": "2018-01-29T11:09:35.000Z",
+            "app": "r1g3-d43BM",
+            "stream": "Hkb3WOE2BM?auth_key=1548741508-0-0-95d0d2627a7c91d28499ba89137dfb19",
+            "isPrologueEnabled": true,
+            "isEpilogueEnabled": true,
+            "isBackupRecordEnabled": false,
+            "isLiveEnabled": true,
+            "fake": {
+                "baseCount": 0,
+                "increaseMin": 1,
+                "increaseMax": 1
+            },
+            "isFakeEnabled": false,
+            "isFilterAllEnabled": false,
+            "filterIpList": {},
+            "filterSidList": {},
+            "filterUserList": {},
+            "isRobotEnabled": false,
+            "robot": {
+                "initialCount": 10,
+                "incrementCount": 1
+            },
+            "expired": false,
+            "maxConcurrentUser": -1,
+            "maxPushingTime": -1
+        }
+    ]
 }
 ```
 

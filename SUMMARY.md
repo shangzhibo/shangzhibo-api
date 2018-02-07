@@ -1,6 +1,6 @@
 # Summary
 
-* [简介](README.md)
+* [上直播 API 简介](README.md)
 * [活动 API](/channel/post-activity.md#创建活动)
   * [创建活动](channel/post-activity.md)
   * [获取指定活动信息](channel/get-activity-id.md)

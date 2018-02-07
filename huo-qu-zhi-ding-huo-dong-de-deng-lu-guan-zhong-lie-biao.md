@@ -5,7 +5,7 @@
 获取登录观众列表
 
 ```
-GET /activity/{id}/pay
+GET /activity/{id}/user
 ```
 
 ### 授权
@@ -33,7 +33,7 @@ Content-Type: application/json
 
 | 参数 | 类型 | 描述 |
 | :--- | :--- | :--- |
-| id | integer | 从微信获取的观众 id |
+| id | integer | 上直播观众 id |
 | nickname | string | 从微信获取的观众昵称 |
 | sex | string | 从微信获取的观众性别 |
 | province | string | 从微信获取的观众所在省份 |

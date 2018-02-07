@@ -38,7 +38,7 @@ Content-Type: application/json
 | pageSize | integer | 每页几条 |
 | total | integer | 总条数 |
 | totalCount | number | 支付总额 |
-| id | integer | 从微信获取的观众 id |
+| id | integer | 上直播观众 id |
 | nickname | string | 从微信获取的观众昵称 |
 | sex | string | 从微信获取的观众性别 |
 | province | string | 从微信获取的观众所在省份 |
@@ -46,7 +46,7 @@ Content-Type: application/json
 | country | string | 从微信获取的观众所在国家 |
 | avatar | string | 从微信获取的观众头像 |
 | wechatId | string | 微信 id |
-| agentId | integer | 上直播观众 id |
+| agentId | integer | 上直播账号 id（管理员 id） |
 | createdAt | string | 付费时间 |
 | updatedAt | string | 更新时间 |
 
@@ -84,6 +84,5 @@ Content-Type: application/json
 }
 ```
 
-  
 
 

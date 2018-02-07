@@ -54,33 +54,24 @@ Content-Type: application/json
 
 ```
 {
-  "pager": {
-    "page": 2,
-    "pageSize": 10,
-    "total": 100
-  },
-  "totalCount": 4.2,
-  "items": [
-    {
-      "user": {
-        "id": 42,
-        "nickname": "stringValue",
-        "sex": "male",
-        "province": "stringValue",
-        "city": "stringValue",
-        "country": "stringValue",
-        "avatar": "stringValue",
-        "wechatId": "stringValue",
-        "agentId": 42,
-        "createdAt": "stringValue",
-        "updatedAt": "stringValue"
-      },
-      "userId": 42,
-      "paid": 4.2,
-      "createdAt": "stringValue",
-      "updatedAt": "stringValue"
-    }
-  ]
+    "pager": {
+        "total": 1,
+        "page": 1,
+        "pageSize": 10
+    },
+    "totalCount": 9.90,
+    "items": [
+        {
+            "userId": 737961,
+            "paid": 9.90,
+            "createdAt": "2018-02-07T07:49:41.000Z",
+            "updatedAt": "2018-02-07T07:49:50.000Z",
+            "user": {
+                "nickname": "鹿大大",
+                "avatar": "http://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKdTOKORMFGGUgib8thbKENnzZtpy0iabWcdVkh9eiaK9Ros4tcJtE88babelA7VuibGWbheFOmhd9Mxw/132"
+            }
+        }
+    ]
 }
 ```
 

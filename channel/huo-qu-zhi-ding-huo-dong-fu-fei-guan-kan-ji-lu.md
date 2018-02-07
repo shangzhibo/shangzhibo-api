@@ -1,0 +1,89 @@
+## 获取指定活动付费观看记录
+
+### 接口
+
+获取付费观看记录
+
+```
+GET /activity/{id}/pay
+```
+
+### 授权
+
+请求 header
+
+```
+Authorization: Bearer <accessToken>
+Content-Type: application/json
+```
+
+注：请将上方的`<accessToken>`替换为分配给您的秘钥串。关于如何获取 accessToken ，请咨询杨经理（18968187008）、彭经理（15167172618）。
+
+### 参数
+
+| 参数 | 参数类型 | 参数说明 | 是否必填 |
+| :--- | :--- | :--- | :--- |
+| page | integer | 页码 | 是 |
+| pageSize | integer | 每页几条 | 是 |
+
+### 请求样例
+
+```
+/activity/{id}/pay?page=42
+```
+
+| 参数 | 类型 | 描述 |
+| :--- | :--- | :--- |
+| page | integer | 页码 |
+| pageSize | integer | 每页几条 |
+| total | integer | 总条数 |
+| totalCount | number | 支付总额 |
+| id | integer | 从微信获取的观众 id |
+| nickname | string | 从微信获取的观众昵称 |
+| sex | string | 从微信获取的观众性别 |
+| province | string | 从微信获取的观众所在省份 |
+| city | string | 从微信获取的观众所在城市 |
+| country | string | 从微信获取的观众所在国家 |
+| avatar | string | 从微信获取的观众头像 |
+| wechatId | string | 微信 id |
+| agentId | integer | 上直播观众 id |
+| createdAt | string | 付费时间 |
+| updatedAt | string | 更新时间 |
+
+### 响应示例
+
+```
+{
+  "pager": {
+    "page": 2,
+    "pageSize": 10,
+    "total": 100
+  },
+  "totalCount": 4.2,
+  "items": [
+    {
+      "user": {
+        "id": 42,
+        "nickname": "stringValue",
+        "sex": "male",
+        "province": "stringValue",
+        "city": "stringValue",
+        "country": "stringValue",
+        "avatar": "stringValue",
+        "wechatId": "stringValue",
+        "agentId": 42,
+        "createdAt": "stringValue",
+        "updatedAt": "stringValue"
+      },
+      "userId": 42,
+      "paid": 4.2,
+      "createdAt": "stringValue",
+      "updatedAt": "stringValue"
+    }
+  ]
+}
+```
+
+  
+
+

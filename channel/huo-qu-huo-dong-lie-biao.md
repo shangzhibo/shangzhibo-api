@@ -37,8 +37,8 @@ Content-Type: application/json
 
 | 参数 | 类型 | 描述 | 示例 |
 | :--- | :--- | :--- | :--- |
-| page | string | 一页显示几条 | 2 |
-| pageSize | string | 页码 | 10 |
+| page | string | 页码 | 2 |
+| pageSize | string | 一页显示几条 | 10 |
 | total | string | 总条数 | 100 |
 | id | string | 活动 ID | 8050309 |
 | name | string | 活动名称 | 分享禁用测试活动 |

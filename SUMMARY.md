@@ -11,7 +11,7 @@
   * [修改指定活动信息](channel/put-activity-id.md)
   * [获取指定活动模板](channel/get-activity-id-template.md)
   * [修改指定活动模板](channel/put-activity-id-template.md)
-  * [获取指定活动的登录观众列表](huo-qu-zhi-ding-huo-dong-de-deng-lu-guan-zhong-lie-biao.md)
+  * [获取指定活动登录观众列表](huo-qu-zhi-ding-huo-dong-de-deng-lu-guan-zhong-lie-biao.md)
   * [获取指定活动付费观看记录](channel/huo-qu-zhi-ding-huo-dong-fu-fei-guan-kan-ji-lu.md)
   * [修改授权](channel/put-activity-id-auth.md)
 * [评论 API](/live-page/get-comment-history.md#获取指定活动历史评论信息)

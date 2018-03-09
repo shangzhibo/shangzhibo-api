@@ -38,7 +38,7 @@ Content-Type: application/json
 | uid      | integer | 唯一标识用户的 ID | 是    |
 | sid      | string  | session ID | 是    |
 | nickname | string  | 用户微信昵称     | 是    |
-| avatar   | string  | 用户微信头像     | 是    |
+| avatar   | string  | 用户微信头像(需https)     | 是    |
 | sex      | string  | 用户性别       | 是    |
 | country  | string  | 国家         | 否    |
 | province | string  | 省份         | 否    |

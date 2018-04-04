@@ -26,8 +26,8 @@ Content-Type: application/json
 | imgCover | string | 直播封面图片 | 否 |
 | imgLogo | string | 直播 Logo | 否 |
 | positionLogo | string | LOGO 布局（隐藏：hide；居左：topLeft；居右：topRight） | 否 |
-| imgLogoScale | integer | LOGO 缩放百分比 \[0-100\] 整数 | 否 |
-| imgLogoTransparency | integer | LOGO 透明度 \[0-100\] 整数 | 否 |
+| imgLogoScale | integer | LOGO 缩放百分比 \[1-100\] 整数 | 否 |
+| imgLogoTransparency | integer | LOGO 透明度 \[1-100\] 整数 | 否 |
 | imgBackground | string | 播放页背景图片 | 否 |
 | isGiftEnabled | boolean | 互动打赏功能开关 | 否 |
 | imgDescription | array | 自定义菜单（数组元素定义见下面的 title 和 url） | 否 |

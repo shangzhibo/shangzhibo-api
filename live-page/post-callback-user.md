@@ -36,7 +36,7 @@ Content-Type: application/json
 | -------- | ------- | ---------- | ---- |
 | identity | string  | 厂商标识       | 是    |
 | uid      | integer | 唯一标识用户的 ID | 是    |
-| sid      | string  | session ID | 是    |
+| cookieId      | string  | cookieId | 是    |
 | nickname | string  | 用户微信昵称     | 是    |
 | avatar   | string  | 用户微信头像(需https)     | 是    |
 | sex      | string  | 用户性别       | 是    |

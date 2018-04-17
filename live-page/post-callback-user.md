@@ -50,7 +50,7 @@ Content-Type: application/json
 {
   "identity": "shangzhibo",
   "uid": 2580821,
-  "sid": "TkSA4HjIjuFQPyFSoB_0ULx821k4b1Fq",
+  "cookieId": "TkSA4HjIjuFQPyFSoB_0ULx821k4b1Fq",
   "nickname": "兰海ena",
   "avatar": "http://static.itdks.com/files/default/2017/09-28/17403642672f970434.jpg",
   "sex": "male",

@@ -21,19 +21,21 @@ Content-Type: application/json
 
 ### 参数
 
-| 参数 | 参数类型 | 参数说明 | 是否必填 |
-| --- | --- | --- | --- |
-| name | string | 活动名称 | 是 |
-| startedAt | datetime | 直播开始时间 | 否 |
-| endedAt | datetime | 直播结束时间 | 否 |
+| 参数 | 参数类型 | 参数说明 | 是否必填 | 默认 |
+| --- | --- | --- | --- | ---- | 
+| name | string | 活动名称 | 是 |  |
+| startedAt | datetime | 直播开始时间 | 否 | 今天 |
+| endedAt | datetime | 直播结束时间 | 否 | 今天 + 24h |
+| categoryId | integer | 直播类型 | 否 | 1 |
 
 #### 请求样例
 
 ```js
 {
   "name": "创想人工智能峰会-深圳站",
-  "start_time": "2017-08-09 12:00:00",
-  "end_time": "2017-08-10 13:00:00"
+  "startedAt": "2017-08-09 12:00:00",
+  "endedAt": "2017-08-10 13:00:00",
+  "categoryId": 1,
 }
 ```
 

@@ -23,6 +23,6 @@
 * [播放页 API](/channel/get-activity-id-iframe.md#获取指定活动播放器嵌入代码)
   * [获取指定活动播放器嵌入代码](channel/get-activity-id-iframe.md)
   * [播放页信息主动上报](live-page/post-message.md)
-* [Android 播放器 SDK](https://github.com/upyun/android-player-sdk)
 * [iOS 播放器 SDK](https://github.com/upyun/ios-live-sdk)
+* [Android 播放器 SDK](https://github.com/upyun/android-player-sdk)
 

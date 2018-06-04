@@ -2,7 +2,7 @@
 
 ### 接口
 
-获取活动
+获取活动信息
 
 ```js
 GET /api/activity/{id}

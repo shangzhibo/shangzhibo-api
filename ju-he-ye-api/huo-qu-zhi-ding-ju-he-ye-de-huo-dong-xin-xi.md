@@ -26,7 +26,7 @@ Content-Type: application/json
 ### 请求样例
 
 ```
-/aggregation/6407048
+/api/aggregation/6407048
 ```
 
 ### 响应参数

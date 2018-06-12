@@ -42,8 +42,8 @@ api/aggregation?page=1&pageSize=10
 | id | string | 聚合页 ID | 3960518 |
 | title | string | 主标题 | 花瓣Live |
 | subtitle | string | 副标题 | 花瓣，做生活的设计师 |
-| logoImg | string | logo 图片链接 | [https://shangzhibo-img.b0.upaiyun.com/client/user/100290/1504090975892/1504090975903-64.png](https://shangzhibo-img.b0.upaiyun.com/client/user/100290/1504090975892/1504090975903-64.png) |
-| followImg | string | 关注二维码图片链接 | [https://shangzhibo-img.b0.upaiyun.com/client/user/100290/1504090142053/1504090142132-780.png](https://shangzhibo-img.b0.upaiyun.com/client/user/100290/1504090142053/1504090142132-780.png) |
+| logoImg | string | logo 图片链接 | - |
+| followImg | string | 关注二维码图片链接 | - |
 | notification | string | 通知内容 | 9月1日推出《商业插画干货分享》课程 |
 | isNotificationEnabled | boolean | 通知开关状态：true 表示开，false 表示关 | true |
 | activityIds | Array of string | 聚合页内添加的活动 ID | - |

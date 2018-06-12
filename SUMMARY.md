@@ -19,6 +19,7 @@
   * [获取指定活动媒体库文件列表](mei-ti-ku/123.md)
 * [聚合页 API](ju-he-ye-api/huo-qu-zhi-ding-ju-he-ye-de-huo-dong-xin-xi.md)
   * [获取指定聚合页的活动信息](ju-he-ye-api/huo-qu-zhi-ding-ju-he-ye-de-huo-dong-xin-xi.md)
+  * [获取聚合页列表](ju-he-ye-api/huo-qu-ju-he-ye-lie-biao.md)
 * [观众账号 API](live-page/post-callback-user.md)
   * [客户网站授权登录](live-page/post-callback-user.md)
   * [回传订单数据](live-page/post-callback-pay.md)
@@ -26,5 +27,5 @@
   * [获取指定活动播放器嵌入代码](channel/get-activity-id-iframe.md)
   * [播放页信息主动上报](live-page/post-message.md)
 * [iOS 播放器 SDK](https://github.com/upyun/ios-live-sdk)
-* 聚合页 API
+* [Android 播放器 SDK](https://github.com/upyun/android-player-sdk)
 

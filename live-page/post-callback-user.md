@@ -37,9 +37,9 @@ Content-Type: application/json
 | identity | string  | 厂商标识       | 是    |
 | uid      | integer | 唯一标识用户的 ID（数字类型） | uid 与 strUid 二选一   |
 |strUid | string | 唯一标识用户的 ID（字符串类型）| uid 与 strUid 二选一 |
-| cookieId      | string  | cookieId | 是    |
-| nickname | string  | 用户微信昵称     | 是    |
-| avatar   | string  | 用户微信头像(需https)     | 是    |
+| cookieId      | string  | cookieId（为每个访客在 cookie 中生成的唯一标识） | 是    |
+| nickname | string  | 用户昵称(评论时显示)     | 是    |
+| avatar   | string  | 用户头像(评论时显示)     | 是    |
 | sex      | string  | 用户性别       | 是    |
 | country  | string  | 国家         | 否    |
 | province | string  | 省份         | 否    |

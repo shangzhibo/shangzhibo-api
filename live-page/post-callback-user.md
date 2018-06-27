@@ -35,7 +35,8 @@ Content-Type: application/json
 | 参数       | 参数类型    | 参数说明       | 是否必填 |
 | -------- | ------- | ---------- | ---- |
 | identity | string  | 厂商标识       | 是    |
-| uid      | integer | 唯一标识用户的 ID | 是    |
+| uid      | integer | 唯一标识用户的 ID（数字类型） | uid 与 strUid 二选一   |
+|strUid | string | 唯一标识用户的 ID（字符串类型）| uid 与 strUid 二选一 |
 | cookieId      | string  | cookieId | 是    |
 | nickname | string  | 用户微信昵称     | 是    |
 | avatar   | string  | 用户微信头像(需https)     | 是    |

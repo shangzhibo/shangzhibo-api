@@ -15,6 +15,7 @@
 * [评论 API](/live-page/get-comment-history.md#获取指定活动历史评论信息)
   * [获取指定活动历史评论信息](live-page/get-comment-history.md)
   * [给指定活动发送评论](live-page/send-comment.md)
+  * [给指定活动发送管理员评论](live-page/gei-zhi-ding-huo-dong-fa-song-guan-li-yuan-ping-lun.md)
 * [媒体库 API](/mei-ti-ku/123.md#获取指定活动媒体库文件列表)
   * [获取指定活动媒体库文件列表](mei-ti-ku/123.md)
 * [聚合页 API](ju-he-ye-api/huo-qu-zhi-ding-ju-he-ye-de-huo-dong-xin-xi.md)

@@ -6,7 +6,11 @@
 
 #### 场景一
 
+未登录用户通过客户网站进入直播![](/assets/import.png)
 
+#### 场景二
+
+未登录用户通过上直播页面进入直播![](/assets/import2.png)
 
 ### 接口
 
@@ -41,6 +45,16 @@ Content-Type: application/json
 | country | string | 国家 | 否 |
 | province | string | 省份 | 否 |
 | city | string | 城市 | 否 |
+
+#### 
+
+#### 特殊情况说明
+
+APP 环境或者未定制上直播播放域名的客户可能无法使用  cookie（par.shangzhibo.sid） 方式，此时可以将访客唯一标识通过播放页 URL 后加参数带过来。
+
+`http://shangzhibo.tv/watch/{activityId}?parSid=xxxxx`
+
+并将 parSid 仍通过本接口 cookieId 字段传给上直。
 
 #### 请求样例
 

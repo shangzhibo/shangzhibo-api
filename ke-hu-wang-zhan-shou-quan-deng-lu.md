@@ -6,11 +6,13 @@
 
 #### 场景一
 
-未登录用户通过客户网站进入直播![](/assets/import.png)
+未登录用户通过客户网站进入直播
+
+![](/assets/import3.png)
 
 #### 场景二
 
-未登录用户通过上直播页面进入直播![](/assets/import2.png)
+未登录用户通过上直播页面进入直播![](/assets/import4.png)
 
 ### 接口
 
@@ -54,7 +56,7 @@ APP 环境或者未定制上直播播放域名的客户可能无法使用  cooki
 
 `http://shangzhibo.tv/watch/{activityId}?parSid=xxxxx`
 
-并将 parSid 仍通过本接口 cookieId 字段传给上直。
+并将 parSid 仍通过本接口 cookieId 字段传给上直播。
 
 #### 请求样例
 

@@ -29,4 +29,5 @@
   * [播放页信息主动上报](live-page/post-message.md)
 * [iOS 播放器 SDK](https://github.com/upyun/ios-live-sdk)
 * [Android 播放器 SDK](https://github.com/upyun/android-player-sdk)
+* [客户网站授权登录](ke-hu-wang-zhan-shou-quan-deng-lu.md)
 

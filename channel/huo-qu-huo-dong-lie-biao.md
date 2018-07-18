@@ -30,7 +30,7 @@ Content-Type: application/json
 ### 请求样例
 
 ```
-/activity?status=enabled
+/api/activity?status=enabled
 ```
 
 ### 响应参数

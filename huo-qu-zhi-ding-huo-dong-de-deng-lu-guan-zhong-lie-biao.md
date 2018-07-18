@@ -5,7 +5,7 @@
 获取登录观众列表
 
 ```
-GET /activity/{id}/user
+GET /api/activity/{id}/user
 ```
 
 ### 授权
@@ -26,7 +26,7 @@ Content-Type: application/json
 ### 请求样例
 
 ```
-/activity/{id}/pay?page=42&pageSize=42
+/api/activity/{id}/pay?page=42&pageSize=42
 ```
 
 ### 响应参数

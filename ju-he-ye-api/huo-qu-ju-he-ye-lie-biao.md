@@ -5,7 +5,7 @@
 请求地址
 
 ```
-GET api/aggregation
+GET /api/aggregation
 ```
 
 ### 授权
@@ -29,7 +29,7 @@ Content-Type: application/json
 ### 请求样例
 
 ```
-api/aggregation?page=1&pageSize=10
+/api/aggregation?page=1&pageSize=10
 ```
 
 ### 响应参数

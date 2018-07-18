@@ -5,7 +5,7 @@
 发送评论
 
 ```js
-POST /activity/{id}/comment
+POST /api/activity/{id}/comment
 ```
 
 ### 授权

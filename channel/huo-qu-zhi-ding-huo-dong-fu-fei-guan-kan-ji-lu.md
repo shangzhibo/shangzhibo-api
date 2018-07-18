@@ -5,7 +5,7 @@
 获取付费观看记录
 
 ```
-GET /activity/{id}/pay
+GET /api/activity/{id}/pay
 ```
 
 ### 授权
@@ -29,7 +29,7 @@ Content-Type: application/json
 ### 请求样例
 
 ```
-/activity/{id}/pay?page=42
+/api/activity/{id}/pay?page=42
 ```
 
 | 参数 | 类型 | 描述 |

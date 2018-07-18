@@ -1,12 +1,15 @@
 ## 修改授权
 
 ### 接口
+
 修改授权
 
 ```js
 PUT /api/activity/{id}/auth
 ```
+
 ### 授权
+
 请求 header
 
 ```
@@ -18,9 +21,9 @@ Content-Type: application/json
 
 ### 参数
 
-| 参数      | 参数类型  | 参数说明    | 是否必填 |
-| ------- | ----- | ------- | ---- |
-| methods | array | 授权观看的方式 | 是    |
+| 参数 | 参数类型 | 参数说明 | 是否必填 |
+| --- | --- | --- | --- |
+| methods | array | 授权观看的方式 | 是 |
 
 #### 微信登录授权请求样例
 
@@ -29,7 +32,9 @@ Content-Type: application/json
   "methods": [["wechat"]]
 }
 ```
+
 #### 关闭微信登录授权请求样例
+
 ```js
 {
   "methods": []
@@ -39,10 +44,12 @@ Content-Type: application/json
 ### 响应
 
 #### 响应样例
+
 ```js
 {
   "result": true
 }
 ```
+
 
 

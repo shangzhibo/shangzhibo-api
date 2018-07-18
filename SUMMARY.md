@@ -27,6 +27,9 @@
 * [播放页 API](/channel/get-activity-id-iframe.md#获取指定活动播放器嵌入代码)
   * [获取指定活动播放器嵌入代码](channel/get-activity-id-iframe.md)
   * [播放页信息主动上报](live-page/post-message.md)
+* [统计](huo-qu-zhi-ding-huo-dong-lei-ji-tui-liu-shi-chang.md)
+  * [获取指定活动累计推流时长](huo-qu-zhi-ding-huo-dong-lei-ji-tui-liu-shi-chang.md)
+  * [获取指定活动统计数据](huo-qu-zhi-ding-huo-dong-tong-ji-shu-ju.md)
 * [iOS 播放器 SDK](https://github.com/upyun/ios-live-sdk)
 * [Andriod 播放器 SDK](https://github.com/upyun/android-player-sdk)
 

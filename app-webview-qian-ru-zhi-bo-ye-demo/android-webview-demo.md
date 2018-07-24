@@ -1,8 +1,6 @@
 ## 上直播 Android Studio WebView Demo
 
-
-
-#### 方式1：下载 Demo
+### 方式1：下载 Demo
 
 #### 点击下载：[`Andriod_x5demo`](http://shangzhibo-img.b0.upaiyun.com/DEMO/iOS_TestWebview.zip)
 
@@ -12,7 +10,7 @@
 
 #### 
 
-#### 方式2：安装 APK 体验（X5 功能演示）
+### 方式2：安装 APK 体验（X5 功能演示）
 
 点击下载：[`Android_x5webdemo-release.apk`](http://shangzhibo-img.b0.upaiyun.com/DEMO/Android_x5webdemo-release.apk)
 

@@ -18,6 +18,8 @@
   * [给指定活动发送评论（管理员）](live-page/gei-zhi-ding-huo-dong-fa-song-guan-li-yuan-ping-lun.md)
 * [媒体库 API](/mei-ti-ku/123.md#获取指定活动媒体库文件列表)
   * [获取指定活动媒体库文件列表](mei-ti-ku/123.md)
+  * [创建指定活动媒体库文件信息](mei-ti-ku/chuang-jian-zhi-ding-huo-dong-mei-ti-ku-wen-jian-xin-xi.md)
+  * [修改指定活动媒体库文件信息](mei-ti-ku/xiu-gai-zhi-ding-huo-dong-mei-ti-ku-wen-jian-xin-xi.md)
 * [聚合页 API](ju-he-ye-api/huo-qu-zhi-ding-ju-he-ye-de-huo-dong-xin-xi.md)
   * [获取指定聚合页的活动信息](ju-he-ye-api/huo-qu-zhi-ding-ju-he-ye-de-huo-dong-xin-xi.md)
   * [获取聚合页列表](ju-he-ye-api/huo-qu-ju-he-ye-lie-biao.md)

@@ -56,7 +56,7 @@ Content-Type: application/json
     "isProcessThumbnail": false,
     "isProcessPlaylist": false,
     "isPlayback": false,
-    "prologueIndex": null,
+    "prologueIndex": 0,
     "epilogueIndex": 0,
     "thumbnailPath": "http://shangzhibo-aliyunimg.b0.upaiyun.com/record/2018-07-18/live/1/2018-07-18-12-12-23_2018-07-18-12-55-05.m3u8-preview.jpg",
     "playlistPath": "http://shangzhibo-aliyun.b0.upaiyun.com/record/2018-07-18/live/1/2018-07-18-12-12-23_2018-07-18-12-55-05.m3u8",

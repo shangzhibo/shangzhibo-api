@@ -24,6 +24,7 @@ Content-Type: application/json
 | 参数 | 参数类型 | 参数说明 | 是否必填 |
 | --- | --- | --- | --- |
 | name | string | 活动名称 | 否 |
+| isArchived | boolean | “true”表示已归档，“false”表示未归档 | 否 |
 | startedAt | datetime | 直播开始时间 | 否 |
 | endedAt | datetime | 直播结束时间 | 否 |
 
@@ -31,9 +32,10 @@ Content-Type: application/json
 
 ```js
 {
-  "name": "哈哈哈",
-  "startedAt": "2017-08-09 12:00:00",
-  "endedAt": "2017-08-10 13:00:00"
+  "name": "直播测试",
+  "startedAt": "2016-11-08T12:00:00.000Z",
+  "endedAt": "2016-11-08T13:00:00.000Z",
+  "isArchived": true
 }
 ```
 

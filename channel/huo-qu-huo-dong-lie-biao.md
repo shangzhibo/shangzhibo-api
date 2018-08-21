@@ -23,14 +23,14 @@ Content-Type: application/json
 
 | 参数 | 参数类型 | 是否必填 | 描述 |
 | :--- | :--- | :--- | :--- |
-| status | string | 是 | 活动状态，分别为“可用”（enabled）、“已结束”（disabled）、“已禁用”（forbidden） 和”已归档“（deleted） |
-| page | integer | 是 | 页码 |
-| pageSize | integer | 是 | 每页几条 |
+| isArchived | boolean | 否 | “true“ 表示已归档，“false” 表示未归档 |
+| page | integer | 否 | 页码 |
+| pageSize | integer | 否 | 每页几条 |
 
 ### 请求样例
 
 ```
-/api/activity?status=enabled
+/api/activity?isArchived=false&page=42&pageSize=42
 ```
 
 ### 响应参数

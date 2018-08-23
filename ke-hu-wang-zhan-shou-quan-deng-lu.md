@@ -58,6 +58,14 @@ APP 环境或者未定制上直播播放域名的客户可能无法使用  cooki
 
 并将 parSid 仍通过本接口 cookieId 字段传给上直播。
 
+如果参数里面含有特殊字符（如：`+` 、`/` 等在 URL具有含义的字符） 需要对参数进行 URI encode。
+
+```js
+let parSid = 'rcTDGfQv7p8P+g//DZ0wFQ=='
+parSid = encodeURIComponent(parSid)
+// parSid === 'rcTDGfQv7p8P%2Bg%2F%2FDZ0wFQ%3D%3D'
+```
+
 #### 请求样例
 
 ```js

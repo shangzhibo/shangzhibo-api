@@ -44,7 +44,7 @@ Content-Type: application/json
 | strUid | string | 唯一标识用户的 ID（字符串类型） | uid 与 strUid 二选一 |
 | cookieId | string | 为每个访客在 cookie 中生成的唯一标识（par.shangzhibo.sid） | 是 |
 | nickname | string | 用户昵称（评论时显示） | 是 |
-| avatar | string | 用户头像（评论时显示） | 是 |
+| avatar | string | 用户头像（评论时显示），必须使用 https:// | 是 |
 | sex | string | 用户性别 | 是 |
 | country | string | 国家 | 否 |
 | province | string | 省份 | 否 |
@@ -76,7 +76,7 @@ parSid = encodeURIComponent(parSid)
   "uid": 2580821,
   "cookieId": "TkSA4HjIjuFQPyFSoB_0ULx821k4b1Fq",
   "nickname": "兰海ena",
-  "avatar": "http://static.itdks.com/files/default/2017/09-28/17403642672f970434.jpg",
+  "avatar": "https://static.itdks.com/files/default/2017/09-28/17403642672f970434.jpg",
   "sex": "male",
   "country": "China",
   "province": "Zhejiang",

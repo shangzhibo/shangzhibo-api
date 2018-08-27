@@ -2,7 +2,7 @@
 
 ### 方式1：下载 Demo
 
-#### 点击下载：[`Andriod_x5demo`](http://shangzhibo-img.b0.upaiyun.com/DEMO/iOS_TestWebview.zip)
+#### 点击下载：[`Andriod_x5demo`](https://doc.shangzhibo.tv/DEMO/Andriod_x5demo.rar)
 
 #### 使用说明
 

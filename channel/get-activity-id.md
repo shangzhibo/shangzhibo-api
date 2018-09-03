@@ -70,20 +70,20 @@ Content-Type: application/json
 
 ```json
 {
-    "id": "8930091",
-    "name": "哈哈哈",
+    "id": "2912772",
+    "name": "直播防盗链测试",
     "categoryId": 1,
     "status": "enabled",
-    "agentId": 100020,
-    "startedAt": "2017-08-09T09:48:02.000Z",
-    "endedAt": "2017-08-10T09:48:02.000Z",
-    "pushDomain": "push.shangzhibo.tv",
-    "pullDomain": "play.shangzhibo.tv",
+    "agentId": 104436,
+    "startedAt": "2018-09-03T07:00:03.000Z",
+    "endedAt": "2018-09-03T11:00:03.000Z",
+    "pushDomain": "pushs.shangzhibo.tv",
+    "pullDomain": "plays.shangzhibo.tv",
     "isPushing": false,
-    "createdAt": "2017-08-09T08:48:02.120Z",
-    "updatedAt": "2017-08-09T08:48:02.120Z",
-    "app": "rJlwCjrdwZ",
-    "stream": "rJ-PCsSuD-?auth_key=1533804482-0-0-2a144739ffaad7ef46a34b63fa524491",
+    "createdAt": "2018-09-03T06:00:07.000Z",
+    "updatedAt": "2018-09-03T06:00:07.000Z",
+    "app": "rkegxCr5PX",
+    "stream": "S1-xx0Hqw7",
     "isPrologueEnabled": true,
     "isEpilogueEnabled": true,
     "isBackupRecordEnabled": false,
@@ -101,11 +101,17 @@ Content-Type: application/json
     "isRobotEnabled": false,
     "robot": {
         "initialCount": 10,
-        "incrementCount": 1
+        "incrementCount": 1,
+        "commentLibraryId": null
     },
     "expired": false,
     "maxConcurrentUser": -1,
-    "maxPushingTime": -1
+    "maxPushingTime": -1,
+    "maxEpilogueTime": -1,
+    "authKeys": {
+        "default": "1535955014-0-0-fd06c84a7e900b9d31b5a7fee7f96a3d",
+        "m3u8": "1535955014-0-0-fc23fc7a255665cb514085108d815851"
+    }
 }
 ```
 

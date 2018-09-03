@@ -47,6 +47,7 @@ Content-Type: application/json
 | updateAt | string | 活动更新时间 |
 | app | string | 应用名称 |
 | stream | string | 流名称 |
+| authKeys | object | 如果没有开启防盗链，不会返回该参数；开启防盗链后 default 为 RTMP 流的密钥，m3u8 为HLS 流密钥 |
 | isPrologueEnabled | boolean | 是否启用预设视频 |
 | isBackupRecordEnabled | boolean | 是否启用备用录播视频 |
 | isLiveEnabled | boolean | 是否开启播放页直播 |

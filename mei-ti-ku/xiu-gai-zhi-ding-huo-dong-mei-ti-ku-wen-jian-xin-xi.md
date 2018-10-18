@@ -23,7 +23,7 @@ Content-Type: application/json
 
 | 参数 | 类型 | 描述 |
 | :--- | :--- | :--- |
-| path | string | 文件路径 |
+| id | integer | 视频ID |
 | isPrologue | boolean | 是否是预设视频 |
 | prologueIndex | integer | 预设索引 |
 | isEpilogue | boolean | 是否是回看视频 |
@@ -37,7 +37,7 @@ Content-Type: application/json
 ```js
 [
   {
-    "path": "http://shangzhibo-aliyun.b0.upaiyun.com/record/2018-07-18/live/1/2018-07-18-12-12-23_2018-07-18-12-55-05.m3u8",
+    "id": 100023,
     "isPrologue": true,
     "prologueIndex": 0,
     "isEpilogue": true,

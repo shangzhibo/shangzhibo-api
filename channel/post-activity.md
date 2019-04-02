@@ -4,7 +4,7 @@
 
 创建活动
 
-```js
+```
 POST /api/activity
 ```
 
@@ -12,11 +12,11 @@ POST /api/activity
 
 请求 header
 
-```
+```http
 Authorization: Bearer <accessToken>
 ```
 
-注：请将上方的 `<accessToken>` 替换为分配给您的秘钥串。关于如何获取 accessToken ，请咨询杨经理（18968187008）、彭经理（15167172618）。
+注：请将上方的 `<accessToken>` 替换为分配给您的秘钥串。关于如何获取 `accessToken` ，请咨询杨经理（18968187008）、彭经理（15167172618）。
 
 ### 参数
 
@@ -28,7 +28,7 @@ Authorization: Bearer <accessToken>
 
 #### 请求样例
 
-```js
+```json
 {
   "name": "创想人工智能峰会-深圳站",
   "startedAt": "2017-08-09 12:00:00",
@@ -42,6 +42,7 @@ Authorization: Bearer <accessToken>
 | --- | --- | --- |
 | id | string | 活动 ID |
 | name | string | 活动名称 |
+| imgCover | string | 封面图片 |
 | categoryId | integer | 活动分类 ID |
 | status | string | 活动状态，enabled 允许推流 disabled 禁止推流 forbidden 管理员禁止推流 deleted 活动已被删除 |
 | agentId | integer | 账号 ID |
@@ -54,6 +55,7 @@ Authorization: Bearer <accessToken>
 | updateAt | string | 活动更新时间 |
 | app | string | 应用名称 |
 | stream | string | 流名称 |
+| progress | string | 活动进程参数，未开始 NotStart, 直播中 \(OnGoing\), 已结束 \(Finished\) |
 | isPrologueEnabled | boolean | 是否启用预设视频 |
 | isBackupRecordEnabled | boolean | 是否启用备用录播视频 |
 | isLiveEnabled | boolean | 是否开启播放页直播 |
@@ -71,13 +73,15 @@ Authorization: Bearer <accessToken>
 | expired | boolean | 活动是否超过最大推流时长 |
 | maxConcurrentUser | integer | 最大并发在线人数，-1 表示不限制最大在线人数 |
 | maxPushingTime | integer | 最大推流时长，单位 秒，-1 表示不限制最大推流时长 |
+| isTranscodable | boolean | 该活动能否开启活动转码功能 |
 
 #### 响应样例
 
-```js
+```json
 {
     "id": "8930091",
     "name": "哈哈哈",
+    "imgCover":"//shangzhibo-img.b0.upaiyun.com/system/activity/template/default-preview.jpg",
     "categoryId": 1,
     "status": "enabled",
     "agentId": 100020,
@@ -88,8 +92,9 @@ Authorization: Bearer <accessToken>
     "isPushing": false,
     "createdAt": "2017-08-09T08:48:02.120Z",
     "updatedAt": "2017-08-09T08:48:02.120Z",
-    "app": "rJlwCjrdwZ",
-    "stream": "rJ-PCsSuD-?auth_key=1533804482-0-0-2a144739ffaad7ef46a34b63fa524491",
+    "app": "onelive",
+    "stream": "893009-jksdupure",
+    "progress":"OnGoing",
     "isPrologueEnabled": true,
     "isEpilogueEnabled": true,
     "isBackupRecordEnabled": false,
@@ -105,6 +110,7 @@ Authorization: Bearer <accessToken>
     "filterSidList": {},
     "filterUserList": {},
     "isRobotEnabled": false,
+    "isTranscodable":false,
     "robot": {
         "initialCount": 10,
         "incrementCount": 1

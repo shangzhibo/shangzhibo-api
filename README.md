@@ -24,21 +24,19 @@ API 的接入分为三步：
 
 1.成为旗舰版用户：[前往官网升级](http://shangzhibo.tv/price)
 
-2.得到 accessToken：请咨询我司商务，杨经理（18968187008）、彭经理（15167172618）。
+2.得到 accessToken： 请咨询我司商务，杨经理（18968187008）、彭经理（15167172618）。
 
 3.使用第二步中得到的 accessToken，便可以访问上直播 API 中的全部接口服务
 
 需要在请求 header 中添加以下请求头信息：
 
-```
+```http
 Authorization: Bearer <accessToken>
-
-Content-Type: application/json
 ```
 
 如果请求头没有带上 accessToken，上直播 API 的安全机制将会视其为未授权访问操作，并将其拦截。
 
 #### API 域名 {#api域名}
 
-API 请求域名统一为：`http://shangzhibo.tv    同时也支持 https`
+API 请求域名统一为: `http://shangzhibo.tv    同时也支持 https`
 

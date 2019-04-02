@@ -46,7 +46,7 @@ Content-Type: application/json
 
 ### 响应示例
 
-```
+```js
 {
     "pager": {
         "page": 1,
@@ -68,7 +68,7 @@ Content-Type: application/json
             "createdAt": "2018-01-29T05:58:28.000Z",
             "updatedAt": "2018-01-29T11:09:35.000Z",
             "app": "r1g3-d43BM",
-            "stream": "Hkb3WOE2BM?auth_key=1548741508-0-0-95d0d2627a7c91d28499ba89137dfb19",
+            "stream": "Hkb3WOE2BM",
             "isPrologueEnabled": true,
             "isEpilogueEnabled": true,
             "isBackupRecordEnabled": false,

@@ -60,16 +60,16 @@ Authorization: Bearer <accessToken>
 | isBackupRecordEnabled | boolean | 是否启用备用录播视频 |
 | isLiveEnabled | boolean | 是否开启播放页直播 |
 | isFakeEnabled | boolean | 是否启用人数放大 |
-| fake.baseCount | integer | 基础人数 |
-| fake.increaseMin | integer | 每增加一次真实用户访问，观看人数增加的最小值 |
-| fake.increaseMax | integer | 每增加一次真实用户访问，观看人数增加的最大值 |
+| fake.baseCount | integer | 观看人数放大——基础人数 |
+| fake.increaseMin | integer | 观看人数放大——每增加一次真实用户访问，观看人数增加的最小值 |
+| fake.increaseMax | integer | 观看人数放大——每增加一次真实用户访问，观看人数增加的最大值 |
 | isFilterAllEnabled | boolean | 是否禁言所有观众 |
 | filterIpList | object | 禁言 IP 列表 |
 | filterSidList | object | 禁言 Session ID 列表 |
 | filterUserList | object | 禁言用户列表 |
 | isRobotEnabled | boolean | 是否启用机器人 |
-| robot.initialCount | integer | 初始评论数 |
-| robot.incrementCount | integer | 每增长 100 个用户 PV 增加的评论数 |
+| robot.initialCount | integer | 机器人——初始评论数 |
+| robot.incrementCount | integer | 机器人——每增长 100 个用户 PV 增加的评论数 |
 | expired | boolean | 活动是否超过最大推流时长 |
 | maxConcurrentUser | integer | 最大并发在线人数，-1 表示不限制最大在线人数 |
 | maxPushingTime | integer | 最大推流时长，单位 秒，-1 表示不限制最大推流时长 |

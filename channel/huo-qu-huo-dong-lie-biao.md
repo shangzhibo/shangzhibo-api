@@ -24,6 +24,9 @@ Content-Type: application/json
 | 参数 | 参数类型 | 是否必填 | 描述 |
 | :--- | :--- | :--- | :--- |
 | isArchived | boolean | 否 | “true“ 表示已归档，“false” 表示未归档 |
+| name | string | 否 | 活动名称 |
+| isPushing | boolean | 否 | 是否处于推流状态 |
+| orderBy | string | 否 | 支持排序的字段：createdAt，startedAt；可按正序（ASC）或者倒序（DESC）来排 ,比如：createdAt DESC 标识按照创建时间倒序排 |
 | page | integer | 否 | 页码 |
 | pageSize | integer | 否 | 每页几条 |
 

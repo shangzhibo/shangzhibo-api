@@ -2,7 +2,7 @@
 
 | 日期 | 版本号 | 变更内容 |
 | :--- | :--- | :--- |
-| 2019-04-09 | 1.2.9 | 媒体库 API 中 6 个参数即将弃用（建议不再使用）；后续将启用新的参数或和接口替代 isPrologue、prologueIndex、isEpilogue、epilogueIndex、isPlayback、playbackIndex |
+| 2019-04-09 | 1.2.9 | 媒体库 API 中 6 个参数即将弃用（建议不再使用）；后续将启用新的参数或和接口替代 isPrologue、prologueIndex、isEpilogue、epilogueIndex、isPlayback、playbackIndex. |
 | 2018-10-18 | 1.2.8 | 由于数据库存储视频路径调整，PUT /api/activity/{id}/media/bulk 接口中的用于查询的字段 "path" , 改为 "id" 视频id，如继续使用 path 会造成老的活动会查询不到视频，修改视频失败，请修改调整，以免影响使用。 |
 | 2018-08-21 | 1.2.7 | 新增 获取活动列表请求参数 isArchived 表示活动归档状态；新增 修改指定活动信息参数isArchived |
 | 2018-08-15 | 1.2.6 | 新增 获取媒体库文件信息，新增 修改媒体库文件信息 |

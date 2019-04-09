@@ -16,6 +16,7 @@
   * [获取指定活动历史评论信息](live-page/get-comment-history.md)
   * [给指定活动发送评论（观众）](live-page/send-comment.md)
   * [给指定活动发送评论（管理员）](live-page/gei-zhi-ding-huo-dong-fa-song-guan-li-yuan-ping-lun.md)
+  * [评论审核（管理员）](live-page/ping-lun-shen-he-ff08-guan-li-yuan-ff09.md)
 * [媒体库 API](/mei-ti-ku/123.md#获取指定活动媒体库文件列表)
   * [获取指定活动媒体库文件列表](mei-ti-ku/123.md)
   * [创建指定活动媒体库文件信息](mei-ti-ku/chuang-jian-zhi-ding-huo-dong-mei-ti-ku-wen-jian-xin-xi.md)

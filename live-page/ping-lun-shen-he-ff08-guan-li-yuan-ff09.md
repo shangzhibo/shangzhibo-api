@@ -44,5 +44,16 @@ Content-Type: application/json
 | userId | integer | 用户 Id, 用户未登录时不返回 |
 | sid | string | sessionId |
 
+#### 响应样例
+
+```js
+{
+  "id": 42,
+  "status": "pending",
+  "userId": 1234567,
+  "sid": "tn0JKSxGryT2-xTGbsbxZ0sSDy7iLqmY",
+}
+```
+
 
 

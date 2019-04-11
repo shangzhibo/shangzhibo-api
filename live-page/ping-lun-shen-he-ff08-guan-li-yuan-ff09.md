@@ -5,7 +5,7 @@
 评论审核
 
 ```bash
-PUT /activity/{id}/comment
+PUT /api/activity/{id}/comment
 ```
 
 ### 授权

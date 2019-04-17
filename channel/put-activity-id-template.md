@@ -30,9 +30,11 @@ Content-Type: application/json
 | imgLogoTransparency | integer | LOGO 透明度 \[1-100\] 整数 | 否 |
 | imgBackground | string | 播放页背景图片 | 否 |
 | isGiftEnabled | boolean | 互动打赏功能开关 | 否 |
-| imgDescription | array | 自定义菜单（数组元素定义见下面的 title 和 url） | 否 |
-| title | string | 菜单标签 | 否 |
-| url | string | 图片链接 | 否 |
+| imgDescription | array | 自定义菜单（数组元素定义见下面的 title 和 url）；url 、richText 和 hyperLink 只能选择一种 | 否 |
+| - title | string | 菜单标题 | 否 |
+| - url | string | 图片简介中图片的 url | 否 |
+| - richText | string | 富文本图文混排内容 | 否 |
+| - hyperLink | string | 点击菜单跳转 链接 | 否 |
 | share.qq.image | string | QQ 分享 logo | 否 |
 | share.qq.text | string | QQ 分享文字 | 否 |
 | share.wechat.image | string | 微信分享 logo | 否 |

@@ -35,7 +35,7 @@ Content-Type: application/json
 
 | 参数 | 参数类型 | 参数说明 | 是否必填 |
 | --- | --- | --- | --- |
-| identity | string | 客户标识（公司简称） | 是 |
+| identity\(deprecated\) | string | 客户标识（已弃用） | 是 |
 | uid | integer | 唯一标识用户的 ID（数字类型） | uid 与 strUid 二选一 |
 | strUid | string | 唯一标识用户的 ID（字符串类型） | uid 与 strUid 二选一 |
 | cookieId | string | 为每个访客在 cookie 中生成的唯一标识（par.shangzhibo.sid） | 是 |

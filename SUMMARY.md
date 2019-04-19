@@ -18,6 +18,9 @@
   * [给指定活动发送评论（管理员）](live-page/gei-zhi-ding-huo-dong-fa-song-guan-li-yuan-ping-lun.md)
   * [评论审核（管理员）](live-page/ping-lun-shen-he-ff08-guan-li-yuan-ff09.md)
   * [评论清空（管理员）](live-page/ping-lun-qing-kong-ff08-guan-li-yuan-ff09.md)
+* [文档直播 API](wen-dang-zhi-bo-api.md)
+  * [上传文档](shang-chuan-wen-dang.md)
+  * [获取原始文档地址列表](xia-zai-yuan-shi-wen-dang.md)
 * [媒体库 API](/mei-ti-ku/123.md#获取指定活动媒体库文件列表)
   * [获取指定活动媒体库文件列表](mei-ti-ku/123.md)
   * [创建指定活动媒体库文件信息](mei-ti-ku/chuang-jian-zhi-ding-huo-dong-mei-ti-ku-wen-jian-xin-xi.md)
@@ -38,5 +41,5 @@
   * [iOS WebView Demo](app-webview-qian-ru-zhi-bo-ye-demo/ios-webview-demo.md)
   * [Android WebView Demo](app-webview-qian-ru-zhi-bo-ye-demo/android-webview-demo.md)
 * [iOS 播放器 SDK](https://github.com/upyun/ios-live-sdk)
-* [Andriod  播放器 SDK](https://github.com/upyun/android-player-sdk)
+* 文档直播 API
 

@@ -33,6 +33,8 @@ Content-Type: application/json
 
 ### 参数
 
+以下参数需要在 body 中传递
+
 | 参数 | 参数类型 | 参数说明 | 是否必填 |
 | --- | --- | --- | --- |
 | identity\(deprecated\) | string | 客户标识（已弃用） | 是 |

@@ -55,7 +55,7 @@ Content-Type: application/json
         "title": "活动简介",
         "url": "https://shangzhibo-img.b0.upaiyun.com/client/user/100020/1511935321718/1511935321682_01.jpg"
       } 
-    ]
+    ],
     "share": {
       "qq": {
         "image": "https://shangzhibo-img.b0.upaiyun.com/system/activity/template/default-share-img.png",
@@ -125,7 +125,7 @@ Content-Type: application/json
         "title": "活动简介",
         "url": "https://shangzhibo-img.b0.upaiyun.com/client/user/100020/1511935321718/1511935321682_01.jpg"
       }
-    ]
+    ],
     "share": {
       "qq": {
         "image": "https://shangzhibo-img.b0.upaiyun.com/system/activity/template/default-share-img.png",

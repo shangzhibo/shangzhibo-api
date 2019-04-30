@@ -70,51 +70,110 @@ Content-Type: application/json
 ```js
 {
     "data": {
-      "colorBackground": "",
-      "imgLogo": "https://shangzhibo-img.b0.upaiyun.com/system/activity/template/default-logo.svg",
-      "imgCover": "https://shangzhibo-img.b0.upaiyun.com/client/user/100020/1507690130834/1507690130805_01.jpg",
-      "imgMobileCover": "https://shangzhibo-img.b0.upaiyun.com/system/activity/template/default-mobile-index.png",
-      "share": {
-        "wechat": {
-          "text": "",
-          "image": "https://shangzhibo-img.b0.upaiyun.com/system/activity/template/default-share-img.png"
+        "imgLogo": "https://shangzhibo-img.b0.upaiyun.com/system/custom/shangzhibo/logo.svg",
+        "imgCover": "https://shangzhibo-img.b0.upaiyun.com/client/user/100020/1507690130834/1507690130805_01.jpg",
+        "imgMobileCover": "https://shangzhibo-img.b0.upaiyun.com/system/activity/template/default-mobile-index.png",
+        "followImg": "https://shangzhibo-img.b0.upaiyun.com/system/activity/template/followImg.jpg",
+        "share": {
+            "qq": {
+                "image": "https://shangzhibo-img.b0.upaiyun.com/system/activity/template/default-share-img.png",
+                "text": "QQ 分享测试"
+            },
+            "wechat": {
+                "image": "https://shangzhibo-img.b0.upaiyun.com/system/activity/template/default-share-img.png",
+                "text": "微信分享测试"
+            },
+            "weibo": {
+                "image": "https://shangzhibo-img.b0.upaiyun.com/system/activity/template/default-share-img.png",
+                "text": "微博分享测试"
+            }
         },
-        "qq": {
-          "text": "",
-          "image": "https://shangzhibo-img.b0.upaiyun.com/system/activity/template/default-share-img.png"
+        "isAdEnabled": false,
+        "adList": [
+            {
+                "adContent": "广告栏文案",
+                "adUrl": "http://shangzhibo.tv",
+                "type": "text"
+            }
+        ],
+        "isVoteFloatingEnabled": true,
+        "isVoteBannerEnabled": false,
+        "imgDescription": [
+            {
+                "title": "聊天室",
+                "chatRoom": true
+            },
+            {
+                "title": "活动简介",
+                "url": "https://shangzhibo-img.b0.upaiyun.com/client/user/100020/1511935321718/1511935321682_01.jpg"
+            },
+            {
+                "title": "富文本菜",
+                "richText": "<p>测试富文本内容</p>"
+            }
+        ],
+        "auth": {
+            "methods": [],
+            "payPrompt": "欢迎观看直播",
+            "payPrice": 1,
+            "isTrailEnabled": false,
+            "trailTimeout": 300,
+            "payExpiredTimeout": 0,
+            "isSinglePasscodeEnabled": false,
+            "private": {
+                "allowedMobileList": []
+            }
         },
-        "weibo": {
-          "text": "",
-          "image": "https://shangzhibo-img.b0.upaiyun.com/system/activity/template/default-share-img.png"
-        }
-      },
-      "imgBackground": "https://shangzhibo-img.b0.upaiyun.com/client/user/100020/1507693918419/1507693918391_08.jpg",
-      "positionLogo": "topLeft",
-      "isResolutionEnabled": false,
-      "resolutionTypes": [],
-      "isSubscribeEnabled": false,
-      "subscribeMessage": "",
-      "subscribedMobileList": [],
-      "isFollowEnabled": true,
-      "followImg": "",
-      "docs": [],
-      "isDocEnabled": false,
-      "isDocNotifyEnabled": false,
-      "isGiftEnabled": true,
-      "isGraphicEnabled": false,
-      "isCountdownEnabled": false,
-      "auth": {
-        "methods": [],
-        "payPrompt": "欢迎观看直播",
-        "payPrice": 1,
-        "isTrailEnabled": false,
-        "trailTimeout": 300,
-        "private": {}
-      },
-      "isVoteEnabled": false,
-      "isAdEnabled": true
+        "docs": [
+            {
+                "basePath": "https://shangzhibo-img.b0.upaiyun.com/client/activity/5966003/doc/1556100891653",
+                "originalname": "经济法基础第二场.pdf",
+                "filename": "b19d28b42d53052a880bc0f6b631e0dd.pdf",
+                "pageCount": 118,
+                "currentPage": 0
+            }
+        ],
+        "currentDoc": {
+            "basePath": "https://shangzhibo-img.b0.upaiyun.com/client/activity/5966003/doc/1556100891653",
+            "originalname": "经济法基础第二场.pdf",
+            "filename": "b19d28b42d53052a880bc0f6b631e0dd.pdf",
+            "pageCount": 118,
+            "currentPage": 42
+        },
+        "imgBackground": "https://shangzhibo-img.b0.upaiyun.com/client/user/100020/1507693918419/1507693918391_08.jpg",
+        "isGiftEnabled": true,
+        "isFollowEnabled": false,
+        "colorBackground": "181818",
+        "isResolutionEnabled": false,
+        "resolutionTypes": [],
+        "isSubscribeEnabled": false,
+        "subscribeMessage": "",
+        "subscribedMobileList": [],
+        "isDocEnabled": false,
+        "isDocFlatingEnabled": true,
+        "isDocUnfoldEnabled": false,
+        "isDocNotifyEnabled": false,
+        "isDocTurningEnabled": true,
+        "isGiftFloatingEnabled": true,
+        "isGiftChatboxEnabled": false,
+        "isGraphicEnabled": false,
+        "isCountdownEnabled": false,
+        "isFaqEnabled": false,
+        "isFaqFloatingEnabled": true,
+        "isFaqChatboxEnabled": false,
+        "isVoteChatboxEnabled": false,
+        "isVoteDisableClose": false,
+        "isRegistrationEnabled": false,
+        "registration": [],
+        "isCandyEnabled": false,
+        "isShareCardEnabled": true,
+        "isCommentDisabled": false,
+        "isLiveTranscodeEnabled": false,
+        "isPageEnabled": false,
+        "isLiveProtectionEnabled": false,
+        "subAgentCount": 0
     },
-    "updatedAt": "2017-10-11T03:52:04.000Z"
+    "updatedAt": "2019-04-18T03:04:56.000Z"
 }
 ```
 

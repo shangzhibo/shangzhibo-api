@@ -4,7 +4,7 @@
 
 上直播 API 提供基础的功能接口，满足您的二次开发需求。
 
-上直播 API 需要使用 accessToken 发起 API 请求。
+上直播 API 需要使用 accessToken 发起 API 请求。 
 
 #### 主要功能 {#简介}
 

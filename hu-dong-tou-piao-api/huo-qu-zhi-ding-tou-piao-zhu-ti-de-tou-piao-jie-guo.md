@@ -2,7 +2,7 @@
 
 ### 接口
 
-获取投票结果（限制每秒最多调用 3 次）
+获取投票结果（限制每秒最多调用 3 次） 
 
 ```js
 GET /api/activity/vote/{votedId}/result?format=json

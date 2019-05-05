@@ -21,6 +21,9 @@
 * [文档直播 API](shang-chuan-wen-dang.md)
   * [上传文档](shang-chuan-wen-dang.md)
   * [获取原始文档地址列表](xia-zai-yuan-shi-wen-dang.md)
+* [互动投票 API](hu-dong-tou-piao-api/huo-qu-tou-piao-zhu-ti-lie-biao.md)
+  * [获取投票主题列表](hu-dong-tou-piao-api/huo-qu-tou-piao-zhu-ti-lie-biao.md)
+  * [获取指定投票主题的投票结果](hu-dong-tou-piao-api/huo-qu-zhi-ding-tou-piao-zhu-ti-de-tou-piao-jie-guo.md)
 * [媒体库 API](/mei-ti-ku/123.md#获取指定活动媒体库文件列表)
   * [获取指定活动媒体库文件列表](mei-ti-ku/123.md)
   * [创建指定活动媒体库文件信息](mei-ti-ku/chuang-jian-zhi-ding-huo-dong-mei-ti-ku-wen-jian-xin-xi.md)
@@ -40,6 +43,4 @@
 * [APP WebView 嵌入直播页 Demo](app-webview-qian-ru-zhi-bo-ye-demo/ios-webview-demo.md)
   * [iOS WebView Demo](app-webview-qian-ru-zhi-bo-ye-demo/ios-webview-demo.md)
   * [Android WebView Demo](app-webview-qian-ru-zhi-bo-ye-demo/android-webview-demo.md)
-* [iOS 播放器 SDK](https://github.com/upyun/ios-live-sdk)
-* 文档直播 API
 

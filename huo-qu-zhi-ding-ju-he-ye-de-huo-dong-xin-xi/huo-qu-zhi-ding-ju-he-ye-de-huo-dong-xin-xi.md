@@ -4,7 +4,7 @@
 
 获取聚合页活动信息
 
-```text
+```javascript
 GET /api/aggregation/{id}
 ```
 
@@ -12,7 +12,7 @@ GET /api/aggregation/{id}
 
 请求 header
 
-```text
+```http
 Authorization: Bearer <accessToken>
 Content-Type: application/json
 ```

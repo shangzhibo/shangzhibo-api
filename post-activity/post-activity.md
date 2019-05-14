@@ -4,7 +4,7 @@
 
 创建活动
 
-```text
+```javascript
 POST /api/activity
 ```
 

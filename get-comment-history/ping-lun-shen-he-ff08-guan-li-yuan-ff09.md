@@ -4,7 +4,7 @@
 
 评论审核
 
-```bash
+```javascript
 PUT /api/activity/{id}/comment
 ```
 
@@ -12,7 +12,7 @@ PUT /api/activity/{id}/comment
 
 请求 header
 
-```text
+```http
 Authorization: Bearer <accessToken>
 Content-Type: application/json
 ```

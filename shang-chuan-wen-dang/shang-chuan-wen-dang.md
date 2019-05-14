@@ -12,7 +12,7 @@ POST /api/activity/{id}/doc
 
 请求 header
 
-```text
+```http
 Authorization: Bearer <accessToken>
 Content-Type: multipart/form-data
 ```

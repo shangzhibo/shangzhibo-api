@@ -12,7 +12,7 @@ PUT /api/activity/{id}/media/bulk
 
 请求 header
 
-```text
+```http
 Authorization: Bearer <accessToken>
 Content-Type: application/json
 ```

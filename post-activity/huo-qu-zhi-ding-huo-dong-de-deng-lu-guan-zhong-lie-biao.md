@@ -4,7 +4,7 @@
 
 获取登录观众列表
 
-```text
+```javascript
 GET /api/activity/{id}/user
 ```
 
@@ -12,7 +12,7 @@ GET /api/activity/{id}/user
 
 请求 header
 
-```text
+```http
 Authorization: Bearer <accessToken>
 Content-Type: application/json
 ```

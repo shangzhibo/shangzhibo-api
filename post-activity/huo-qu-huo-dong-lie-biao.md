@@ -4,7 +4,7 @@
 
 请求地址
 
-```text
+```javascript
 GET api/activity
 ```
 
@@ -12,7 +12,7 @@ GET api/activity
 
 请求 header
 
-```text
+```http
 Authorization: Bearer <accessToken>
 Content-Type: application/json
 ```

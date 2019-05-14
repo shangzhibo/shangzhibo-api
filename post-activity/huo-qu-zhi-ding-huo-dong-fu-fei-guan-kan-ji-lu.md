@@ -4,7 +4,7 @@
 
 获取付费观看记录
 
-```text
+```javascript
 GET /api/activity/{id}/pay
 ```
 
@@ -12,7 +12,7 @@ GET /api/activity/{id}/pay
 
 请求 header
 
-```text
+```http
 Authorization: Bearer <accessToken>
 Content-Type: application/json
 ```

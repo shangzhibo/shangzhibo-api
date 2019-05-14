@@ -4,7 +4,7 @@
 
 评论清空
 
-```bash
+```javascript
 DELETE /api/activity/{id}/comment
 ```
 
@@ -12,7 +12,7 @@ DELETE /api/activity/{id}/comment
 
 请求 header
 
-```text
+```http
 Authorization: Bearer <accessToken>
 Content-Type: application/json
 ```

@@ -4,7 +4,7 @@
 
 请求地址
 
-```text
+```javascript
 GET /api/aggregation
 ```
 
@@ -12,7 +12,7 @@ GET /api/aggregation
 
 请求 header
 
-```text
+```http
 Authorization: Bearer <accessToken>
 Content-Type: application/json
 ```

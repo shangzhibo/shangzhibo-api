@@ -14,6 +14,7 @@ POST /api/activity
 
 ```http
 Authorization: Bearer <accessToken>
+Content-Type: application/json
 ```
 
 注：请将上方的 `<accessToken>` 替换为分配给您的秘钥串。关于如何获取 `accessToken` ，请咨询杨经理（18968187008）、彭经理（15167172618）。

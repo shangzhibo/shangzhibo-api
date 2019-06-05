@@ -66,7 +66,7 @@ Content-Type: application/json
           <li>pull-hk &#x9999;&#x6E2F;&#x64AD;&#x653E;</li>
           <li>pull-sg &#x65B0;&#x52A0;&#x5761;&#x64AD;&#x653E;</li>
         </ul>
-        <p>&#x9700;&#x989D;&#x5916;&#x5F00;&#x901A;&#x6D77;&#x5916;&#x8282;&#x70B9;&#x529F;&#x80FD;</p>
+        <p>&#x8BE5;&#x53C2;&#x6570;&#x9700;&#x989D;&#x5916;&#x5F00;&#x901A;&#x6D77;&#x5916;&#x8282;&#x70B9;&#x529F;&#x80FD;</p>
       </td>
       <td style="text-align:left">&#x5426;</td>
     </tr>

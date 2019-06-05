@@ -33,20 +33,17 @@ Content-Type: application/json
 
 | 参数 | 类型 | 描述 |
 | :--- | :--- | :--- |
-| mediaIds | array | 视频 ID |
 | id | string | 视频列表 ID |
 | activityId | string | 活动 ID |
 | name | string | 视频列表名称 |
 | updatedAt | string | 更新时间 |
 | createdAt | string | 创建时间 |
+| medias | array | 视频信息列表 |
 
 ## 响应示例
 
 ```javascript
 {
-    "mediaIds": [
-        1522906
-    ],
     "id": 186655,
     "activityId": "3180028",
     "name": "录制回看",

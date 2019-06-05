@@ -33,22 +33,17 @@ Content-Type: application/json
 
 | 参数 | 类型 | 描述 |
 | :--- | :--- | :--- |
-| mediaIds | array | 视频 ID |
 | id | string | 视频列表 ID |
 | activityId | string | 活动 ID |
 | name | string | 视频列表名称 |
 | updatedAt | string | 更新时间 |
 | createdAt | string | 创建时间 |
+| medias | array | 视频信息列表 |
 
 ## 响应示例
 
 ```javascript
 {
-    "mediaIds": [
-        1523064,
-        1523063,
-        1523057
-    ],
     "id": 186654,
     "activityId": "3180028",
     "name": "预设视频",

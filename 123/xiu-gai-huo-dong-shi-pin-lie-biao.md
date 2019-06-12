@@ -5,7 +5,7 @@
 修改活动视频列表
 
 ```javascript
-PUT /api/activity /activity/{id}/playlist/{playlistId}
+PUT /api/activity/{id}/playlist/{playlistId}
 ```
 
 ## 授权

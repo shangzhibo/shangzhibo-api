@@ -26,6 +26,10 @@ POST /api/user/activity/{id}/comment
 }
 ```
 
+**特别说明：**
+
+非 [网站授权登录](https://app.gitbook.com/@shangzhibo/s/api/~/edit/drafts/-LhDpo84CH5FFsDi5T1z/ke-hu-wang-zhan-shou-quan-deng-lu/ke-hu-wang-zhan-shou-quan-deng-lu) 账号，目前暂不支持设置观众身份信息（头像、昵称等）
+
 如果账号做了 [网站授权登录](https://app.gitbook.com/@shangzhibo/s/api/~/edit/drafts/-LhDpo84CH5FFsDi5T1z/ke-hu-wang-zhan-shou-quan-deng-lu/ke-hu-wang-zhan-shou-quan-deng-lu) 定制，需要授权登录完成后在发送评论时标明用户身份，否则将使用匿名身份发送评论。
 
 标明身份的方式有两种：

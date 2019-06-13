@@ -21,16 +21,60 @@ Content-Type: application/json
 
 ## 参数
 
-| 参数 | 参数类型 | 是否必填 | 描述 |
-| :--- | :--- | :--- | :--- |
-| isArchived | boolean | 否 | “true“ 表示已归档，“false” 表示未归档 |
-| name | string | 否 | 活动名称 |
-| isPushing | boolean | 否 | 是否处于推流状态 |
-| orderBy | string | 否 | 支持排序的字段：\`createdAt\`, \`endedAt\` , \`startedAt\` ；可按正序（ASC）或者倒序（DESC）来排，比如：\`createdAt DESC\`  表示按照创建时间倒序排 |
-| page | integer | 否 | 页码 |
-| pageSize | integer | 否 | 每页几条 |
-
-## 请求样例
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">&#x53C2;&#x6570;</th>
+      <th style="text-align:left">&#x53C2;&#x6570;&#x7C7B;&#x578B;</th>
+      <th style="text-align:left">&#x662F;&#x5426;&#x5FC5;&#x586B;</th>
+      <th style="text-align:left">&#x63CF;&#x8FF0;</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">isArchived</td>
+      <td style="text-align:left">boolean</td>
+      <td style="text-align:left">&#x5426;</td>
+      <td style="text-align:left">&#x201C;true&#x201C; &#x8868;&#x793A;&#x5DF2;&#x5F52;&#x6863;&#xFF0C;&#x201C;false&#x201D;
+        &#x8868;&#x793A;&#x672A;&#x5F52;&#x6863;</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">name</td>
+      <td style="text-align:left">string</td>
+      <td style="text-align:left">&#x5426;</td>
+      <td style="text-align:left">&#x6D3B;&#x52A8;&#x540D;&#x79F0;</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">isPushing</td>
+      <td style="text-align:left">boolean</td>
+      <td style="text-align:left">&#x5426;</td>
+      <td style="text-align:left">&#x662F;&#x5426;&#x5904;&#x4E8E;&#x63A8;&#x6D41;&#x72B6;&#x6001;</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">orderBy</td>
+      <td style="text-align:left">string</td>
+      <td style="text-align:left">&#x5426;</td>
+      <td style="text-align:left">
+        <p>&#x652F;&#x6301;&#x6392;&#x5E8F;&#x7684;&#x5B57;&#x6BB5;&#xFF1A;`createdAt`,
+          `endedAt` , `startedAt` &#xFF1B;</p>
+        <p>&#x53EF;&#x6309;&#x6B63;&#x5E8F;&#xFF08;ASC&#xFF09;&#x6216;&#x8005;&#x5012;&#x5E8F;&#xFF08;DESC&#xFF09;&#x6765;&#x6392;&#xFF0C;</p>
+        <p>&#x6BD4;&#x5982;&#xFF1A;`createdAt DESC` &#x8868;&#x793A;&#x6309;&#x7167;&#x521B;&#x5EFA;&#x65F6;&#x95F4;&#x5012;&#x5E8F;&#x6392;</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">page</td>
+      <td style="text-align:left">integer</td>
+      <td style="text-align:left">&#x5426;</td>
+      <td style="text-align:left">&#x9875;&#x7801;</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">pageSize</td>
+      <td style="text-align:left">integer</td>
+      <td style="text-align:left">&#x5426;</td>
+      <td style="text-align:left">&#x6BCF;&#x9875;&#x51E0;&#x6761;</td>
+    </tr>
+  </tbody>
+</table>## 请求样例
 
 ```text
 /api/activity?isArchived=false&page=42&pageSize=42

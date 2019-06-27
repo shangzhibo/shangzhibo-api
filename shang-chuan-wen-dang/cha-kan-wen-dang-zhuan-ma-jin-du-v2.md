@@ -17,7 +17,7 @@
 {% api-method-path-parameters %}
 {% api-method-parameter name="taskId" type="string" required=true %}
 任务 ID  
-\[如何获取\]\(https://app.gitbook.com/@shangzhibo/s/api/\~/edit/drafts/-LiN71jQ8nwsltucEnGu/shang-chuan-wen-dang/shang-chuan-wen-dang-v2-1\)
+\[如何获取\]
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
 

@@ -17,7 +17,7 @@
 {% api-method-path-parameters %}
 {% api-method-parameter name="taskId" type="string" required=true %}
 任务 ID  
-[如何获取]?(https://app.gitbook.com/@shangzhibo/s/api/\~/edit/drafts/-LiN71jQ8nwsltucEnGu/shang-chuan-wen-dang/shang-chuan-wen-dang-v2-1)
+\[如何获取\]\(https://app.gitbook.com/@shangzhibo/s/api/\~/edit/drafts/-LiN71jQ8nwsltucEnGu/shang-chuan-wen-dang/shang-chuan-wen-dang-v2-1\)
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
 
@@ -117,9 +117,7 @@ Bearer:&lt;access token&gt;
 {% endapi-method-spec %}
 {% endapi-method %}
 
-
-
-### 请求示例:
+## 请求示例:
 
 ```bash
 curl -H "Authorization: bearer xxx" "https://shangzhibo.tv/api/v2/activity/:id/doc?taskId=ef141163-2572-49fe-951a-1501cb7ce914"

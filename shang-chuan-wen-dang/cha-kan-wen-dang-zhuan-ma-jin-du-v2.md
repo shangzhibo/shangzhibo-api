@@ -7,9 +7,9 @@
 
 {% api-method-description %}
 文档进度状态有三种:  
-\* failed: 失败  
-\* running: 正在转码  
-\* finished: 转码成功
+* failed: 失败  
+* running: 正在转码  
+* finished: 转码成功
 {% endapi-method-description %}
 
 {% api-method-spec %}
@@ -17,7 +17,7 @@
 {% api-method-path-parameters %}
 {% api-method-parameter name="taskId" type="string" required=true %}
 任务 ID  
-\[如何获取\]
+[如何获取](https://app.gitbook.com/@shangzhibo/s/api/shang-chuan-wen-dang/shang-chuan-wen-dang-v2-1)
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
 

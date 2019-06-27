@@ -26,7 +26,7 @@ Content-Type: application/json
 ### 请求样例
 
 ```javascript
-/api/activity/8930091/doc
+/api/activity/:id/doc
 ```
 
 ## 响应

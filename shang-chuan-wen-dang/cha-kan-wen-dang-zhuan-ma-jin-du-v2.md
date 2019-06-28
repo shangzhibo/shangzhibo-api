@@ -6,20 +6,13 @@
 {% endapi-method-summary %}
 
 {% api-method-description %}
-文档进度状态有三种:  
-<ul>
-<li> failed: 失败 </li> 
-<li> running: 正在转码</li>
-<li> finished: 转码成功</li>
-</ul>
-{% endapi-method-description %}
 
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-path-parameters %}
 {% api-method-parameter name="taskId" type="string" required=true %}
 任务 ID  
-[如何获取: https://app.gitbook.com/@shangzhibo/s/api/shang-chuan-wen-dang/shang-chuan-wen-dang-v2-1]
+如何获取
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
 
@@ -54,8 +47,15 @@ Bearer:&lt;access token&gt;
 
 // 转码失败:
 {
-    "status": "failed"
+    "status": "failed"，
+    "error": "xxxxxxx"
 }
+
+error 错误码:
+  ConvertTimeout: 转换超时
+  WriteTgtUriFailed: 写入失败
+  ExportFileError: 处理文件内容失败，请检查源文档是否能够正常打开
+  NeedPassword: 需要密码
 ```
 {% endapi-method-response-example %}
 

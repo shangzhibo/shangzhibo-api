@@ -48,10 +48,11 @@ Bearer:&lt;access token&gt;
 // 转码失败:
 {
     "status": "failed"，
-    "error": "xxxxxxx"
+    "errorCode": "xxxxxxx"
 }
 
-error 错误码:
+errorCode 错误码:
+  NoError: 没发生错误
   ConvertTimeout: 转换超时
   WriteTgtUriFailed: 写入失败
   ExportFileError: 处理文件内容失败，请检查源文档是否能够正常打开

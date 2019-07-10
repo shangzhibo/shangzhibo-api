@@ -1,23 +1,21 @@
-# 文档查询
+# ceshi
 
-{% api-method method="get" host="https://shangzhibo.tv/api" path="/v2/activity/:id/doc/:docId" %}
+{% api-method method="put" host="https://shangzhibo.tv/api" path="/v2/activity/:id/doc/:docId" %}
 {% api-method-summary %}
 Get Doc
 {% endapi-method-summary %}
 
 {% api-method-description %}
-如果需要获取默认文档，可将 docId 替换为 default,
-eg: http://shangzhibo.tv/api/v2/activity/:id/doc/default
-
-若文档不存在，则会返回空对象
+如果需要获取默认文档，可将 docId 替换为 default, eg: http://shangzhibo.tv/api/v2/activity/:id/doc/default若文档不存在，则会返回空对象
 {% endapi-method-description %}
 
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-path-parameters %}
 {% api-method-parameter name="id" type="string" required=true %}
- 活动 Id
+活动 Id
 {% endapi-method-parameter %}
+
 {% api-method-parameter name="docId" type="integer" required=true %}
 文档 Id, 若要查询默认文档，可将此参数改为 default
 {% endapi-method-parameter %}
@@ -25,14 +23,33 @@ eg: http://shangzhibo.tv/api/v2/activity/:id/doc/default
 
 {% api-method-headers %}
 {% api-method-parameter name="Content-Type" type="string" required=false %}
- 默认是: application/json
+默认是: application/json
 {% endapi-method-parameter %}
 {% endapi-method-headers %}
+
+{% api-method-query-parameters %}
+{% api-method-parameter name="" type="string" required=false %}
+
+{% endapi-method-parameter %}
+{% endapi-method-query-parameters %}
+
+{% api-method-form-data-parameters %}
+{% api-method-parameter name="" type="string" required=false %}
+
+{% endapi-method-parameter %}
+{% endapi-method-form-data-parameters %}
+
+{% api-method-body-parameters %}
+{% api-method-parameter name="" type="string" required=false %}
+
+{% endapi-method-parameter %}
+{% endapi-method-body-parameters %}
 {% endapi-method-request %}
 
 {% api-method-response %}
 {% api-method-response-example httpCode=200 %}
 {% api-method-response-example-description %}
+
 {% endapi-method-response-example-description %}
 
 ```javascript
@@ -56,8 +73,18 @@ eg: http://shangzhibo.tv/api/v2/activity/:id/doc/default
 // 如果文档不存在, 则响应为空对象
 {}
 ```
+{% endapi-method-response-example %}
 
+{% api-method-response-example httpCode=302 %}
+{% api-method-response-example-description %}
+
+{% endapi-method-response-example-description %}
+
+```
+
+```
 {% endapi-method-response-example %}
 {% endapi-method-response %}
 {% endapi-method-spec %}
 {% endapi-method %}
+

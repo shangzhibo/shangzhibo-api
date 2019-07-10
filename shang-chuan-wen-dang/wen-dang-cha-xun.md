@@ -33,6 +33,7 @@ Get Doc
 {% endapi-method-response-example-description %}
 
 ```javascript
+// 正常返回结果
 {
     "id":2276, // 文档 Id
     "activityId":"12345678", // 活动 Id
@@ -48,12 +49,11 @@ Get Doc
     ],
     "pageCount":18 // 文档总页数
 }
-```
 
 // 如果文档不存在, 则响应为空对象
-```javascript 1.8
 {}
 ```
+
 {% endapi-method-response-example %}
 {% endapi-method-response %}
 {% endapi-method-spec %}

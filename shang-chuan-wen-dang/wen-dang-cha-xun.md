@@ -19,7 +19,7 @@ eg: http://shangzhibo.tv/api/v2/activity/:id/doc/default
  活动 Id
 {% endapi-method-parameter %}
 {% api-method-parameter name="docId" type="integer" required=true %}
- 文档 Id
+文档 Id, 若要查询默认文档，可将此参数改为 default
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
 

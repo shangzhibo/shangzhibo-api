@@ -25,6 +25,7 @@ Get Doc
  默认是: application/json
 {% endapi-method-parameter %}
 {% endapi-method-headers %}
+{% endapi-method-request %}
 
 {% api-method-response %}
 {% api-method-response-example httpCode=200 %}
@@ -54,3 +55,6 @@ Get Doc
 {}
 ```
 {% endapi-method-response-example %}
+{% endapi-method-response %}
+{% endapi-method-spec %}
+{% endapi-method %}

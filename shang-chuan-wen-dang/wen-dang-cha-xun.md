@@ -6,7 +6,11 @@ Get Doc
 {% endapi-method-summary %}
 
 {% api-method-description %}
-如果需要获取默认文档，可将 docId 替换为 default, eg: http://shangzhibo.tv/api/v2/activity/:id/doc/default若文档不存在，则会返回空对象
+
+如果需要获取默认文档，可将 docId 替换为 default
+
+eg: http://shangzhibo.tv/api/v2/activity/:id/doc/default若文档不存在，则会返回空对象
+
 {% endapi-method-description %}
 
 {% api-method-spec %}
@@ -27,23 +31,6 @@ Get Doc
 {% endapi-method-parameter %}
 {% endapi-method-headers %}
 
-{% api-method-query-parameters %}
-{% api-method-parameter name="" type="string" required=false %}
-
-{% endapi-method-parameter %}
-{% endapi-method-query-parameters %}
-
-{% api-method-form-data-parameters %}
-{% api-method-parameter name="" type="string" required=false %}
-
-{% endapi-method-parameter %}
-{% endapi-method-form-data-parameters %}
-
-{% api-method-body-parameters %}
-{% api-method-parameter name="" type="string" required=false %}
-
-{% endapi-method-parameter %}
-{% endapi-method-body-parameters %}
 {% endapi-method-request %}
 
 {% api-method-response %}

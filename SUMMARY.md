@@ -26,6 +26,8 @@
   * [获取原始文档地址列表](shang-chuan-wen-dang/xia-zai-yuan-shi-wen-dang.md)
   * [文档查询](shang-chuan-wen-dang/wen-dang-cha-xun.md)
   * [文档编辑](shang-chuan-wen-dang/wen-dang-bian-ji.md)
+  * [文档删除](shang-chuan-wen-dang/wen-dang-shan-chu.md)
+  * [设置观看页显示文档](shang-chuan-wen-dang/she-zhi-guan-kan-ye-xian-shi-wen-dang.md)
 * [互动投票 API](huo-qu-tou-piao-zhu-ti-lie-biao/README.md)
   * [获取投票主题列表](huo-qu-tou-piao-zhu-ti-lie-biao/huo-qu-tou-piao-zhu-ti-lie-biao.md)
   * [获取指定投票主题的投票结果](huo-qu-tou-piao-zhu-ti-lie-biao/huo-qu-zhi-ding-tou-piao-zhu-ti-de-tou-piao-jie-guo.md)

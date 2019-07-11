@@ -36,13 +36,13 @@ Content-Type: application/json
 | id | integer | 文档 Id |
 | name | string | 文档原始文件名 |
 | url | string | 文档原始文件地址 |
-|activityId|string | 活动 Id |
-|index|integer| 当前文档页面索引 |
-|status| string | 转码状态 |
-|taskId|string | 转码任务 Id|
-|url| string |文档原始地址 |
-|pages |array<string>| 文档转码后的输出文件，即文档单页|
-|pageCount|integer |  文档总页数|
+| activityId | string | 活动 Id |
+| index | integer | 当前文档页面索引 |
+| status | string | 转码状态 |
+| taskId | string | 转码任务 Id |
+| url | string | 文档原始地址 |
+| pages | array | 文档转码后的输出文件，即文档单页 |
+| pageCount | integer | 文档总页数 |
 
 ### 响应样例
 

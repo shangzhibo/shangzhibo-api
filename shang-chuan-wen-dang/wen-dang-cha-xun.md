@@ -6,11 +6,10 @@ Get Doc
 {% endapi-method-summary %}
 
 {% api-method-description %}
-
-如果需要获取默认文档，可将 docId 替换为 default
-
-eg: http://shangzhibo.tv/api/v2/activity/:id/doc/default若文档不存在，则会返回空对象
-
+如果需要获取观看页显示文档，可将 docId 替换为 **default**  
+eg: http://shangzhibo.tv/api/v2/activity/:id/doc/default   
+  
+若文档不存在，则会返回空对象
 {% endapi-method-description %}
 
 {% api-method-spec %}
@@ -30,7 +29,6 @@ eg: http://shangzhibo.tv/api/v2/activity/:id/doc/default若文档不存在，则
 默认是: application/json
 {% endapi-method-parameter %}
 {% endapi-method-headers %}
-
 {% endapi-method-request %}
 
 {% api-method-response %}
@@ -59,16 +57,6 @@ eg: http://shangzhibo.tv/api/v2/activity/:id/doc/default若文档不存在，则
 
 // 如果文档不存在, 则响应为空对象
 {}
-```
-{% endapi-method-response-example %}
-
-{% api-method-response-example httpCode=302 %}
-{% api-method-response-example-description %}
-
-{% endapi-method-response-example-description %}
-
-```
-
 ```
 {% endapi-method-response-example %}
 {% endapi-method-response %}

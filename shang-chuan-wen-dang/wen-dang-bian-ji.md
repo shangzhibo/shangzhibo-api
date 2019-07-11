@@ -1,3 +1,7 @@
+---
+description: 用于翻页
+---
+
 # 文档编辑
 
 {% api-method method="put" host="https://shangzhibo.tv/api" path="/v2/activity/:id/doc/:docId" %}
@@ -6,7 +10,8 @@
 {% endapi-method-summary %}
 
 {% api-method-description %}
-如果需要修改默认文档，可将 docId 替换为 default,
+如果需要修改观看页显示文档，可将 docId 替换为 **default**  
+  
 eg: http://shangzhibo.tv/api/v2/activity/:id/doc/default
 {% endapi-method-description %}
 
@@ -14,29 +19,30 @@ eg: http://shangzhibo.tv/api/v2/activity/:id/doc/default
 {% api-method-request %}
 {% api-method-path-parameters %}
 {% api-method-parameter name="id" type="string" required=true %}
- 活动 Id
+活动 Id
 {% endapi-method-parameter %}
+
 {% api-method-parameter name="docId" type="integer" required=true %}
- 文档 Id, 若要修改默认文档，可将此参数改为 default
+文档 Id, 若要修改默认文档，可将此参数改为 default
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
 
 {% api-method-headers %}
 {% api-method-parameter name="Content-Type" type="string" required=false %}
- 默认是: application/json
+默认是: application/json
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="Authentication" type="string" required=true %}
 Bearer:&lt;access token&gt;  
-获取 accessToken ，请咨询杨经理（18968187008）、彭经理（15167172618）  
+获取 accessToken ，请咨询杨经理（18968187008）、彭经理（15167172618）
 {% endapi-method-parameter %}
-
 {% endapi-method-headers %}
 {% endapi-method-request %}
 
 {% api-method-response %}
 {% api-method-response-example httpCode=200 %}
 {% api-method-response-example-description %}
+
 {% endapi-method-response-example-description %}
 
 ```javascript
@@ -45,40 +51,11 @@ Bearer:&lt;access token&gt;
   "result": true
 }
 ```
-
-{% endapi-method-response-example %}
-
-{% api-method-response-example httpCode=429 %}
-{% api-method-response-example-description %}
-接口频率限制为 10次 / 秒
-{% endapi-method-response-example-description %}
-
-```javascript
-{
-    "name":"TooManyRequests",
-    "message":"请求速度太频繁了, 请于xxx后重试",
-    "status":429
-}
-```
-{% endapi-method-response-example %}
-
-{% api-method-response-example httpCode=404 %}
-{% api-method-response-example-description %}
- 文档未找到
-{% endapi-method-response-example-description %}
-
-```javascript
-{
-    "name":"NotFound",
-    "message":"Doc Not Found",
-    "status":404
-}
-```
 {% endapi-method-response-example %}
 
 {% api-method-response-example httpCode=400 %}
 {% api-method-response-example-description %}
- 文档操作不合法
+文档操作不合法
 {% endapi-method-response-example-description %}
 
 ```javascript
@@ -98,6 +75,34 @@ Bearer:&lt;access token&gt;
 ```
 {% endapi-method-response-example %}
 
+{% api-method-response-example httpCode=404 %}
+{% api-method-response-example-description %}
+文档未找到
+{% endapi-method-response-example-description %}
+
+```javascript
+{
+    "name":"NotFound",
+    "message":"Doc Not Found",
+    "status":404
+}
+```
+{% endapi-method-response-example %}
+
+{% api-method-response-example httpCode=429 %}
+{% api-method-response-example-description %}
+接口频率限制为 10次 / 秒
+{% endapi-method-response-example-description %}
+
+```javascript
+{
+    "name":"TooManyRequests",
+    "message":"请求速度太频繁了, 请于xxx后重试",
+    "status":429
+}
+```
+{% endapi-method-response-example %}
 {% endapi-method-response %}
 {% endapi-method-spec %}
 {% endapi-method %}
+

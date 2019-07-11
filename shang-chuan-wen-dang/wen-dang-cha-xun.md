@@ -1,4 +1,4 @@
-# ceshi
+# 文档查询
 
 {% api-method method="put" host="https://shangzhibo.tv/api" path="/v2/activity/:id/doc/:docId" %}
 {% api-method-summary %}

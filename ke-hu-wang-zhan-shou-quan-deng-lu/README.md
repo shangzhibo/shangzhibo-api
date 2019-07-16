@@ -8,13 +8,13 @@
 
 未登录用户通过客户网站进入直播
 
-![](../.gitbook/assets/jietu20180910-170915%20%281%29.png)
+![](../.gitbook/assets/jietu20180910-170915.png)
 
 ### 场景二
 
 未登录用户通过上直播页面进入直播
 
-![](../.gitbook/assets/jietu20180910-170926%20%282%29.png)
+![](../.gitbook/assets/jietu20180910-170926.png)
 
 ## 接口
 
@@ -94,5 +94,5 @@ parSid = encodeURIComponent(parSid)
 }
 ```
 
-场景二中，未登录状态返回登录，需要提供给我们一个用于登录的 URL，`http://example.com/login?{activityId}` 指定未授权活动跳转页面时在 URL 中的 `{activityId}` 会被替换为实际的活动ID
+场景二中，未登录状态返回登录，需要提供给我们一个用于登录的 URL，http://example.com/login?${activityId}. 指定未授权活动跳转页面时在 URL 中的 ${activityId} 会被替换为实际的活动 ID
 

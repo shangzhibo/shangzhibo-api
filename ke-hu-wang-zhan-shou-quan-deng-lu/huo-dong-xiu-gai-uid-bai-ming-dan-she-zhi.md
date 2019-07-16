@@ -2,14 +2,14 @@
 description: 此功能仅限于开启了第三方登录定制以及 UID 白名单定制的客户使用
 ---
 
-# 活动修改 UID白名单设置
+# 修改指定活动的 UID白名单
 
 ## 接口
 
 修改 UID 白名单设置
 
 ```javascript
-PUT /api/activity/:id/par-uid-whitelist
+PUT /api/activity/{id}/par-uid-whitelist
 ```
 
 ## 授权

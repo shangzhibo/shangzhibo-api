@@ -6,11 +6,15 @@
 
 ### 场景一
 
-未登录用户通过客户网站进入直播![](../.gitbook/assets/jietu20180910-170915.png)
+未登录用户通过客户网站进入直播
+
+![](../.gitbook/assets/jietu20180910-170915%20%281%29.png)
 
 ### 场景二
 
-未登录用户通过上直播页面进入直播![](../.gitbook/assets/jietu20180910-170926.png)
+未登录用户通过上直播页面进入直播
+
+![](../.gitbook/assets/jietu20180910-170926%20%282%29.png)
 
 ## 接口
 
@@ -40,7 +44,7 @@ Content-Type: application/json
 | identity\(deprecated\) | string | 客户标识（已弃用） | 否 |
 | uid | integer | 唯一标识用户的 ID（数字类型） | uid 与 strUid 二选一 |
 | strUid | string | 唯一标识用户的 ID（字符串类型） | uid 与 strUid 二选一 |
-| cookieId | string | 为每个访客在 cookie 中生成的唯一标识（par.shangzhibo.sid） | 是 |
+| cookieId | string | 为每个访客在 cookie 中生成的唯一会话标识（par.shangzhibo.sid） | 是 |
 | nickname | string | 用户昵称（评论时显示） | 是 |
 | avatar | string | 用户头像（评论时显示），必须使用 https:// | 是 |
 | sex | string | 用户性别 | 是 |
@@ -50,11 +54,11 @@ Content-Type: application/json
 
 ### 特殊情况说明
 
-APP 环境或者未定制上直播播放域名的客户可能无法使用 cookie（par.shangzhibo.sid） 方式，此时可以将访客唯一标识通过播放页 URL 后加参数带过来。
+APP 环境或者未定制上直播播放域名的客户可能无法使用 `cookie（par.shangzhibo.sid）` 方式，此时可以将访客唯一会话标识通过播放页 URL 后加参数 `parSid` 带过来。
 
 `http://shangzhibo.tv/watch/{activityId}?parSid=xxxxx`
 
-并将 parSid 仍通过本接口 cookieId 字段传给上直播。
+并将 `parSid` 仍通过本接口 `cookieId` 字段传给上直播。
 
 如果参数里面含有特殊字符（如：`+` 、`/` 等在 URL具有含义的字符） 需要对参数进行 URI encode。
 
@@ -89,4 +93,6 @@ parSid = encodeURIComponent(parSid)
   "result": true,
 }
 ```
+
+场景二中，未登录状态返回登录，需要提供给我们一个用于登录的 URL，`http://example.com/login?{activityId}` 指定未授权活动跳转页面时在 URL 中的 `{activityId}` 会被替换为实际的活动ID
 

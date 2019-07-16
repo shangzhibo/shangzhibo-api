@@ -2,14 +2,14 @@
 description: 此功能仅限于开启了第三方登录定制以及 UID 白名单定制的客户使用
 ---
 
-# 活动获取 UID白名单设置
+# 获取指定活动的 UID白名单
 
 ## 接口
 
 获取 UID 白名单设置
 
 ```javascript
-GET /api/activity/:id/par-uid-whitelist
+GET /api/activity/{id}/par-uid-whitelist
 ```
 
 ### 注意:

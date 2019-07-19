@@ -94,5 +94,5 @@ parSid = encodeURIComponent(parSid)
 }
 ```
 
-场景二中，未登录状态返回登录，需要提供给我们一个用于登录的 URL，http://example.com/login?${activityId}. 指定未授权活动跳转页面时在 URL 中的 ${activityId} 会被替换为实际的活动 ID
+场景二中，未登录状态返回登录，需要提供给我们一个用于登录的 URL，`http://example.com/login?{activityId}` 指定未授权活动跳转页面时在 URL 中的 `{activityId}` 会被替换为实际的活动ID
 

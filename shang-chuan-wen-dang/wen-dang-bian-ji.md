@@ -1,8 +1,4 @@
----
-description: 用于翻页
----
-
-# 文档编辑
+# 文档翻页
 
 {% api-method method="put" host="https://shangzhibo.tv/api" path="/v2/activity/:id/doc/:docId" %}
 {% api-method-summary %}
@@ -48,7 +44,9 @@ Bearer:&lt;access token&gt;
 ```javascript
 // 正常返回结果
 {
-  "result": true
+  "result": true,
+  "index": 5, // 文档页所在索引
+  "page": "https://office.shangzhibo.tv/105131/6527135/1563368326939/9d4f6af0-a892-11e9-823f-4bd7ee2b7b5b-6.jpg" // 文档页链接
 }
 ```
 {% endapi-method-response-example %}

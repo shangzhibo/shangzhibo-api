@@ -25,7 +25,7 @@
   * [查看文档转码状态 V2](shang-chuan-wen-dang/cha-kan-wen-dang-zhuan-ma-jin-du-v2.md)
   * [获取原始文档地址列表](shang-chuan-wen-dang/xia-zai-yuan-shi-wen-dang.md)
   * [文档查询](shang-chuan-wen-dang/wen-dang-cha-xun.md)
-  * [文档编辑](shang-chuan-wen-dang/wen-dang-bian-ji.md)
+  * [文档翻页](shang-chuan-wen-dang/wen-dang-bian-ji.md)
   * [文档删除](shang-chuan-wen-dang/wen-dang-shan-chu.md)
   * [设置观看页显示文档](shang-chuan-wen-dang/she-zhi-guan-kan-ye-xian-shi-wen-dang.md)
 * [互动投票 API](huo-qu-tou-piao-zhu-ti-lie-biao/README.md)

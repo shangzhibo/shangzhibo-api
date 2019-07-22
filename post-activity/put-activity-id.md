@@ -28,6 +28,7 @@ Content-Type: application/json
 | startedAt | datetime | 直播开始时间 | 否 |
 | endedAt | datetime | 直播结束时间 | 否 |
 | subagentIds | Array&lt;Integer&gt; | 子账号 Id 集合 | 否 |
+| groupId | integer | 活动分组 Id, 默认为-1，即不指定分组 | 否 |
 
 ### 请求样例
 
@@ -41,9 +42,7 @@ Content-Type: application/json
 }
 ```
 
-## 响应
-
-### 响应样例
+### 响应样例200
 
 ```javascript
 {

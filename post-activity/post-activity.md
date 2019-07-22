@@ -77,6 +77,13 @@ Authorization: Bearer <accessToken>
       </td>
       <td style="text-align:left">&#x5426;</td>
     </tr>
+    <tr>
+      <td style="text-align:left">groupId</td>
+      <td style="text-align:left">integer</td>
+      <td style="text-align:left">&#x6D3B;&#x52A8;&#x5206;&#x7EC4; Id,&#x9ED8;&#x8BA4;&#x4E3A;-1&#xFF0C;&#x5373;&#x4E0D;&#x6307;&#x5B9A;&#x5206;&#x7EC4;</td>
+      <td
+      style="text-align:left">&#x5426;</td>
+    </tr>
   </tbody>
 </table>### 请求样例
 

@@ -27,6 +27,7 @@ Content-Type: application/json
 | isArchived | boolean | “true”表示已归档，“false”表示未归档 | 否 |
 | startedAt | datetime | 直播开始时间 | 否 |
 | endedAt | datetime | 直播结束时间 | 否 |
+| subagentIds | Array&lt;Integer&gt; | 子账号 Id 集合 | 否 |
 
 ### 请求样例
 
@@ -35,7 +36,8 @@ Content-Type: application/json
   "name": "直播测试",
   "startedAt": "2016-11-08T12:00:00.000Z",
   "endedAt": "2016-11-08T13:00:00.000Z",
-  "isArchived": true
+  "isArchived": true,
+  "subagentIds": [1, 2]
 }
 ```
 

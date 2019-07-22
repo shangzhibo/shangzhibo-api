@@ -76,7 +76,7 @@ Content-Type: application/json
   </tbody>
 </table>## 请求样例
 
-```text
+```javascript
 /api/activity?isArchived=false&page=42&pageSize=42
 ```
 
@@ -137,7 +137,8 @@ Content-Type: application/json
             },
             "expired": false,
             "maxConcurrentUser": -1,
-            "maxPushingTime": -1
+            "maxPushingTime": -1,
+            "subagentIds": [1, 2],
         }
     ]
 }

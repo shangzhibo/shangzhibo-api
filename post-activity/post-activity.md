@@ -4,7 +4,7 @@
 
 创建活动
 
-```javascript
+```typescript
 POST /api/activity
 ```
 
@@ -14,7 +14,6 @@ POST /api/activity
 
 ```http
 Authorization: Bearer <accessToken>
-Content-Type: application/json
 ```
 
 注：请将上方的 `<accessToken>` 替换为分配给您的秘钥串。关于如何获取 `accessToken` ，请咨询杨经理（18968187008）、彭经理（15167172618）。
@@ -40,13 +39,21 @@ Content-Type: application/json
     <tr>
       <td style="text-align:left">startedAt</td>
       <td style="text-align:left">datetime</td>
-      <td style="text-align:left">&#x76F4;&#x64AD;&#x5F00;&#x59CB;&#x65F6;&#x95F4;</td>
+      <td style="text-align:left">&#x76F4;&#x64AD;&#x5F00;&#x59CB;&#x65F6;&#x95F4;&#xFF0C;&#x683C;&#x5F0F;&#x4E3A;
+        UTC &#x65F6;&#x95F4;</td>
       <td style="text-align:left">&#x5426;</td>
     </tr>
     <tr>
       <td style="text-align:left">endedAt</td>
       <td style="text-align:left">datetime</td>
-      <td style="text-align:left">&#x76F4;&#x64AD;&#x7ED3;&#x675F;&#x65F6;&#x95F4;</td>
+      <td style="text-align:left">&#x76F4;&#x64AD;&#x7ED3;&#x675F;&#x65F6;&#x95F4;&#xFF0C;&#x683C;&#x5F0F;&#x4E3A;
+        UTC &#x65F6;&#x95F4;</td>
+      <td style="text-align:left">&#x5426;</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">subagentIds</td>
+      <td style="text-align:left">Array&lt;Integer&gt;</td>
+      <td style="text-align:left">&#x5B50;&#x8D26;&#x53F7; Id &#x96C6;&#x5408;</td>
       <td style="text-align:left">&#x5426;</td>
     </tr>
     <tr>
@@ -76,12 +83,13 @@ Content-Type: application/json
 ```javascript
 {
   "name": "创想人工智能峰会-深圳站",
-  "startedAt": "2017-08-09 12:00:00",
-  "endedAt": "2017-08-10 13:00:00"
+  "startedAt": "2019-07-22T07:18:56.640Z",
+  "endedAt": "2019-08-22T07:18:56.640Z",
+  "subagentIds": [1,2]
 }
 ```
 
-## 响应
+## 响应200
 
 | 参数 | 参数类型 | 参数说明 |
 | :--- | :--- | :--- |
@@ -119,6 +127,7 @@ Content-Type: application/json
 | maxConcurrentUser | integer | 最大并发在线人数，-1 表示不限制最大在线人数 |
 | maxPushingTime | integer | 最大推流时长，单位 秒，-1 表示不限制最大推流时长 |
 | isTranscodable | boolean | 该活动能否开启活动转码功能 |
+| subagentIds | Array&lt;Integer&gt; | 子账号 Id 集合 |
 
 ### 响应样例
 
@@ -162,7 +171,68 @@ Content-Type: application/json
     },
     "expired": false,
     "maxConcurrentUser": -1,
-    "maxPushingTime": -1
+    "maxPushingTime": -1,
+    "subagentIds": [1, 2]
 }
 ```
+
+## 响应400
+
+#### `startedAt`、`endedAt` 值不是合法的时间格式
+
+```javascript
+{
+    "status": 400,
+    "name": "BadRequest",
+    "message": "Invalid Date",
+}
+```
+
+#### 活动名称已经存在
+
+```javascript
+{
+    "status": 400,
+    "name": "NameExist",
+    "message": "名字已经存在",
+}
+```
+
+
+
+#### 未开通直播加速功能，当且仅当参数中传递了 `boost`
+
+```javascript
+{
+    "status": 400,
+    "name": "BadRequest",
+    "message": "您的账号未开通直播加速功能",
+}
+```
+
+## 响应401
+
+#### 没有创建子账号的权限, 当且仅当在传递参数时加入了 subagentIds 参数
+
+```javascript
+{
+    "status": 401,
+    "name": "Unauthorized",
+    "message": "您没有创建子账号的权限",
+}
+```
+
+## 响应404
+
+#### subagentIds 中的子账号 Id 不存在时
+
+```javascript
+{
+    "status": 404,
+    "name": "NotFount",
+    "message": "Subagent Not Found",
+}
+```
+
+
 

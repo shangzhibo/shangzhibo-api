@@ -5,7 +5,7 @@
 获取活动信息
 
 ```javascript
-GET /api/activity/{id}
+GET /api/activity/:id
 ```
 
 ## 授权
@@ -68,6 +68,7 @@ Content-Type: application/json
 | maxConcurrentUser | integer | 最大并发在线人数，-1 表示不限制最大在线人数 |
 | maxPushingTime | integer | 最大推流时长，单位 秒，-1 表示不限制最大推流时长 |
 | isTranscodable | boolean | 该活动能否开启活动转码功能 |
+| subagentIds | Array&lt;Integer&gt; | 子账号 Id 集合 |
 
 ### 响应样例
 
@@ -115,7 +116,8 @@ Content-Type: application/json
     "authKeys": {
         "default": "1535955014-0-0-fd06c84a7e900b9d31b5a7fee7f96a3d",
         "m3u8": "1535955014-0-0-fc23fc7a255665cb514085108d815851"
-    }
+    },
+    "subagentIds": [1, 2],
 }
 ```
 

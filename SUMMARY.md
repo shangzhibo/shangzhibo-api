@@ -7,6 +7,7 @@
   * [获取指定活动信息](post-activity/get-activity-id.md)
   * [获取活动列表](post-activity/huo-qu-huo-dong-lie-biao.md)
   * [修改指定活动信息](post-activity/put-activity-id.md)
+  * [活动删除](post-activity/huo-dong-shan-chu.md)
   * [获取指定活动模板](post-activity/get-activity-id-template.md)
   * [修改指定活动模板](post-activity/put-activity-id-template.md)
   * [获取指定活动登录观众列表](post-activity/huo-qu-zhi-ding-huo-dong-de-deng-lu-guan-zhong-lie-biao.md)

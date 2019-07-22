@@ -22,7 +22,7 @@ Content-Type: application/json
 ## 请求样例
 
 ```text
-/api/agent/subagent/233123
+/api/agent/subagent/191
 ```
 
 ## 响应示例

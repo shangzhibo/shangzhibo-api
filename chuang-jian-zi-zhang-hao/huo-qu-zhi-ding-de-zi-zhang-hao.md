@@ -27,12 +27,14 @@ Content-Type: application/json
 
 ## 响应参数
 
-| 参数 | 参数类型 | 是否必填 | 描述 |
-| :--- | :--- | :--- | :--- |
-| username | string | 是 | 用户名，如：手机号/邮箱 |
-| password | string | 是 | 密码，限制 6-64 位 |
-| remark | string | 否 | 子账号备注 |
-| activities | array&lt;string&gt; | 否 | 活动 ID 集合，如：\['1', '2', '3'\] |
+| 参数 | 参数类型 | 描述 |
+| :--- | :--- | :--- |
+| id | string | 子账号id |
+| username | string | 用户名，如：手机号/邮箱 |
+| remark | string | 子账号备注 |
+| activities | array&lt;string&gt; | 活动 ID 集合，如：\['1', '2', '3'\] |
+| createdAt | string | 创建时间 |
+| updateAt | string | 最后更新时间 |
 
 ## 响应示例
 

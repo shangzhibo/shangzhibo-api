@@ -41,9 +41,7 @@ Content-Type: application/json
 
 | 参数 | 参数类型 | 参数说明 | 是否必填 |
 | :--- | :--- | :--- | :--- |
-| identity\(deprecated\) | string | 客户标识（已弃用） | 否 |
-| uid | integer | 唯一标识用户的 ID（数字类型） | uid 与 strUid 二选一 |
-| strUid | string | 唯一标识用户的 ID（字符串类型） | uid 与 strUid 二选一 |
+| strUid | string | 唯一标识用户的 ID | 是 |
 | cookieId | string | 为每个访客在 cookie 中生成的唯一标识（par.shangzhibo.sid） | 是 |
 | nickname | string | 用户昵称（评论时显示） | 是 |
 | avatar | string | 用户头像（评论时显示），必须使用 https:// | 是 |
@@ -72,8 +70,7 @@ parSid = encodeURIComponent(parSid)
 
 ```javascript
 {
-  "identity": "huaban",
-  "uid": 2580821,
+  "strUid": 2580821,
   "cookieId": "TkSA4HjIjuFQPyFSoB_0ULx821k4b1Fq",
   "nickname": "兰海ena",
   "avatar": "https://static.itdks.com/files/default/2017/09-28/17403642672f970434.jpg",

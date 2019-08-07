@@ -5,7 +5,7 @@
 创建子账号
 
 ```javascript
-PUT api/agent/subagent
+PUT api/agent/subagent/{id}
 ```
 
 ## 授权
@@ -31,8 +31,10 @@ Content-Type: application/json
 ## 请求样例
 
 ```text
-/api/agent/subagent
+/api/agent/subagent/310
 ```
+
+{id}为子账号 id
 
 ## 响应示例
 

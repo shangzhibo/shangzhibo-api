@@ -23,8 +23,8 @@ Content-Type: application/json
 
 | 参数 | 参数类型 | 是否必填 | 描述 |
 | :--- | :--- | :--- | :--- |
-| username | string |  否 | 用户名，如：手机号/邮箱 |
-| password | string |  否 | 密码，限制 6-64 位 |
+| username | string | 否 | 用户名，如：手机号/邮箱 |
+| password | string | 否 | 密码，限制 6-64 位 |
 | remark | string | 否 | 子账号备注 |
 | activities | array&lt;string&gt; | 否 | 活动 ID 集合，如：\['1', '2', '3'\] |
 

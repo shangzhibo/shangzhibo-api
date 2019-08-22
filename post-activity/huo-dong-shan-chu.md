@@ -45,5 +45,3 @@ DETELE /api/activity/:id
 }
 ```
 
-
-

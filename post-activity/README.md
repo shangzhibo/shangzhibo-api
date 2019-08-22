@@ -4,7 +4,7 @@
 
 创建活动
 
-```typescript
+```javascript
 POST /api/activity
 ```
 

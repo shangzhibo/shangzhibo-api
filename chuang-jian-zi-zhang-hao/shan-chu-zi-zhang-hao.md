@@ -21,7 +21,7 @@ Content-Type: application/json
 
 ## 请求样例
 
-```text
+```http
 /api/agent/subagent/191
 ```
 

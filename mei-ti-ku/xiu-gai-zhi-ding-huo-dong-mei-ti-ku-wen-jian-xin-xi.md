@@ -24,12 +24,12 @@ Content-Type: application/json
 | 参数 | 类型 | 描述 |
 | :--- | :--- | :--- |
 | id | integer | 视频ID |
-| isPrologue（deprecated） | boolean | 是否是预设视频（即将弃用） |
-| prologueIndex（deprecated） | integer | 预设索引（即将弃用） |
-| isEpilogue（deprecated） | boolean | 是否是回看视频（即将弃用） |
-| epilogueIndex（deprecated） | integer | 回看索引（即将弃用） |
-| isPlayback（deprecated） | boolean | 是否是视频菜单视频（即将弃用） |
-| playbackIndex（deprecated） | integer | 视频菜单索引（即将弃用） |
+| isPrologue（deprecated） | boolean | 是否是预设视频（已弃用） |
+| prologueIndex（deprecated） | integer | 预设索引（已弃用） |
+| isEpilogue（deprecated） | boolean | 是否是回看视频（已弃用） |
+| epilogueIndex（deprecated） | integer | 回看索引（已弃用） |
+| isPlayback（deprecated） | boolean | 是否是视频菜单视频（已弃用） |
+| playbackIndex（deprecated） | integer | 视频菜单索引（已弃用） |
 | playbackTitle | string | 视频菜单视频名称 |
 
 #### 请求样例
@@ -38,12 +38,6 @@ Content-Type: application/json
 [
   {
     "id": 100023,
-    "isPrologue": true,//即将弃用
-    "prologueIndex": 0,//即将弃用
-    "isEpilogue": true,//即将弃用
-    "epilogueIndex": 0,//即将弃用
-    "isPlayback": true,//即将弃用
-    "playbackIndex": 0,//即将弃用
     "playbackTitle": "stringValue"
   }
 ]

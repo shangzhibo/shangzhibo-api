@@ -5,7 +5,7 @@
 获取登录观众列表
 
 ```javascript
-GET /api/activity/{id}/user
+GET /api/activity/:id/user
 ```
 
 ## 授权
@@ -26,7 +26,7 @@ Content-Type: application/json
 ## 请求样例
 
 ```text
-/api/activity/{id}/pay?page=42&pageSize=42
+GET /api/activity/:id/user?page=1&pageSize=10
 ```
 
 ## 响应参数
@@ -46,7 +46,7 @@ Content-Type: application/json
 
 ## 响应示例
 
-```text
+```javascript
 [
     {
         "id": 737961,

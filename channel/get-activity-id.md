@@ -37,7 +37,7 @@ Content-Type: application/json
 | name | string | 活动名称 |
 | imgCover | string | 封面图片 |
 | categoryId | integer | 活动分类 ID |
-| status | string | 活动状态，enabled 允许推流 disabled 禁止推流 forbidden 管理员禁止推流 deleted 活动已被删除 |
+| status | string | 活动状态，enabled 允许推流 disabled 禁止推流 forbidden 管理员禁止推流 |
 | agentId | integer | 账号 ID |
 | startedAt | string | 活动开始时间 |
 | endedAt | string | 活动结束时间 |

@@ -2,7 +2,7 @@
 
 ### 接口
 
-修改授权
+修改微信登录授权
 
 ```js
 PUT /api/activity/{id}/auth

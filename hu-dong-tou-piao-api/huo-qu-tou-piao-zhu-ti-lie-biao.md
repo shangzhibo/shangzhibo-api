@@ -4,7 +4,7 @@
 
 获取投票主题列表
 
-```js
+```http
 GET /api/activity/{id}/vote
 ```
 
@@ -28,7 +28,7 @@ Authorization: Bearer <accessToken>
 #### 请求样例
 
 ```js
-/api/activity/5966003/vote
+GET /api/activity/5966003/vote
 ```
 
 ### 响应

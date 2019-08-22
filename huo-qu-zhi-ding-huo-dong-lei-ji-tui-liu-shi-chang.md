@@ -39,7 +39,7 @@ Content-Type: application/json
 
 ### 响应示例
 
-```
+```javascript
 {
   "total": 42
 }

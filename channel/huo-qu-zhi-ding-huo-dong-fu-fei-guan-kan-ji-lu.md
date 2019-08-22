@@ -29,7 +29,7 @@ Content-Type: application/json
 ### 请求样例
 
 ```
-/api/activity/{id}/pay?page=42
+GET /api/activity/{id}/pay?page=42&pageSize=10
 ```
 
 | 参数 | 类型 | 描述 |

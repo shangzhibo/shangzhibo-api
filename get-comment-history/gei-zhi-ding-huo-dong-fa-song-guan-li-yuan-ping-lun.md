@@ -29,7 +29,7 @@ Content-Type: application/json
 
 ```javascript
 {
-  "content": "stringValue",
+  "content": "这是一条评论",
 }
 ```
 

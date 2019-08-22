@@ -5,7 +5,7 @@
 获取付费观看记录
 
 ```javascript
-GET /api/activity/{id}/pay
+GET /api/activity/:id/pay
 ```
 
 ## 授权
@@ -28,8 +28,8 @@ Content-Type: application/json
 
 ## 请求样例
 
-```text
-/api/activity/{id}/pay?page=42
+```http
+GET /api/activity/:id/pay?page=1&pageSize=10
 ```
 
 | 参数 | 类型 | 描述 |
@@ -52,7 +52,7 @@ Content-Type: application/json
 
 ## 响应示例
 
-```text
+```javascript
 {
     "pager": {
         "total": 1,

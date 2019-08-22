@@ -23,7 +23,7 @@ GET /api/user/activity/{id}/comment
 ### 请求样例
 
 ```javascript
-/api/user/activity/8930091/comment?page=42&limit=42&sort=stringValue
+/api/user/activity/8930091/comment?page=42&limit=10&sort=id\ DESC
 ```
 
 ## 响应

@@ -1,5 +1,5 @@
 ---
-description: 该接口即将废弃
+description: 该接口已废弃
 ---
 
 # 上传文档 V1

@@ -41,7 +41,7 @@ DETELE /api/activity/:id
 {
     "status": "400",
     "message": "该活动下有收益，无法删除",
-    "name": "BadRequest", 
+    "name": "BadRequest",
 }
 ```
 

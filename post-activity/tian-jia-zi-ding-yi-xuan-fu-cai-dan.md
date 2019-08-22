@@ -57,7 +57,7 @@ Content-Type: application/json
 
 ## 响应示例
 
-```text
+```javascript
 {
   "result": true,
 }

@@ -96,4 +96,14 @@ curl -H "Content-Type: application/json" -H "Authorization: Bearer <access_token
   "status":403
 }
 ```
+## 响应(404)
 
+### 响应示例
+
+```javascript
+{
+  "name":"NotFound",
+  "message":"User Not Found",
+  "status":404
+}
+```

@@ -1,10 +1,10 @@
-# 客户网站用户授权(创建、修改)
+# 获取客户网站已授权用户信息
 
 ## 接口
 
 
 ```javascript
-PUT /api/v2/partner/user/profile
+GET /api/v2/partner/user/profile?uid=xxx
 ```
 
 ## 授权
@@ -20,21 +20,15 @@ Content-Type: application/json
 
 ## 参数
 
-以下参数需要在 body 中提供
+以下参数需要在 query 中提供
 
 | 参数 | 参数类型 | 参数说明 | 是否必填 |
 | :--- | :--- | :--- | :--- |
-| uid | string | 唯一标识用户的 ID (不论 uid 是数字类型还是字符串类型，都必须转为字符串) | 是 |
-| nickname | string | 用户昵称（最长 45 位） | 是 |
-| avatar | string | 用户头像 | 否 |
-| sex | string | 用户性别(male、female、unknown) | 否 |
-| country | string | 国家(最大 20 位) | 否 |
-| province | string | 省份 (最大 20 位)| 否 |
-| city | string | 城市 (最大 20 位)| 否 |
+| uid | string | 唯一标识用户的 ID (不论 uid 是数字类型还是字符串类型，都必须转为字符串) | 是
 
 ### 请求示例:
 ```http
-curl -H "Content-Type: application/json" -H "Authorization: Bearer <access_token>" -X "PUT" http://shangzhibo.tv/api/v2/partner/user/profile -d $'{"uid":"xxxx","nickname":"xxxxx","sex":"male"}'
+curl -H "Content-Type: application/json" -H "Authorization: Bearer <access_token>" http://shangzhibo.tv/api/v2/partner/user/profile?uid=xxx
 ```
 
 ## 响应 (200)

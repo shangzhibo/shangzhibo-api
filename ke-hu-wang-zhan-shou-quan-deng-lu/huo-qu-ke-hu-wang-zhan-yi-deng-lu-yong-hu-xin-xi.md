@@ -2,7 +2,6 @@
 
 ## 接口
 
-
 ```javascript
 GET /api/v2/partner/user/profile?uid=xxx
 ```
@@ -24,41 +23,42 @@ Content-Type: application/json
 
 | 参数 | 参数类型 | 参数说明 | 是否必填 |
 | :--- | :--- | :--- | :--- |
-| uid | string | 唯一标识用户的 ID (不论 uid 是数字类型还是字符串类型，都必须转为字符串) | 是
+| uid | string | 唯一标识用户的 ID \(不论 uid 是数字类型还是字符串类型，都必须转为字符串\) | 是 |
 
 ### 请求示例:
+
 ```http
 curl -H "Content-Type: application/json" -H "Authorization: Bearer <access_token>" http://shangzhibo.tv/api/v2/partner/user/profile?uid=xxx
 ```
 
-## 响应 (200)
+## 响应 \(200\)
 
 ### 参数
 
-| 参数|类型|参数说明|
-|:---|:---|:---|
-|result| boolean| |
-|user| object|用户信息|
+| 参数 | 类型 | 参数说明 |
+| :--- | :--- | :--- |
+| result | boolean |  |
+| user | object | 用户信息 |
 
 #### user 参数内容:
 
 | 参数 | 参数类型 | 参数说明 |
 | :--- | :--- | :--- |
-| id   | integer | 主键|
+| id | integer | 主键 |
 | uid | string | 唯一标识用户的 ID |
-| nickname | string | 用户昵称（最长 45 位）|
+| nickname | string | 用户昵称（最长 45 位） |
 | avatar | string | 用户头像 |
-| sex | string | 用户性别(male、female、unknown) |
-| country | string | 国家(最大 20 位) |
-| province | string | 省份 (最大 20 位)|
-| city | string | 城市 (最大 20 位)|
-| createdAt| string| 创建时间|
-| updatedAt| string| 最后更新时间 |
-| owner| integer| 其所属的AgentId |
+| sex | string | 用户性别\(male、female、unknown\) |
+| country | string | 国家\(最大 20 位\) |
+| province | string | 省份 \(最大 20 位\) |
+| city | string | 城市 \(最大 20 位\) |
+| createdAt | string | 创建时间 |
+| updatedAt | string | 最后更新时间 |
+| owner | integer | 其所属的AgentId |
 
 ### 响应示例:
 
-```js
+```javascript
 {
   "result":true,
   "user":{
@@ -73,23 +73,27 @@ curl -H "Content-Type: application/json" -H "Authorization: Bearer <access_token
 }
 ```
 
-## 响应(401) 未认证
+## 响应\(401\) 未认证
 
 ### 响应示例
-```js
+
+```javascript
 {
   "name":"Unauthorized",
   "message":"请提供正确有效的 access_token 值",
   "status":401
 }
 ```
-## 响应(403)
+
+## 响应\(403\)
 
 ### 响应示例
-```js
+
+```javascript
 {
   "name":"Forbidden",
   "message":"无权访问该接口",
   "status":403
 }
 ```
+

@@ -47,6 +47,8 @@
   * [获取指定聚合页的活动信息](huo-qu-zhi-ding-ju-he-ye-de-huo-dong-xin-xi/huo-qu-zhi-ding-ju-he-ye-de-huo-dong-xin-xi.md)
   * [获取聚合页列表](huo-qu-zhi-ding-ju-he-ye-de-huo-dong-xin-xi/huo-qu-ju-he-ye-lie-biao.md)
 * [观众账号 API](ke-hu-wang-zhan-shou-quan-deng-lu/README.md)
+  * [客户网站用户授权\(注册\)](ke-hu-wang-zhan-shou-quan-deng-lu/ke-hu-wang-zhan-yong-hu-shou-quan-zhu-ce.md)
+  * [客户网站用户授权\(登录\)](ke-hu-wang-zhan-shou-quan-deng-lu/ke-hu-wang-zhan-yong-hu-shou-quan-deng-lu.md)
   * [客户网站授权登录](ke-hu-wang-zhan-shou-quan-deng-lu/ke-hu-wang-zhan-shou-quan-deng-lu.md)
   * [回传订单数据](ke-hu-wang-zhan-shou-quan-deng-lu/post-callback-pay.md)
   * [获取指定活动的 UID白名单](ke-hu-wang-zhan-shou-quan-deng-lu/huo-dong-huo-qu-uid-bai-ming-dan-she-zhi.md)

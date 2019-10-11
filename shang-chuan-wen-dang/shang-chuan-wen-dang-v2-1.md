@@ -20,7 +20,7 @@ multipart/form-data
 
 {% api-method-parameter name="Authentication" type="string" required=true %}
 Bearer:&lt;access token&gt;  
-获取 accessToken ，请咨询杨经理（18968187008）、彭经理（15167172618）  
+获取 accessToken ，请咨询杨经理（18968187008）、彭经理（15167172618）
 {% endapi-method-parameter %}
 {% endapi-method-headers %}
 {% endapi-method-request %}
@@ -84,22 +84,20 @@ Bearer:&lt;access token&gt;
 {% endapi-method-spec %}
 {% endapi-method %}
 
-### 文件上传示例代码:
+## 文件上传示例代码:
 
 ```markup
 <html>
-	<form name="form" action="https://shangzhibo.tv/api/v2/activity/{id}/doc"  method="POST" enctype ="multipart/form-data">
+    <form name="form" action="https://shangzhibo.tv/api/v2/activity/{id}/doc"  method="POST" enctype ="multipart/form-data">
     <input type="file" name="filename">
     <input type="submit" value="submit">
 </form>
 </html>
 ```
 
-### 请求示例：
+## 请求示例：
 
 ```bash
 curl -H "Authorization: bearer xxxxx" "http://shangzhibo.tv/api/v2/activity/:id/doc" -F file=@raft.pdf
 ```
-
-
 

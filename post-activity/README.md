@@ -64,11 +64,7 @@ Authorization: Bearer <accessToken>
     </tr>
   </thead>
   <tbody></tbody>
-</table>| groupId | integer | 活动分组 Id | 否 |
-| :--- | :--- | :--- | :--- |
-
-
-```javascript
+</table>```javascript
 {
   "name": "创想人工智能峰会-深圳站",
   "startedAt": "2019-07-22T07:18:56.640Z",

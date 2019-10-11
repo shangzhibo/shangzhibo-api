@@ -20,47 +20,32 @@ Authorization: Bearer <accessToken>
 
 ## 参数
 
+| 参数 | 参数类型 | 参数说明 | 是否必填 |
+| :--- | :--- | :--- | :--- |
+
+
+| name | string | 活动名称 | 是 |
+| :--- | :--- | :--- | :--- |
+
+
+| startedAt | datetime | 直播开始时间，格式为 UTC 时间 | 否 |
+| :--- | :--- | :--- | :--- |
+
+
+| endedAt | datetime | 直播结束时间，格式为 UTC 时间 | 否 |
+| :--- | :--- | :--- | :--- |
+
+
+| subagentIds | Array&lt;Integer&gt; | 子账号 Id 集合 | 否 |
+| :--- | :--- | :--- | :--- |
+
+
 <table>
   <thead>
     <tr>
-      <th style="text-align:left">&#x53C2;&#x6570;</th>
-      <th style="text-align:left">&#x53C2;&#x6570;&#x7C7B;&#x578B;</th>
-      <th style="text-align:left">&#x53C2;&#x6570;&#x8BF4;&#x660E;</th>
-      <th style="text-align:left">&#x662F;&#x5426;&#x5FC5;&#x586B;</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left">name</td>
-      <td style="text-align:left">string</td>
-      <td style="text-align:left">&#x6D3B;&#x52A8;&#x540D;&#x79F0;</td>
-      <td style="text-align:left">&#x662F;</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">startedAt</td>
-      <td style="text-align:left">datetime</td>
-      <td style="text-align:left">&#x76F4;&#x64AD;&#x5F00;&#x59CB;&#x65F6;&#x95F4;&#xFF0C;&#x683C;&#x5F0F;&#x4E3A;
-        UTC &#x65F6;&#x95F4;</td>
-      <td style="text-align:left">&#x5426;</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">endedAt</td>
-      <td style="text-align:left">datetime</td>
-      <td style="text-align:left">&#x76F4;&#x64AD;&#x7ED3;&#x675F;&#x65F6;&#x95F4;&#xFF0C;&#x683C;&#x5F0F;&#x4E3A;
-        UTC &#x65F6;&#x95F4;</td>
-      <td style="text-align:left">&#x5426;</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">subagentIds</td>
-      <td style="text-align:left">Array&lt;Integer&gt;</td>
-      <td style="text-align:left">&#x5B50;&#x8D26;&#x53F7; Id &#x96C6;&#x5408;</td>
-      <td style="text-align:left">&#x5426;</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">boost</td>
-      <td style="text-align:left">string</td>
-      <td style="text-align:left">
-        <p></p>
+      <th style="text-align:left">boost</th>
+      <th style="text-align:left">string</th>
+      <th style="text-align:left">
         <ul>
           <li>push-global &#x5168;&#x7403;&#x63A8;&#x6D41;</li>
           <li>push-us &#x7F8E;&#x56FD;&#x63A8;&#x6D41;</li>
@@ -74,18 +59,14 @@ Authorization: Bearer <accessToken>
           <li>pull-sg &#x65B0;&#x52A0;&#x5761;&#x64AD;&#x653E;</li>
         </ul>
         <p>&#x8BE5;&#x53C2;&#x6570;&#x9700;&#x989D;&#x5916;&#x5F00;&#x901A;&#x6D77;&#x5916;&#x8282;&#x70B9;&#x529F;&#x80FD;</p>
-      </td>
-      <td style="text-align:left">&#x5426;</td>
+      </th>
+      <th style="text-align:left">&#x5426;</th>
     </tr>
-    <tr>
-      <td style="text-align:left">groupId</td>
-      <td style="text-align:left">integer</td>
-      <td style="text-align:left">&#x6D3B;&#x52A8;&#x5206;&#x7EC4; Id,&#x9ED8;&#x8BA4;&#x4E3A;-1&#xFF0C;&#x5373;&#x4E0D;&#x6307;&#x5B9A;&#x5206;&#x7EC4;</td>
-      <td
-      style="text-align:left">&#x5426;</td>
-    </tr>
-  </tbody>
-</table>### 请求样例
+  </thead>
+  <tbody></tbody>
+</table>| groupId | integer | 活动分组 Id,默认为-1，即不指定分组 | 否 |
+| :--- | :--- | :--- | :--- |
+
 
 ```javascript
 {
@@ -205,8 +186,6 @@ Authorization: Bearer <accessToken>
 }
 ```
 
-
-
 #### 未开通直播加速功能，当且仅当参数中传递了 `boost`
 
 ```javascript
@@ -240,6 +219,4 @@ Authorization: Bearer <accessToken>
     "message": "Subagent Not Found",
 }
 ```
-
-
 

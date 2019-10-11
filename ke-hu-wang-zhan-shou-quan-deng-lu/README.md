@@ -8,11 +8,11 @@
 
 未登录用户通过客户网站进入直播
 
-![](../.gitbook/assets/jietu20180910-170915%20%281%29.png)
+![](../.gitbook/assets/jietu20180910-170915-1.png)
 
 ### 场景二
 
 未登录用户通过上直播页面进入直播
 
-![](../.gitbook/assets/jietu20180910-170926%20%282%29.png)
+![](../.gitbook/assets/jietu20180910-170926-2.png)
 

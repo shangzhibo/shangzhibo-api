@@ -6,9 +6,7 @@
 {% endapi-method-summary %}
 
 {% api-method-description %}
-如果需要修改观看页显示文档，可将 docId 替换为 **default**  
-  
-eg: http://shangzhibo.tv/api/v2/activity/:id/doc/default
+如果需要修改观看页显示文档，可将 docId 替换为 **default**eg: http://shangzhibo.tv/api/v2/activity/:id/doc/default
 {% endapi-method-description %}
 
 {% api-method-spec %}

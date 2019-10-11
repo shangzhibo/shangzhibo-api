@@ -96,7 +96,8 @@ curl -H "Content-Type: application/json" -H "Authorization: Bearer <access_token
   "status":403
 }
 ```
-## 响应(404)
+
+## 响应\(404\)
 
 ### 响应示例
 
@@ -107,3 +108,4 @@ curl -H "Content-Type: application/json" -H "Authorization: Bearer <access_token
   "status":404
 }
 ```
+

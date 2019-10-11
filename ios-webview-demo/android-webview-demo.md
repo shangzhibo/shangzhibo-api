@@ -22,5 +22,5 @@
 
 3、点击“进入”按钮，则可体验 WebView 嵌入后的效果，如下图所示：
 
-![](../.gitbook/assets/androidx5webview.png)
+![](../.gitbook/assets/androidx5webview%20%281%29.png)
 

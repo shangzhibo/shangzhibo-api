@@ -14,6 +14,8 @@
   * [添加自定义悬浮菜单](post-activity/tian-jia-zi-ding-yi-xuan-fu-cai-dan.md)
   * [获取指定活动付费观看记录](post-activity/huo-qu-zhi-ding-huo-dong-fu-fei-guan-kan-ji-lu.md)
   * [修改授权](post-activity/put-activity-id-auth.md)
+  * [获取自定义菜单配置](post-activity/huo-qu-zi-ding-yi-cai-dan-pei-zhi.md)
+  * [修改自定义菜单配置](post-activity/xiu-gai-zi-ding-yi-cai-dan-pei-zhi.md)
 * [评论 API](get-comment-history/README.md)
   * [给指定活动发送评论（观众）](get-comment-history/send-comment.md)
   * [获取指定活动历史评论信息](get-comment-history/get-comment-history.md)

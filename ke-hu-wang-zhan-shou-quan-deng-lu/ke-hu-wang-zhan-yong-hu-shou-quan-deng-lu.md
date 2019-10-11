@@ -32,6 +32,32 @@ Content-Type: application/json
 curl -H "Content-Type: application/json" -H "Authorization: Bearer <access_token>" -X "POST" http://shangzhibo.tv/api/v2/partner/user/login -d $'{"uid":"xxxx","cookieId":"xxxxx"}'
 ```
 
+## 用户数据标识同步完成后，需要开发者将 cookieId（假设为 123456789） 传递到上直播在进行访问
+### 标识已同步用户请求示例
+
+```http
+curl -H "Content-Type: application/json" -b 'par.shangzhibo.sid=123456789' "http://<自定义域名>/watch/:id"
+```
+### 特殊情况说明
+
+APP 环境或者未定制上直播播放域名的客户可能无法使用 cookie（`par.shangzhibo.sid`） 方式，此时可以将访客唯一标识通过播放页 URL 后加参数带过来。
+
+`http://<自定义域名>/watch/{activityId}?parSid=xxxxx`
+
+并将 parSid 仍通过本接口 cookieId 字段传给上直播。
+
+如果参数里面含有特殊字符（如：`+` 、`/` 等在 URL具有含义的字符） 需要对参数进行 URI encode。
+
+```javascript
+let parSid = 'rcTDGfQv7p8P+g//DZ0wFQ=='
+parSid = encodeURIComponent(parSid)
+// parSid === 'rcTDGfQv7p8P%2Bg%2F%2FDZ0wFQ%3D%3D'
+```
+
+```http
+curl -H "Content-Type: application/json" "http://<自定义域名>/watch/:id?parSid=123456789"
+```
+
 ## 响应 \(200\)
 
 ### 参数

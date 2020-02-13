@@ -18,9 +18,9 @@
 
 1、打开 APP X5 功能演示
 
-2、输入上直播观看页地址，如：[http://shangzhibo.tv/watch/7736877](http://shangzhibo.tv/watch/7736877)
+2、输入上直播观看页地址，如：[https://shangzhibo.tv/watch/9121696](https://shangzhibo.tv/watch/9121696)
 
 3、点击“进入”按钮，则可体验 WebView 嵌入后的效果，如下图所示：
 
-![](../.gitbook/assets/androidx5webview%20%281%29.png)
+![](../.gitbook/assets/androidx5webview-1.png)
 

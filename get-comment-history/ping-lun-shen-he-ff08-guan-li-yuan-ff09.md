@@ -1,11 +1,11 @@
-# 评论审核（管理员）
+# 评论审核
 
 ## 接口
 
 评论审核
 
 ```javascript
-PUT /api/activity/{id}/comment
+PUT /api/activity/:id/comment
 ```
 
 ## 授权

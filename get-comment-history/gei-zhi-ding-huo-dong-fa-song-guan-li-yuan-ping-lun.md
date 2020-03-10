@@ -1,11 +1,11 @@
-# 给指定活动发送评论（管理员）
+# 给指定活动发送评论
 
 ## 接口
 
 发送评论
 
 ```javascript
-POST /api/activity/{id}/comment
+POST /api/activity/:id/comment
 ```
 
 ## 授权

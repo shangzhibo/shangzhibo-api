@@ -1,14 +1,20 @@
-# 给指定活动发送评论（观众）
+# 观众发送评论
 
 ## 接口
 
 发送评论
 
 ```javascript
-POST /api/user/activity/{id}/comment
+POST /api/user/activity/:id/comment
 ```
 
 ## 授权
+如果账号做了 [网站授权登录](https://app.gitbook.com/@shangzhibo/s/api/~/edit/drafts/-LhDpo84CH5FFsDi5T1z/ke-hu-wang-zhan-shou-quan-deng-lu/ke-hu-wang-zhan-shou-quan-deng-lu) 定制，需要授权登录完成后在发送评论时标明用户身份，否则将使用匿名身份发送评论。
+
+标明身份的方式有两种：
+
+* 为每个访客在 cookie 中生成的唯一标识（par.shangzhibo.sid）
+* 无法使用 cookie（par.shangzhibo.sid） 时，可以将访客唯一标识通过 URL 后加参数带过来。`http://{定制域名}/api/user/activity/:activityId?parSid=xxxxx`
 
 无需授权
 
@@ -22,20 +28,9 @@ POST /api/user/activity/{id}/comment
 
 ```javascript
 {
-  "content": "stringValue",
+  "content": "hello world",
 }
 ```
-
-**特别说明：**
-
-非 [网站授权登录](https://app.gitbook.com/@shangzhibo/s/api/~/edit/drafts/-LhDpo84CH5FFsDi5T1z/ke-hu-wang-zhan-shou-quan-deng-lu/ke-hu-wang-zhan-shou-quan-deng-lu) 账号，目前暂不支持设置观众身份信息（头像、昵称等）
-
-如果账号做了 [网站授权登录](https://app.gitbook.com/@shangzhibo/s/api/~/edit/drafts/-LhDpo84CH5FFsDi5T1z/ke-hu-wang-zhan-shou-quan-deng-lu/ke-hu-wang-zhan-shou-quan-deng-lu) 定制，需要授权登录完成后在发送评论时标明用户身份，否则将使用匿名身份发送评论。
-
-标明身份的方式有两种：
-
-* 为每个访客在 cookie 中生成的唯一标识（par.shangzhibo.sid）
-* 无法使用 cookie（par.shangzhibo.sid） 时，可以将访客唯一标识通过 URL 后加参数带过来。`http://{定制域名}/api/user/activity/{activityId}?parSid=xxxxx`
 
 ## 响应
 

@@ -1,11 +1,11 @@
-# 评论清空（管理员）
+# 评论清空
 
 ## 接口
 
 评论清空
 
 ```javascript
-DELETE /api/activity/{id}/comment
+DELETE /api/activity/:id/comment
 ```
 
 ## 授权

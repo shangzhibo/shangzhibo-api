@@ -5,7 +5,7 @@
 获取历史评论
 
 ```javascript
-GET /api/user/activity/{id}/comment
+GET /api/user/activity/:id/comment
 ```
 
 ## 授权
@@ -23,7 +23,7 @@ GET /api/user/activity/{id}/comment
 ### 请求样例
 
 ```javascript
-/api/user/activity/8930091/comment?page=42&limit=42&sort=stringValue
+/api/user/activity/8930091/comment?page=42&limit=42&sort=id\ DESC
 ```
 
 ## 响应
@@ -33,7 +33,7 @@ GET /api/user/activity/{id}/comment
 | total | integer | 总数 |
 | limit | integer | 每页数量 |
 | page | integer | 页码 |
-| data | array of object | 数据 |
+| data | array<object> | 数据 |
 
 ### data
 

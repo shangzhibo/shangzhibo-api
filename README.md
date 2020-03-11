@@ -1,12 +1,12 @@
 # API 简介
 
-## 简介  <a id="&#x7B80;&#x4ECB;"></a>
+## 简介 <a id="&#x7B80;&#x4ECB;"></a>
 
 上直播 API 提供基础的功能接口，满足您的二次开发需求。
 
 上直播 API 需要使用 accessToken 发起 API 请求。
 
-## 主要功能  <a id="&#x7B80;&#x4ECB;"></a>
+## 主要功能 <a id="&#x7B80;&#x4ECB;"></a>
 
 | 功能名称 | 详细内容 |
 | :--- | :--- |
@@ -16,9 +16,9 @@
 | 观众账号 API | 用于实现通过客户用户信息登录上直播进行观看及付费，使两边用户数据同步 |
 | 播放页 API | 支持获取指定活动的 iframe 嵌入代码，并支持通过嵌入代码提供直播信息的上报 |
 
-## API 接入步骤  <a id="api&#x4F7F;&#x7528;&#x6B65;&#x9AA4;"></a>
+## API 接入步骤 <a id="api&#x4F7F;&#x7528;&#x6B65;&#x9AA4;"></a>
 
-![](.gitbook/assets/qq20180207-165606%20%281%29.png)
+![](.gitbook/assets/qq20180207-165606-1.png)
 
 API 的接入分为三步：
 
@@ -36,7 +36,7 @@ Authorization: Bearer <accessToken>
 
 如果请求头没有带上 accessToken，上直播 API 的安全机制将会视其为未授权访问操作，并将其拦截。
 
-## API 域名  <a id="api&#x57DF;&#x540D;"></a>
+## API 域名 <a id="api&#x57DF;&#x540D;"></a>
 
 API 请求域名统一为: `http://shangzhibo.tv 同时也支持 https`
 

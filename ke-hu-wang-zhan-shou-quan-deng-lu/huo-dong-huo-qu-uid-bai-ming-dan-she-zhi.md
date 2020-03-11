@@ -46,11 +46,7 @@ Content-Type: application/json
     </tr>
   </thead>
   <tbody></tbody>
-</table>| isWhiteListEnabled | Boolean | true 表示功能已开启；false 表示功能已关闭 |
-| :--- | :--- | :--- |
-
-
-```javascript
+</table>```javascript
 {
   "allowedPartnerUidList": ["1234","32434"],
   "isWhiteListEnabled": false,

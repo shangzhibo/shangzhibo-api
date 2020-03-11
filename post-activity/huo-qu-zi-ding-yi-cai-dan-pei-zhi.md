@@ -47,14 +47,15 @@ curl -H "Content-Type: application/json" -H "Authorization: Bearer <access_token
 | topGift | boolean | 是否打开礼物打赏排行榜开关 |
 | topShare | boolean | 是否打开分享榜单排行榜开关 |
 
-##### productList 参数内容
-|参数|参数类型|参数说明|
-|:---|:---|:---|
-|name| string|商品名称|
-|image| string| 商品图片链接|
-|price|number| 商品价格|
-|button|string|按钮文案|
-|link|string|商品链接地址|
+**productList 参数内容**
+
+| 参数 | 参数类型 | 参数说明 |
+| :--- | :--- | :--- |
+| name | string | 商品名称 |
+| image | string | 商品图片链接 |
+| price | number | 商品价格 |
+| button | string | 按钮文案 |
+| link | string | 商品链接地址 |
 
 ### 响应示例1:
 
@@ -75,6 +76,7 @@ curl -H "Content-Type: application/json" -H "Authorization: Bearer <access_token
 ```
 
 ### 响应示例 2:
+
 ```javascript
 {
     "result":true,
@@ -102,6 +104,4 @@ curl -H "Content-Type: application/json" -H "Authorization: Bearer <access_token
     ]
 }
 ```
-
-
 

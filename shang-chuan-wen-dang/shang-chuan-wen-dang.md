@@ -1,10 +1,14 @@
 ---
 description: 该接口已废弃
-
-废弃原因: 该接口是同步接口，经常会出现接口超时而拿不到转码数据的问题。建议使用新的[异步接口](shang-chuan-wen-dang/shang-chuan-wen-dang-v2-1.md)
+废弃原因: >-
+  该接口是同步接口，经常会出现接口超时而拿不到转码数据的问题。建议使用新的[异步接口](shang-chuan-wen-dang/shang-chuan-wen-dang-v2-1.md)
 ---
 
 # 上传文档 V1
+
+## 废弃原因: 
+
+#### 该接口是同步接口，经常会出现接口超时而拿不到转码数据的问题。建议使用新的[异步接口](https://document.shangzhibo.tv/api/shang-chuan-wen-dang/shang-chuan-wen-dang-v2-1)
 
 ## 接口
 

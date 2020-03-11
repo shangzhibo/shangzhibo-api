@@ -52,11 +52,7 @@ Content-Type: application/json
     </tr>
   </thead>
   <tbody></tbody>
-</table>| page | integer | 否 | 页码 |
-| :--- | :--- | :--- | :--- |
-
-
-| pageSize | integer | 否 | 每页几条 |
+</table>| pageSize | integer | 否 | 每页几条 |
 | :--- | :--- | :--- | :--- |
 
 

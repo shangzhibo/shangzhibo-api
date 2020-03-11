@@ -42,11 +42,7 @@ Content-Type: application/json
     </tr>
   </thead>
   <tbody></tbody>
-</table>| isWhiteListEnabled | Boolean | true 表示功能开启，false 表示功能关闭 |
-| :--- | :--- | :--- |
-
-
-### 响应样例 200
+</table>### 响应样例 200
 
 ```javascript
 {

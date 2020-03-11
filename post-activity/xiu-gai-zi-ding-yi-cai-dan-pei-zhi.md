@@ -19,31 +19,32 @@ Content-Type: application/json
 
 注：请将上方的 `<accessToken>` 替换为分配给您的秘钥串。关于如何获取 accessToken ，请咨询杨经理（18968187008）、彭经理（15167172618）。
 
-
 ## 请求
+
 以下内容在 body 中提供
 
 #### menu 参数内容:
 
-| 参数 | 参数类型 | 参数说明 | 是否必要|
-| :--- | :--- | :--- | :---|
-| title | string | 标题 | 是|
-| url | string | 图片内容 对应的图片 url |否|
-| productList | array | 商品列表 | 否|
-| richText | string | 图文内容对应的富文本 | 否|
-| hyperLink | string | 菜单跳转对应的 url | 否|
+| 参数 | 参数类型 | 参数说明 | 是否必要 |
+| :--- | :--- | :--- | :--- |
+| title | string | 标题 | 是 |
+| url | string | 图片内容 对应的图片 url | 否 |
+| productList | array | 商品列表 | 否 |
+| richText | string | 图文内容对应的富文本 | 否 |
+| hyperLink | string | 菜单跳转对应的 url | 否 |
 | chatRoom | boolean | 聊天室状态 | 是且必须为 true |
 | topGift | boolean | 是否打开礼物打赏排行榜开关 | 否 |
 | topShare | boolean | 是否打开分享榜单排行榜开关 | 否 |
 
-##### productList 参数内容
-|参数|参数类型|参数说明| 是否必要|
-|:---|:---|:---|:---|
-|name| string|商品名称|是
-|image| string| 商品图片链接| 是|
-|price|number| 商品价格| 是|
-|button|string|按钮文案| 是|
-|link|string|商品链接地址| 是|
+**productList 参数内容**
+
+| 参数 | 参数类型 | 参数说明 | 是否必要 |
+| :--- | :--- | :--- | :--- |
+| name | string | 商品名称 | 是 |
+| image | string | 商品图片链接 | 是 |
+| price | number | 商品价格 | 是 |
+| button | string | 按钮文案 | 是 |
+| link | string | 商品链接地址 | 是 |
 
 ### 请求示例:
 
@@ -73,14 +74,15 @@ curl -H "Content-Type: application/json" -H "Authorization: Bearer <access_token
 | topGift | boolean | 是否打开礼物打赏排行榜开关 |
 | topShare | boolean | 是否打开分享榜单排行榜开关 |
 
-##### productList 参数内容
-|参数|参数类型|参数说明|
-|:---|:---|:---|
-|name| string|商品名称|
-|image| string| 商品图片链接|
-|price|number| 商品价格|
-|button|string|按钮文案|
-|link|string|商品链接地址|
+**productList 参数内容**
+
+| 参数 | 参数类型 | 参数说明 |
+| :--- | :--- | :--- |
+| name | string | 商品名称 |
+| image | string | 商品图片链接 |
+| price | number | 商品价格 |
+| button | string | 按钮文案 |
+| link | string | 商品链接地址 |
 
 ### 响应示例1:
 
@@ -101,6 +103,7 @@ curl -H "Content-Type: application/json" -H "Authorization: Bearer <access_token
 ```
 
 ### 响应示例 2:
+
 ```javascript
 {
     "result":true,
@@ -129,9 +132,10 @@ curl -H "Content-Type: application/json" -H "Authorization: Bearer <access_token
 }
 ```
 
-## 响应(401)
+## 响应\(401\)
 
 body 参数不能为空
+
 ```javascript
 {
     "name":"BadRequest",
@@ -140,9 +144,10 @@ body 参数不能为空
 }
 ```
 
-### 响应(403)
+### 响应\(403\)
 
 chatRoom 选项不能为 false
+
 ```javascript
 {
     "name":"Forbidden",
@@ -150,3 +155,4 @@ chatRoom 选项不能为 false
     "status":403
 }
 ```
+

@@ -33,11 +33,13 @@ curl -H "Content-Type: application/json" -H "Authorization: Bearer <access_token
 ```
 
 ## 用户数据标识同步完成后，需要开发者将 cookieId（假设为 123456789） 传递到上直播在进行访问
+
 ### 标识已同步用户请求示例
 
 ```http
 curl -H "Content-Type: application/json" -b 'par.shangzhibo.sid=123456789' "http://<自定义域名>/watch/:id"
 ```
+
 ### 特殊情况说明
 
 APP 环境或者未定制上直播播放域名的客户可能无法使用 cookie（`par.shangzhibo.sid`） 方式，此时可以将访客唯一标识通过播放页 URL 后加参数带过来。

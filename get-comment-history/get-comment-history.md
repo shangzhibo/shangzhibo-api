@@ -33,7 +33,7 @@ GET /api/user/activity/:id/comment
 | total | integer | 总数 |
 | limit | integer | 每页数量 |
 | page | integer | 页码 |
-| data | array<object> | 数据 |
+| data | array | 数据 |
 
 ### data
 

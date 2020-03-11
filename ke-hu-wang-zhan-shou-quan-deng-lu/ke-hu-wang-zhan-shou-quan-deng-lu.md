@@ -18,7 +18,7 @@ description: 该接口已经废弃
 
 未登录用户通过上直播页面进入直播
 
-![](../.gitbook/assets/jietu20180910-170926-2.png)
+![](../.gitbook/assets/jietu20180910-170926-2%20%281%29.png)
 
 ## 接口
 

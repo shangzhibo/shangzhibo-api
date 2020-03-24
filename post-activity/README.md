@@ -40,6 +40,10 @@ Authorization: Bearer <accessToken>
 | :--- | :--- | :--- | :--- |
 
 
+| transcodeEnabled | Boolean | 是否开启画质控制(需要开启直播转码功能) |  否 |
+| :--- | :--- | :--- | :--- |
+
+
 <table>
   <thead>
     <tr>

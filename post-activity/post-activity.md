@@ -2,7 +2,7 @@
 
 ## 接口
 
-创建活动
+创建活动 
 
 ```typescript
 POST /api/activity
@@ -40,7 +40,7 @@ Authorization: Bearer <accessToken>
 | :--- | :--- | :--- | :--- |
 
 
-| transcodeEnabled | Boolean | 是否开启画质控制(需要开启直播转码功能) |  否 |
+| transcodeEnabled | Boolean | 是否开启画质控制\(需要开启直播转码功能\) | 否 |
 | :--- | :--- | :--- | :--- |
 
 
@@ -68,15 +68,7 @@ Authorization: Bearer <accessToken>
     </tr>
   </thead>
   <tbody></tbody>
-</table>```javascript
-{
-  "name": "创想人工智能峰会-深圳站",
-  "startedAt": "2019-07-22T07:18:56.640Z",
-  "endedAt": "2019-08-22T07:18:56.640Z",
-  "subagentIds": [1,2]
-}
-```
-
+</table>```text
 ## 响应200
 
 | 参数 | 参数类型 | 参数说明 |
@@ -166,7 +158,7 @@ Authorization: Bearer <accessToken>
 
 ## 响应400
 
-#### `startedAt`、`endedAt` 值不是合法的时间格式
+### `startedAt`、`endedAt` 值不是合法的时间格式
 
 ```javascript
 {
@@ -176,7 +168,7 @@ Authorization: Bearer <accessToken>
 }
 ```
 
-#### 活动名称已经存在
+### 活动名称已经存在
 
 ```javascript
 {
@@ -186,7 +178,7 @@ Authorization: Bearer <accessToken>
 }
 ```
 
-#### 未开通直播加速功能，当且仅当参数中传递了 `boost`
+### 未开通直播加速功能，当且仅当参数中传递了 `boost`
 
 ```javascript
 {
@@ -198,7 +190,7 @@ Authorization: Bearer <accessToken>
 
 ## 响应401
 
-#### 没有创建子账号的权限, 当且仅当在传递参数时加入了 subagentIds 参数
+### 没有创建子账号的权限, 当且仅当在传递参数时加入了 subagentIds 参数
 
 ```javascript
 {
@@ -210,7 +202,7 @@ Authorization: Bearer <accessToken>
 
 ## 响应404
 
-#### subagentIds 中的子账号 Id 不存在时
+### subagentIds 中的子账号 Id 不存在时
 
 ```javascript
 {

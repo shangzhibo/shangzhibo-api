@@ -40,7 +40,7 @@ Authorization: Bearer <accessToken>
 | :--- | :--- | :--- | :--- |
 
 
-| transcodeEnabled | Boolean | 是否开启画质控制(需要开启直播转码功能) |  否 |
+| transcodeEnabled | Boolean | 是否开启画质控制\(需要开启直播转码功能\) | 否 |
 | :--- | :--- | :--- | :--- |
 
 
@@ -68,8 +68,7 @@ Authorization: Bearer <accessToken>
     </tr>
   </thead>
   <tbody></tbody>
-</table>```text
-## 响应200
+</table>## 响应200
 
 | 参数 | 参数类型 | 参数说明 |
 | :--- | :--- | :--- |

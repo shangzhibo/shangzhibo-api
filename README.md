@@ -18,7 +18,7 @@
 
 ## API 接入步骤 <a id="api&#x4F7F;&#x7528;&#x6B65;&#x9AA4;"></a>
 
-![](.gitbook/assets/qq20180207-165606-1.png)
+![](.gitbook/assets/qq20180207-165606%20%281%29.png)
 
 API 的接入分为三步：
 

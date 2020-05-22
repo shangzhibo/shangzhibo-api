@@ -65,4 +65,13 @@
 * [APP WebView 嵌入直播页 Demo](ios-webview-demo/README.md)
   * [iOS WebView Demo](ios-webview-demo/ios-webview-demo.md)
   * [Android WebView Demo](ios-webview-demo/android-webview-demo.md)
+* [观看券](watchcode/README.md)
+  * [获取指定活动观看券配置](watchcode/get-watchcode-config.md)
+  * [修改指定活动观看券配置](watchcode/xiu-gai-zhi-ding-huo-dong-guan-kan-quan-pei-zhi.md)
+  * [获取当前活动未使用观看券列表](watchcode/huo-qu-dang-qian-huo-dong-wei-shi-yong-guan-kan-quan-lie-biao.md)
+  * [绑定或解绑指定的观看券](watchcode/bang-ding-huo-jie-bang-zhi-ding-de-guan-kan-quan.md)
+  * [批量生成观看券](watchcode/pi-liang-sheng-cheng-guan-kan-quan.md)
+  * [批量生成并下载观看券](watchcode/pi-liang-sheng-cheng-bing-xia-zai-guan-kan-quan.md)
+  * [获取观看券绑定记录](watchcode/huo-qu-guan-kan-quan-bang-ding-ji-lu.md)
+  * [下载观看券绑定记录](watchcode/xia-zai-guan-kan-quan-bang-ding-ji-lu.md)
 

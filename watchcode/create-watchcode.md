@@ -1,9 +1,9 @@
-# 下载观看券绑定记录
+# 生成一条观看券
 
 ## 接口
 
 ```http
-GET /activity/:id/watchcode/bindings/download
+POST /api/activity/:id/watchcode
 ```
 
 ## 授权
@@ -24,17 +24,29 @@ Content-Type: application/json
 ### 请求样例
 
 ```http
-GET /api/activity/8728620/watchcode/bindings/download
+POST /api/activity/8728620/watchcode
 ```
 
 ### curl 请求示例
 
 ```bash
-curl 'shangzhibo.tv/api/activity/8728620/watchcode/bindings/download' \
+curl 'shangzhibo.tv/api/activity/8728620/watchcode' \
+  -X 'POST' \
   -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36' \
+  -H 'Content-Type: application/json'
   -H 'Authorization: Bearer <access_token>'
 ```
 
 ### 响应
 
-观看券绑定记录文件
+| 参数 | 参数类型 | 参数说明  |
+| ---- | -------- | --------- |
+| code | string   | 观看券 id |
+
+### 响应样例
+
+```javascript
+{
+	"code":"5BxdEHoh6"
+}
+```

@@ -74,4 +74,5 @@
   * [批量生成并下载观看券](watchcode/pi-liang-sheng-cheng-bing-xia-zai-guan-kan-quan.md)
   * [获取观看券绑定记录](watchcode/huo-qu-guan-kan-quan-bang-ding-ji-lu.md)
   * [下载观看券绑定记录](watchcode/xia-zai-guan-kan-quan-bang-ding-ji-lu.md)
+* [拉流、转推](la-liu-zhuan-tui.md)
 

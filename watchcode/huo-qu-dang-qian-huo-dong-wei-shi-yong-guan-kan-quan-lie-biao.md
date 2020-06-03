@@ -19,10 +19,10 @@ Content-Type: application/json
 
 ## 参数
 
-| 参数     | 参数类型 | 参数说明            | 是否必填 |
-| -------- | -------- | ------------------- | -------- |
-| page     | integer  | 页码, 默认为 1      | 否       |
-| pageSize | integer  | 每页条数, 默认为 10 | 否       |
+| 参数 | 参数类型 | 参数说明 | 是否必填 |
+| :--- | :--- | :--- | :--- |
+| page | integer | 页码, 默认为 1 | 否 |
+| pageSize | integer | 每页条数, 默认为 10 | 否 |
 
 ### 请求样例
 
@@ -40,14 +40,14 @@ curl 'shangzhibo.tv/api/activity/8728620/watchcode?page=1&pageSize=10' \
 
 ### 响应
 
-| 参数      | 类型    | 描述               | 示例                     |
-| :-------- | :------ | :----------------- | :----------------------- |
-| page      | integer | 页码               | 2                        |
-| pageSize  | integer | 每页条数           | 10                       |
-| total     | integer | 总条数             | 100                      |
-| isUsed    | boolean | 该观看券是否被使用 | false                    |
-| code      | string  | 观看券 code        | 45Y19rwHy                |
-| createdAt | string  | 观看券生成时间     | 2020-05-22T15:24:27.000Z |
+| 参数 | 类型 | 描述 | 示例 |
+| :--- | :--- | :--- | :--- |
+| page | integer | 页码 | 2 |
+| pageSize | integer | 每页条数 | 10 |
+| total | integer | 总条数 | 100 |
+| isUsed | boolean | 该观看券是否被使用 | false |
+| code | string | 观看券 code | 45Y19rwHy |
+| createdAt | string | 观看券生成时间 | 2020-05-22T15:24:27.000Z |
 
 ### 响应样例
 
@@ -73,3 +73,4 @@ curl 'shangzhibo.tv/api/activity/8728620/watchcode?page=1&pageSize=10' \
         }]
 }
 ```
+

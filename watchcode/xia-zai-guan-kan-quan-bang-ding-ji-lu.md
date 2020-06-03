@@ -38,3 +38,4 @@ curl 'shangzhibo.tv/api/activity/8728620/watchcode/bindings/download' \
 ### 响应
 
 观看券绑定记录文件
+

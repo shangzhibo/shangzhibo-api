@@ -68,7 +68,9 @@ Authorization: Bearer <accessToken>
     </tr>
   </thead>
   <tbody></tbody>
-</table>```text
+</table>
+
+```text
 ## 响应200
 
 | 参数 | 参数类型 | 参数说明 |

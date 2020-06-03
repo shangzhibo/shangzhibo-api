@@ -19,11 +19,11 @@ Content-Type: application/json
 
 ## 参数
 
-| 参数   | 参数类型     | 参数说明                              | 是否必填 |
-| ------ | ------------ | ------------------------------------- | -------- |
-| code   | string       | 授权观看的方式                        | 是       |
-| type   | enum<string> | bind 绑定; unbind 解绑; 默认为 unbind | 否       |
-| userId | integer      | 观看券对应的用户                      | 是       |
+| 参数 | 参数类型 | 参数说明 | 是否必填 |
+| :--- | :--- | :--- | :--- |
+| code | string | 授权观看的方式 | 是 |
+| type | enum | bind 绑定; unbind 解绑; 默认为 unbind | 否 |
+| userId | integer | 观看券对应的用户 | 是 |
 
 ### 请求样例
 
@@ -31,9 +31,9 @@ Content-Type: application/json
 PUT /api/activity/8728620/watchcode
 
 {
-	"code":"sz_FOz6YT",
-	"userId":2184958,
-	"type":"unbind"
+    "code":"sz_FOz6YT",
+    "userId":2184958,
+    "type":"unbind"
 }
 ```
 
@@ -55,3 +55,4 @@ curl 'shangzhibo.tv/api/activity/8728620/watchcode' \
   "result":true
 }
 ```
+

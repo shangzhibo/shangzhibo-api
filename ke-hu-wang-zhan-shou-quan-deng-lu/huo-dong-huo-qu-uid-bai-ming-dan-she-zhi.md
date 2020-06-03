@@ -46,7 +46,9 @@ Content-Type: application/json
     </tr>
   </thead>
   <tbody></tbody>
-</table>```javascript
+</table>
+
+```javascript
 {
   "allowedPartnerUidList": ["1234","32434"],
   "isWhiteListEnabled": false,

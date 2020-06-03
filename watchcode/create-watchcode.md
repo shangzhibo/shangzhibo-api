@@ -1,4 +1,4 @@
-# 生成一条观看券
+# 生成单个观看券
 
 ## 接口
 
@@ -39,14 +39,15 @@ curl 'shangzhibo.tv/api/activity/8728620/watchcode' \
 
 ### 响应
 
-| 参数 | 参数类型 | 参数说明  |
-| ---- | -------- | --------- |
-| code | string   | 观看券 id |
+| 参数 | 参数类型 | 参数说明 |
+| :--- | :--- | :--- |
+| code | string | 观看券 id |
 
 ### 响应样例
 
 ```javascript
 {
-	"code":"5BxdEHoh6"
+    "code":"5BxdEHoh6"
 }
 ```
+

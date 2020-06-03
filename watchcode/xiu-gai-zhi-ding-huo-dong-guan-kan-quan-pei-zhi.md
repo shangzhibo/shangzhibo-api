@@ -19,11 +19,10 @@ Content-Type: application/json
 
 ## 参数
 
-| 参数               | 参数类型 | 参数说明                         | 是否必填 |
-| ------------------ | -------- | -------------------------------- | -------- |
-| isWatchcodeEnabled | boolean  | 观看券观看功能开关               | 是       |
-| watchcodeTimeout   | integer  | 过期时间, 单位秒; 0 表示永久有效 | 是       |
-
+| 参数 | 参数类型 | 参数说明 | 是否必填 |
+| :--- | :--- | :--- | :--- |
+| isWatchcodeEnabled | boolean | 观看券观看功能开关 | 是 |
+| watchcodeTimeout | integer | 过期时间, 单位秒; 0 表示永久有效 | 是 |
 
 ### 请求样例
 
@@ -48,11 +47,11 @@ curl 'shangzhibo.tv/api/v3/activity/8728620/watchcode/config' \
 ```
 
 ### 响应
-| 参数               | 参数类型 | 参数说明                         |
-| ------------------ | -------- | -------------------------------- |
-| isWatchcodeEnabled | boolean  | 观看券观看功能开关               |
-| watchcodeTimeout   | integer  | 过期时间, 单位秒; 0 表示永久有效 |
 
+| 参数 | 参数类型 | 参数说明 |
+| :--- | :--- | :--- |
+| isWatchcodeEnabled | boolean | 观看券观看功能开关 |
+| watchcodeTimeout | integer | 过期时间, 单位秒; 0 表示永久有效 |
 
 ### 响应样例
 
@@ -62,3 +61,4 @@ curl 'shangzhibo.tv/api/v3/activity/8728620/watchcode/config' \
   "watchcodeTimeout": 1036800
 }
 ```
+

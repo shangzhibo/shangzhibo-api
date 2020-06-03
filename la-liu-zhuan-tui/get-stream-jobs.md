@@ -10,11 +10,12 @@ GET /api/v3/activity/:id/stream-jobs
 
 ## 获取拉流容器列表【推荐】
 
+[快捷方式](https://document.shangzhibo.tv/api/la-liu-zhuan-tui/get-pull-stream-jobs)
 
 
 ## 获取推流容器列表【推荐】
 
-
+[快捷方式](https://app.gitbook.com/@shangzhibo/s/api/la-liu-zhuan-tui/get-push-stream-jobs)
 
 ## 授权
 

@@ -29,7 +29,10 @@ Content-Type: application/json
 ### 请求样例
 
 ```javascript
-curl -X POST -H 'authorization: bearer <accessToken>' shangzhibo.tv/api/v3/activity/8930091/stream-jobs/pull -d address=rtmp://push.shangzhibo.tv/onelive/test -d party=shangzhibo
+curl -X POST -H 'authorization: bearer <accessToken>' \
+   shangzhibo.tv/api/v3/activity/8930091/stream-jobs/pull \ 
+   -d address=rtmp://push.shangzhibo.tv/onelive/test \
+   -d party=shangzhibo
 ```
 
 ## 响应

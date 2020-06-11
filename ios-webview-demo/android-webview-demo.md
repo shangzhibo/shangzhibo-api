@@ -10,7 +10,7 @@
 
 ## 方式2：安装 APK 体验（X5 功能演示）
 
-点击下载：[`Android_x5webdemo-release.apk`](http://shangzhibo-img.b0.upaiyun.com/DEMO/Android_x5webdemo-release.apk)
+点击下载：[`Android_x5webdemo-release.apk`](https://doc.shangzhibo.tv/DEMO/Android_x5webdemo-release.apk)
 
 ### 使用说明
 

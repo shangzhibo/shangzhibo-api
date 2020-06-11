@@ -2,7 +2,7 @@
 
 ## 方式1：下载 Demo
 
-### 点击下载：[`Andriod_x5demo`](https://doc.shangzhibo.tv/DEMO/Andriod_x5demo.rar)
+### 点击下载：[`Andriod_x5demo`](https://doc.shangzhibo.tv/DEMO/Andriod_x5demo.zip)
 
 ### 使用说明
 

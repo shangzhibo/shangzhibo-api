@@ -74,7 +74,6 @@ Content-Type: application/json
             "stream": "Hkb3WOE2BM",
             "isPrologueEnabled": true,
             "isEpilogueEnabled": true,
-            "isBackupRecordEnabled": false,
             "isLiveEnabled": true,
             "fake": {
                 "baseCount": 0,

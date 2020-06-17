@@ -91,7 +91,6 @@ Authorization: Bearer <accessToken>
 | stream | string | 流名称 |
 | progress | string | 活动进程参数，未开始 NotStart, 直播中 \(OnGoing\), 已结束 \(Finished\) |
 | isPrologueEnabled | boolean | 是否启用预设视频 |
-| isBackupRecordEnabled | boolean | 是否启用备用录播视频 |
 | isLiveEnabled | boolean | 是否开启播放页直播 |
 | isFakeEnabled | boolean | 是否启用人数放大 |
 | fake.baseCount | integer | 观看人数放大——基础人数 |
@@ -132,7 +131,6 @@ Authorization: Bearer <accessToken>
     "progress":"OnGoing",
     "isPrologueEnabled": true,
     "isEpilogueEnabled": true,
-    "isBackupRecordEnabled": false,
     "isLiveEnabled": true,
     "fake": {
         "baseCount": 0,

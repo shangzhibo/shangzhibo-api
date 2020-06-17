@@ -51,7 +51,6 @@ Content-Type: application/json
 | progress | string | 活动进程参数，未开始 NotStart, 直播中 \(OnGoing\), 已结束 \(Finished\) |
 | authKeys | object | 如果没有开启防盗链，不会返回该参数；开启防盗链后 default 为 RTMP 流的密钥，m3u8 为HLS 流密钥 |
 | isPrologueEnabled | boolean | 是否启用预设视频 |
-| isBackupRecordEnabled | boolean | 是否启用备用录播视频 |
 | isLiveEnabled | boolean | 是否开启播放页直播 |
 | isFakeEnabled | boolean | 是否启用人数放大 |
 | fake.baseCount | integer | 观看人数放大——基础人数 |
@@ -92,7 +91,6 @@ Content-Type: application/json
     "progress":"OnGoing",
     "isPrologueEnabled": true,
     "isEpilogueEnabled": true,
-    "isBackupRecordEnabled": false,
     "isLiveEnabled": true,
     "fake": {
         "baseCount": 0,

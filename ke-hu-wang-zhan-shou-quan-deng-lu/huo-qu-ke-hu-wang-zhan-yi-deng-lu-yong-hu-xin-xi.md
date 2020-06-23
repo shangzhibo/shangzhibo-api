@@ -15,7 +15,9 @@ Authorization: Bearer <accessToken>
 Content-Type: application/json
 ```
 
-注：请将上方的 `<accessToken>` 替换为分配给您的秘钥串。关于如何获取 accessToken ，请咨询杨经理（18968187008）、彭经理（15167172618）。
+注：请将上方的 `<accessToken>` 替换为分配给您的秘钥串。关于如何获取 accessToken ，请咨询杨经理（18968187008）。
+
+注意：该接口需要第三方登录定制后才可以使用，具体请联系所属商务经理。
 
 ## 参数
 

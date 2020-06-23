@@ -12,7 +12,6 @@ POST /api/v3/activity/:id/stream-jobs
 
 [快捷方式](https://app.gitbook.com/@shangzhibo/s/api/la-liu-zhuan-tui/create-new-push-stream-job)
 
-
 ## 新建拉流容器【推荐】
 
 [快捷方式](https://app.gitbook.com/@shangzhibo/s/api/la-liu-zhuan-tui/create-new-pull-stream-job)
@@ -26,7 +25,7 @@ Authorization: Bearer <accessToken>
 Content-Type: application/json
 ```
 
-注：请将上方的 `<accessToken>` 替换为分配给您的秘钥串。关于如何获取 accessToken ，请咨询杨经理（18968187008）、彭经理（15167172618）。
+注：请将上方的 `<accessToken>` 替换为分配给您的秘钥串。关于如何获取 accessToken ，请咨询杨经理（18968187008）。
 
 ## 参数
 
@@ -40,10 +39,10 @@ Content-Type: application/json
 
 ```javascript
 curl -X POST -H 'authorization: bearer <accessToken>' \ 
-	shangzhibo.tv/api/v3/activity/8930091/stream-jobs  \ 
-	-d type=pull \
-	-d address=rtmp://push.shangzhibo.tv/onelive/test \
-	-d party=shangzhibo
+    shangzhibo.tv/api/v3/activity/8930091/stream-jobs  \ 
+    -d type=pull \
+    -d address=rtmp://push.shangzhibo.tv/onelive/test \
+    -d party=shangzhibo
 ```
 
 ## 响应

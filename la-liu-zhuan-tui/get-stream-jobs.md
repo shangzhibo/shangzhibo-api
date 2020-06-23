@@ -12,7 +12,6 @@ GET /api/v3/activity/:id/stream-jobs
 
 [快捷方式](https://document.shangzhibo.tv/api/la-liu-zhuan-tui/get-pull-stream-jobs)
 
-
 ## 获取推流容器列表【推荐】
 
 [快捷方式](https://app.gitbook.com/@shangzhibo/s/api/la-liu-zhuan-tui/get-push-stream-jobs)
@@ -26,7 +25,7 @@ Authorization: Bearer <accessToken>
 Content-Type: application/json
 ```
 
-注：请将上方的 `<accessToken>` 替换为分配给您的秘钥串。关于如何获取 accessToken ，请咨询杨经理（18968187008）、彭经理（15167172618）。
+注：请将上方的 `<accessToken>` 替换为分配给您的秘钥串。关于如何获取 accessToken ，请咨询杨经理（18968187008）。
 
 ## 参数
 

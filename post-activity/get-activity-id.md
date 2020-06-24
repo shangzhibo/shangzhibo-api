@@ -37,7 +37,7 @@ Content-Type: application/json
 | name | string | 活动名称 |
 | imgCover | string | 封面图片 |
 | categoryId | integer | 活动分类 ID |
-| status | string | 活动状态，enabled 允许推流 disabled 禁止推流 forbidden 管理员禁止推流 deleted 活动已被删除 |
+| status | string | 活动状态，enabled 允许推流 disabled 禁止推流 forbidden 管理员禁止推流 |
 | agentId | integer | 账号 ID |
 | startedAt | string | 活动开始时间 |
 | endedAt | string | 活动结束时间 |
@@ -48,7 +48,7 @@ Content-Type: application/json
 | updateAt | string | 活动更新时间 |
 | app | string | 应用名称 |
 | stream | string | 流名称 |
-| progress | string | 活动进程参数，未开始 NotStart, 直播中 \(OnGoing\), 已结束 \(Finished\) |
+| progress | string | 活动进程参数，未开始 \(NotStart\), 直播中 \(OnGoing\), 已结束 \(Finished\) |
 | authKeys | object | 如果没有开启防盗链，不会返回该参数；开启防盗链后 default 为 RTMP 流的密钥，m3u8 为HLS 流密钥 |
 | isPrologueEnabled | boolean | 是否启用预设视频 |
 | isLiveEnabled | boolean | 是否开启播放页直播 |
@@ -122,4 +122,3 @@ Content-Type: application/json
     }
 }
 ```
-

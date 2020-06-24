@@ -5,8 +5,10 @@
 获取文档列表信息
 
 ```javascript
-GET /api/v2/activity/:id/doc/:docd
+GET /api/v2/activity/:id/doc/:docId
 ```
+
+**查询默认文档时请将 docId 参数替换为 default**
 
 ## 授权
 

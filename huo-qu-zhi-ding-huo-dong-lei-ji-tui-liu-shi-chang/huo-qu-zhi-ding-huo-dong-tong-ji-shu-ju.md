@@ -48,7 +48,7 @@ Content-Type: application/json
 
 ## 响应示例
 
-```text
+```javascript
 {
   "pv": 34,
   "uv": 20,

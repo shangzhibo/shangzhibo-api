@@ -29,22 +29,7 @@ Content-Type: application/json
 
 | 参数 | 类型 | 描述 |
 | :--- | :--- | :--- |
-
-
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left">allowedPartnerUidList</th>
-      <th style="text-align:left">Array&lt;Integer|String&gt;</th>
-      <th style="text-align:left">
-        <p>&#x8BBE;&#x7F6E;&#x5F53;&#x524D;&#x6D3B;&#x52A8;&#x7684; uid &#x767D;&#x540D;&#x5355;&#x5217;&#x8868;</p>
-        <p>&#xFF08;&#x53EF;&#x4EE5;&#x8BBE;&#x7F6E; uid &#x6570;&#x5B57;&#x578B;&#x6216;
-          strUid &#x5B57;&#x7B26;&#x4E32;&#x578B;&#xFF09;</p>
-      </th>
-    </tr>
-  </thead>
-  <tbody></tbody>
-</table>
+|allowedPartnerUidList | Array&lt;string|integer&gt; | 当前活动的 uid 白名单列表 |
 
 ### 响应样例 200
 
@@ -71,4 +56,3 @@ Content-Type: application/json
     "status":400
 }
 ```
-

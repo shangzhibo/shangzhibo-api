@@ -33,22 +33,7 @@ Content-Type: application/json
 
 | 参数 | 类型 | 描述 |
 | :--- | :--- | :--- |
-
-
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left">allowedPartnerUidList</th>
-      <th style="text-align:left">Array&lt;String&gt;</th>
-      <th style="text-align:left">
-        <p>&#x5F53;&#x524D;&#x6D3B;&#x52A8;&#x7684; uid &#x767D;&#x540D;&#x5355;&#x5217;&#x8868;</p>
-        <p>&#xFF08;&#x4E3A;&#x4E86;&#x4FDD;&#x6301;&#x683C;&#x5F0F;&#x7EDF;&#x4E00;&#xFF0C;&#x6211;&#x4EEC;&#x5728;&#x8FD4;&#x56DE;&#x503C;&#x4E2D;&#x5C06;
-          uid &#x6570;&#x5B57;&#x578B;&#x548C; strUid &#x5B57;&#x7B26;&#x4E32;&#x578B;&#x90FD;&#x8F6C;&#x6362;&#x4E3A;&#x5B57;&#x7B26;&#x4E32;&#x7C7B;&#x578B;&#xFF09;</p>
-      </th>
-    </tr>
-  </thead>
-  <tbody></tbody>
-</table>
+|allowedPartnerUidList | Array&lt;string&gt; | 当前活动的 uid 白名单列表（为了保持格式统一，我们在返回值中将 uid 数字型和 strUid 字符串型都转换为字符串类型）|
 
 ```javascript
 {
@@ -56,4 +41,3 @@ Content-Type: application/json
   "isWhiteListEnabled": false,
 }
 ```
-

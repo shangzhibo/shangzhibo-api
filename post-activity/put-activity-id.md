@@ -5,7 +5,7 @@
 修改活动
 
 ```javascript
-PUT /api/activity/{id}
+PUT /api/activity/:id
 ```
 
 ## 授权

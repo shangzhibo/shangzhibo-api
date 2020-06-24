@@ -82,9 +82,6 @@ Content-Type: application/json
             },
             "isFakeEnabled": false,
             "isFilterAllEnabled": false,
-            "filterIpList": {},
-            "filterSidList": {},
-            "filterUserList": {},
             "isRobotEnabled": false,
             "robot": {
                 "initialCount": 10,
@@ -97,6 +94,3 @@ Content-Type: application/json
     ]
 }
 ```
-
-
-

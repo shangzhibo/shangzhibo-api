@@ -97,9 +97,6 @@ Authorization: Bearer <accessToken>
 | fake.increaseMin | integer | 观看人数放大——每增加一次真实用户访问，观看人数增加的最小值 |
 | fake.increaseMax | integer | 观看人数放大——每增加一次真实用户访问，观看人数增加的最大值 |
 | isFilterAllEnabled | boolean | 是否禁言所有观众 |
-| filterIpList | object | 禁言 IP 列表 |
-| filterSidList | object | 禁言 Session ID 列表 |
-| filterUserList | object | 禁言用户列表 |
 | isRobotEnabled | boolean | 是否启用机器人 |
 | robot.initialCount | integer | 机器人——初始评论数 |
 | robot.incrementCount | integer | 机器人——每增长 100 个用户 PV 增加的评论数 |
@@ -139,9 +136,6 @@ Authorization: Bearer <accessToken>
     },
     "isFakeEnabled": false,
     "isFilterAllEnabled": false,
-    "filterIpList": {},
-    "filterSidList": {},
-    "filterUserList": {},
     "isRobotEnabled": false,
     "isTranscodable":false,
     "robot": {

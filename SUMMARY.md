@@ -56,6 +56,7 @@
   * [获取指定活动的 UID白名单](ke-hu-wang-zhan-shou-quan-deng-lu/huo-dong-huo-qu-uid-bai-ming-dan-she-zhi.md)
   * [修改指定活动的 UID白名单](ke-hu-wang-zhan-shou-quan-deng-lu/huo-dong-xiu-gai-uid-bai-ming-dan-she-zhi.md)
   * [获取客户网站已授权用户信息](ke-hu-wang-zhan-shou-quan-deng-lu/huo-qu-ke-hu-wang-zhan-yi-deng-lu-yong-hu-xin-xi.md)
+  * [获取指定用户的访问明细](ke-hu-wang-zhan-shou-quan-deng-lu/get-user-visits.md)
 * [播放页 API](get-activity-id-iframe/README.md)
   * [获取指定活动播放器嵌入代码](get-activity-id-iframe/get-activity-id-iframe.md)
 * [统计](huo-qu-zhi-ding-huo-dong-lei-ji-tui-liu-shi-chang/README.md)

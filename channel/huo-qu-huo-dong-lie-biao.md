@@ -21,14 +21,14 @@ Content-Type: application/json
 
 ### 参数
 
-| 参数 | 参数类型 | 是否必填 | 描述 |
-| :--- | :--- | :--- | :--- |
-| isArchived | boolean | 否 | “true“ 表示已归档，“false” 表示未归档 |
-| name | string | 否 | 活动名称 |
-| isPushing | boolean | 否 | 是否处于推流状态 |
-| orderBy | string | 否 | 支持排序的字段：\`createdAt\`, \`endedAt\` , \`startedAt\` ；可按正序（ASC）或者倒序（DESC）来排，比如：\`createdAt DESC\`  表示按照创建时间倒序排 |
-| page | integer | 否 | 页码 |
-| pageSize | integer | 否 | 每页几条 |
+| 参数       | 参数类型 | 是否必填 | 描述                                                                                                                                              |
+| :--------- | :------- | :------- | :------------------------------------------------------------------------------------------------------------------------------------------------ |
+| isArchived | boolean  | 否       | “true“ 表示已归档，“false” 表示未归档                                                                                                             |
+| name       | string   | 否       | 活动名称                                                                                                                                          |
+| isPushing  | boolean  | 否       | 是否处于推流状态                                                                                                                                  |
+| orderBy    | string   | 否       | 支持排序的字段：\`createdAt\`, \`endedAt\` , \`startedAt\` ；可按正序（ASC）或者倒序（DESC）来排，比如：\`createdAt DESC\` 表示按照创建时间倒序排 |
+| page       | integer  | 否       | 页码                                                                                                                                              |
+| pageSize   | integer  | 否       | 每页几条                                                                                                                                          |
 
 ### 请求样例
 
@@ -38,14 +38,18 @@ Content-Type: application/json
 
 ### 响应参数
 
-| 参数 | 类型 | 描述 | 示例 |
-| :--- | :--- | :--- | :--- |
-| page | string | 页码 | 2 |
-| pageSize | string | 一页显示几条 | 10 |
-| total | string | 总条数 | 100 |
-| id | string | 活动 ID | 8050309 |
-| name | string | 活动名称 | 分享禁用测试活动 |
-| status | string | 活动状态 | enabled |
+| 参数             | 类型   | 描述          | 示例             |
+| :--------------- | :----- | :------------ | :--------------- |
+| page             | string | 页码          | 2                |
+| pageSize         | string | 一页显示几条  | 10               |
+| total            | string | 总条数        | 100              |
+| id               | string | 活动 ID       | 8050309          |
+| name             | string | 活动名称      | 分享禁用测试活动 |
+| status           | string | 活动状态      | enabled          |
+| pullUrls         | object | 拉流地址集合  |
+| pullUrls.default | string | rtmp 拉流地址 |
+| pullUrls.flv     | string | flv 拉流地址  |
+| pullUrls.m3u8    | string | hls 拉流地址  |
 
 ### 响应示例
 
@@ -89,7 +93,12 @@ Content-Type: application/json
             },
             "expired": false,
             "maxConcurrentUser": -1,
-            "maxPushingTime": -1
+            "maxPushingTime": -1,
+            "pullUrls": {
+                "default": "play.shangzhibo.tv/onelive/10075533-sTd6IzKoEU",
+                "flv": "play.shangzhibo.tv/onelive/10075533-sTd6IzKoEU.flv",
+                "m3u8": "play.shangzhibo.tv/onelive/10075533-sTd6IzKoEU.m3u8"
+            }
         }
     ]
 }

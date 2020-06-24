@@ -21,28 +21,11 @@ Authorization: Bearer <accessToken>
 ## 参数
 
 | 参数 | 参数类型 | 参数说明 | 是否必填 |
-| :--- | :--- | :--- | :--- |
-
-
 | name | string | 活动名称 | 是 |
-| :--- | :--- | :--- | :--- |
-
-
 | startedAt | datetime | 直播开始时间，格式为 UTC 时间 | 否 |
-| :--- | :--- | :--- | :--- |
-
-
 | endedAt | datetime | 直播结束时间，格式为 UTC 时间 | 否 |
-| :--- | :--- | :--- | :--- |
-
-
 | subagentIds | Array&lt;Integer&gt; | 子账号 Id 集合 | 否 |
-| :--- | :--- | :--- | :--- |
-
-
 | transcodeEnabled | Boolean | 是否开启画质控制\(需要开启直播转码功能\) | 否 |
-| :--- | :--- | :--- | :--- |
-
 
 <table>
   <thead>
@@ -70,7 +53,7 @@ Authorization: Bearer <accessToken>
   <tbody></tbody>
 </table>
 
-```text
+````text
 ## 响应200
 
 | 参数 | 参数类型 | 参数说明 |
@@ -106,51 +89,65 @@ Authorization: Bearer <accessToken>
 | maxPushingTime | integer | 最大推流时长，单位 秒，-1 表示不限制最大推流时长 |
 | isTranscodable | boolean | 该活动能否开启活动转码功能 |
 | subagentIds | Array&lt;Integer&gt; | 子账号 Id 集合 |
+| pullUrls | object | 拉流地址集合 |
+| pullUrls.default | string | rtmp 拉流地址 |
+| pullUrls.flv | string | flv 拉流地址 |
+| pullUrls.m3u8 | string | hls 拉流地址 |
+
 
 ### 响应样例
 
-```javascript
+```json
 {
-    "id": "8930091",
-    "name": "哈哈哈",
-    "imgCover":"//shangzhibo-img.b0.upaiyun.com/system/activity/template/default-preview.jpg",
-    "categoryId": 1,
-    "status": "enabled",
-    "agentId": 100020,
-    "startedAt": "2017-08-09T09:48:02.000Z",
-    "endedAt": "2017-08-10T09:48:02.000Z",
-    "pushDomain": "push.shangzhibo.tv",
-    "pullDomain": "play.shangzhibo.tv",
-    "isPushing": false,
-    "createdAt": "2017-08-09T08:48:02.120Z",
-    "updatedAt": "2017-08-09T08:48:02.120Z",
-    "app": "onelive",
-    "stream": "893009-jksdupure",
-    "progress":"OnGoing",
-    "isPrologueEnabled": true,
-    "isEpilogueEnabled": true,
-    "isLiveEnabled": true,
-    "fake": {
-        "baseCount": 0,
-        "increaseMin": 1,
-        "increaseMax": 1
+    "isArchived":false,
+    "isPushing":false,
+    "id":"10075533",
+    "agentId":105131,
+    "categoryId":1,
+    "name":"热敷法发",
+    "status":"enabled",
+    "startedAt":"2020-06-30T06:31:00.000Z",
+    "endedAt":"2020-07-23T06:31:00.000Z",
+    "pushDomain":"push.shangzhibo.tv",
+    "pullDomain":"play.shangzhibo.tv",
+    "groupId":-1,
+    "createdAt":"2020-05-29T02:01:10.000Z",
+    "updatedAt":"2020-06-22T06:31:46.000Z",
+    "progress":"NotStart",
+    "app":"onelive",
+    "stream":"10075533-sTd6IzKoEU",
+    "isPrologueEnabled":true,
+    "isEpilogueEnabled":true,
+    "isLiveEnabled":true,
+    "fake":{
+        "baseCount":0,
+        "increaseMin":1,
+        "increaseMax":1
     },
-    "isFakeEnabled": false,
-    "isFilterAllEnabled": false,
-    "isRobotEnabled": false,
+    "isFakeEnabled":false,
+    "isFilterAllEnabled":false,
+    "isRobotEnabled":false,
+    "robot":{
+        "initialCount":10,
+        "incrementCount":1,
+        "commentLibraryId":null
+    },
+    "expired":false,
+    "liveProvider":"aliyun",
+    "maxConcurrentUser":-1,
+    "maxPushingTime":-1,
+    "maxEpilogueTime":-1,
     "isTranscodable":false,
-    "robot": {
-        "initialCount": 10,
-        "incrementCount": 1
-    },
-    "expired": false,
-    "maxConcurrentUser": -1,
-    "maxPushingTime": -1,
-    "subagentIds": [1, 2]
+    "imgCover":"https://doc.shangzhibo.tv/system/activity/template/default-preview.jpg",
+    "pullUrls":{
+        "default":"play.shangzhibo.tv/onelive/10075533-sTd6IzKoEU",
+        "flv":"play.shangzhibo.tv/onelive/10075533-sTd6IzKoEU.flv",
+        "m3u8":"play.shangzhibo.tv/onelive/10075533-sTd6IzKoEU.m3u8"
+    }
 }
-```
+````
 
-## 响应400
+## 响应 400
 
 ### `startedAt`、`endedAt` 值不是合法的时间格式
 
@@ -182,7 +179,7 @@ Authorization: Bearer <accessToken>
 }
 ```
 
-## 响应401
+## 响应 401
 
 ### 没有创建子账号的权限, 当且仅当在传递参数时加入了 subagentIds 参数
 
@@ -194,7 +191,7 @@ Authorization: Bearer <accessToken>
 }
 ```
 
-## 响应404
+## 响应 404
 
 ### subagentIds 中的子账号 Id 不存在时
 
@@ -205,4 +202,3 @@ Authorization: Bearer <accessToken>
     "message": "Subagent Not Found",
 }
 ```
-

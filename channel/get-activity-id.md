@@ -26,7 +26,7 @@ Content-Type: application/json
 #### 请求样例
 
 ```js
-/api/activity/8930091
+/api/activity/10075533
 ```
 
 ### 响应
@@ -64,49 +64,59 @@ Content-Type: application/json
 | maxConcurrentUser | integer | 最大并发在线人数，-1 表示不限制最大在线人数 |
 | maxPushingTime | integer | 最大推流时长，单位 秒，-1 表示不限制最大推流时长 |
 | isTranscodable | boolean | 该活动能否开启活动转码功能 |
+| pullUrls | object | 拉流地址集合 |
+| pullUrls.default | string | rtmp 拉流地址 |
+| pullUrls.flv | string | flv 拉流地址 |
+| pullUrls.m3u8 | string | hls 拉流地址 |
 
 #### 响应样例
 
 ```json
 {
-    "id": "8930091",
-    "name": "哈哈哈",
-    "imgCover":"//shangzhibo-img.b0.upaiyun.com/system/activity/template/default-preview.jpg",
-    "categoryId": 1,
-    "status": "enabled",
-    "agentId": 100020,
-    "startedAt": "2017-08-09T09:48:02.000Z",
-    "endedAt": "2017-08-10T09:48:02.000Z",
-    "pushDomain": "push.shangzhibo.tv",
-    "pullDomain": "play.shangzhibo.tv",
-    "isPushing": false,
-    "createdAt": "2017-08-09T08:48:02.120Z",
-    "updatedAt": "2017-08-09T08:48:02.120Z",
-    "app": "onelive",
-    "stream": "893009-jksdupure",
-    "progress":"OnGoing",
-    "isPrologueEnabled": true,
-    "isEpilogueEnabled": true,
-    "isLiveEnabled": true,
-    "fake": {
-        "baseCount": 0,
-        "increaseMin": 1,
-        "increaseMax": 1
+    "isArchived":false,
+    "isPushing":false,
+    "id":"10075533",
+    "agentId":105131,
+    "categoryId":1,
+    "name":"热敷法发",
+    "status":"enabled",
+    "startedAt":"2020-06-30T06:31:00.000Z",
+    "endedAt":"2020-07-23T06:31:00.000Z",
+    "pushDomain":"push.shangzhibo.tv",
+    "pullDomain":"play.shangzhibo.tv",
+    "groupId":-1,
+    "createdAt":"2020-05-29T02:01:10.000Z",
+    "updatedAt":"2020-06-22T06:31:46.000Z",
+    "progress":"NotStart",
+    "app":"onelive",
+    "stream":"10075533-sTd6IzKoEU",
+    "isPrologueEnabled":true,
+    "isEpilogueEnabled":true,
+    "isLiveEnabled":true,
+    "fake":{
+        "baseCount":0,
+        "increaseMin":1,
+        "increaseMax":1
     },
-    "isFakeEnabled": false,
-    "isFilterAllEnabled": false,
-    "isRobotEnabled": false,
+    "isFakeEnabled":false,
+    "isFilterAllEnabled":false,
+    "isRobotEnabled":false,
+    "robot":{
+        "initialCount":10,
+        "incrementCount":1,
+        "commentLibraryId":null
+    },
+    "expired":false,
+    "liveProvider":"aliyun",
+    "maxConcurrentUser":-1,
+    "maxPushingTime":-1,
+    "maxEpilogueTime":-1,
     "isTranscodable":false,
-    "robot": {
-        "initialCount": 10,
-        "incrementCount": 1
-    },
-    "expired": false,
-    "maxConcurrentUser": -1,
-    "maxPushingTime": -1
-    "authKeys": {
-        "default": "1535955014-0-0-fd06c84a7e900b9d31b5a7fee7f96a3d",
-        "m3u8": "1535955014-0-0-fc23fc7a255665cb514085108d815851"
+    "imgCover":"https://doc.shangzhibo.tv/system/activity/template/default-preview.jpg",
+    "pullUrls":{
+        "default":"play.shangzhibo.tv/onelive/10075533-sTd6IzKoEU",
+        "flv":"play.shangzhibo.tv/onelive/10075533-sTd6IzKoEU.flv",
+        "m3u8":"play.shangzhibo.tv/onelive/10075533-sTd6IzKoEU.m3u8"
     }
 }
 ```

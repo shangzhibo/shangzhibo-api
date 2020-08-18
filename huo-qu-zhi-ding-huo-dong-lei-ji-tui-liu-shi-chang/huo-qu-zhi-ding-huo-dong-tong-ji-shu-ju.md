@@ -30,6 +30,7 @@ Content-Type: application/json
 
 | 参数 | 参数类型 | 参数说明 |
 | :--- | :--- | :--- |
+| highestUv | object | 最大 uv 数 |
 | puv | integer | 累计 pv 和 uv 数 |
 | ip | integer | 累计 ip 数 |
 | liveTime | integer | 直播流播放总时长（单位：秒） |
@@ -43,64 +44,45 @@ Content-Type: application/json
 ## 请求样例
 
 ```text
-/api/activity/stats?activityId=8448124&stats=puv&stats=ip&stats=timeline&stats=liveTime&stats=region
+/api/activity/stats?activityId=8448124&stats=puv&stats=ip&stats=timeline&stats=liveTime&stats=region&stats=highestUv
 ```
 
 ## 响应示例
 
 ```javascript
 {
-  "pv": 34,
-  "uv": 20,
-  "ip": 20,
-  "liveTime": 5,
-  "totalTime": 300,
-  "timeline": [
-    {
-      "time": "Wed Nov 16 2016 11:52:15 GMT+0800 (CST)",
-      "count": 23
-    }
-  ],
-  "device": {
-    "iOS": 999,
-    "Android": 888,
-    "PC": 777,
-    "other": 666
-  },
-  "gender": {
-    "male": 99,
-    "female": 88,
-    "unknown": 77
-  },
-  "referrer": {
-    "wechat": 999,
-    "shangzhibo": 888,
-    "other": {
-      "live.huaban.com": 666
-    }
-  },
-  "region": [
-    {
-      "province": "浙江",
-      "number": 100
+    "timeline":[
+
+    ],
+    "liveTime":8860,
+    "region":[
+        {
+            "province":"浙江",
+            "number":202
+        }
+    ],
+    "referrer":{
+        "other":{
+            "null":140,
+            "manage.shangzhibo.tv":4,
+            "open.weixin.qq.com":7,
+            "shangzhibo.tv":51
+        }
     },
-    {
-      "province": "安徽",
-      "number": 200
+    "device":{
+        "iOS":18,
+        "Android":7,
+        "PC":177,
+        "other":0
     },
-    {
-      "province": "河南",
-      "number": 200
+    "highestUv":{
+        "highestUv":17,
+        "highestUvAt":"2020-05-12T06:22:00.000Z",
+        "highestUvCollectedAt":"2020-08-18T00:51:11.000Z"
     },
-    {
-      "province": "山东",
-      "number": 200
-    },
-    {
-      "province": "河北",
-      "number": 200
-    }
-  ]
+    "pv":2042,
+    "uv":413,
+    "totalTime":0
 }
 ```
 

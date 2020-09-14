@@ -51,8 +51,8 @@ GET /api/v2/activity/<活动ID>/checkin/data/json
 | createdAt | string | 创建时间 |
 | updatedAt | string | 更新时间 |
 | data | array&lt;object&gt; |  |
-| data.title | string | 表单收集 agent 规定收集字段的名称 |
-| data.value | string | 表单收集 agent 规定收集字段,用户填写的对应的值 |
+| title | string | 表单收集 agent 规定收集字段的名称 |
+| value | string | 表单收集 agent 规定收集字段,用户填写的对应的值 |
 
 ### 响应示例
 

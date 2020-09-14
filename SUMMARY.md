@@ -57,6 +57,7 @@
 * [播放页 API](get-activity-id-iframe/README.md)
   * [获取指定活动播放器嵌入代码](get-activity-id-iframe/get-activity-id-iframe.md)
 * [统计](huo-qu-zhi-ding-huo-dong-lei-ji-tui-liu-shi-chang/README.md)
+  * [获取指定活动表单收集数据](huo-qu-zhi-ding-huo-dong-lei-ji-tui-liu-shi-chang/huo-qu-zhi-ding-huo-dong-biao-dan-shou-ji-shu-ju.md)
   * [获取指定活动的用户观看明细](huo-qu-zhi-ding-huo-dong-lei-ji-tui-liu-shi-chang/huo-qu-yong-hu-guan-kan-ming-xi-lie-biao-xu-yao-kai-tong-yong-hu-ming-xi-gong-neng.md)
   * [获取指定活动累计推流时长](huo-qu-zhi-ding-huo-dong-lei-ji-tui-liu-shi-chang/huo-qu-zhi-ding-huo-dong-lei-ji-tui-liu-shi-chang.md)
   * [获取指定活动统计数据](huo-qu-zhi-ding-huo-dong-lei-ji-tui-liu-shi-chang/huo-qu-zhi-ding-huo-dong-tong-ji-shu-ju.md)

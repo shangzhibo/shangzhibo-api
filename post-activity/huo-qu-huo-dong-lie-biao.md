@@ -26,12 +26,13 @@ Content-Type: application/json
 | isArchived | boolean | 否 | true 表示已归档，false 表示未归档 |
 | name | string | 否 | 活动名称 |
 | isPushing | boolean | 否 | 是否处于推流状态 |
-| orderBy| enum&lt;createdAt desc, createdAt asc, startedAt desc, startedAt asc, endedAt desc, endedAt asc&gt; | 否 | 默认为 createdAt desc |
+| orderBy | enum&lt;createdAt desc, createdAt asc, startedAt desc, startedAt asc, endedAt desc, endedAt asc&gt; | 否 | 默认为 createdAt desc |
 | page | integer | 否 | 当前页数 |
 | pageSize | integer | 否 | 每页几条 |
+| groupId | integer | 否 | 活动分类ID，不传递则表示查询所有活动，传递 **-1** 表示查询未分类的活动，传递其他整数则表示查询对应分类的活动 |
 
 ```bash
-/api/activity?isArchived=false&page=42&pageSize=42
+GET /api/activity?isArchived=false&page=42&pageSize=42&groupId=-1
 ```
 
 ## 响应参数
@@ -48,6 +49,7 @@ Content-Type: application/json
 | endedAt | string | 活动结束时间 |
 | pushDomain | string | 推流域名 |
 | pullDomain | string | 拉流域名 |
+| groupId | integer | 分类 ID |
 | isPushing | boolean | 是否在推流 |
 | createdAt | string | 活动创建时间 |
 | updateAt | string | 活动更新时间 |
@@ -75,7 +77,6 @@ Content-Type: application/json
 | pullUrls.flv | string | flv 拉流地址 |
 | pullUrls.m3u8 | string | hls 拉流地址 |
 
-
 ## 响应示例
 
 ```javascript
@@ -96,6 +97,7 @@ Content-Type: application/json
             "endedAt": "2018-01-29T10:58:26.000Z",
             "pushDomain": "push.shangzhibo.tv",
             "pullDomain": "play.shangzhibo.tv",
+            "groupId": 233,
             "isPushing": false,
             "createdAt": "2018-01-29T05:58:28.000Z",
             "updatedAt": "2018-01-29T11:09:35.000Z",

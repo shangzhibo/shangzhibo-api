@@ -5,7 +5,7 @@
 获取活动分组
 
 ```text
-GET /api/agent/activity/group
+GET /api/agent/activity-group
 ```
 
 ### 授权

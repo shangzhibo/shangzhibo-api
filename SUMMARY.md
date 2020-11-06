@@ -51,8 +51,6 @@
   * [客户网站用户授权\(同步用户标识\)](ke-hu-wang-zhan-shou-quan-deng-lu/ke-hu-wang-zhan-yong-hu-shou-quan-deng-lu.md)
   * [客户网站授权登录\(已废弃\)](ke-hu-wang-zhan-shou-quan-deng-lu/ke-hu-wang-zhan-shou-quan-deng-lu.md)
   * [回传订单数据](ke-hu-wang-zhan-shou-quan-deng-lu/post-callback-pay.md)
-  * [获取指定活动的 UID白名单](ke-hu-wang-zhan-shou-quan-deng-lu/huo-dong-huo-qu-uid-bai-ming-dan-she-zhi.md)
-  * [修改指定活动的 UID白名单](ke-hu-wang-zhan-shou-quan-deng-lu/huo-dong-xiu-gai-uid-bai-ming-dan-she-zhi.md)
   * [获取客户网站已授权用户信息](ke-hu-wang-zhan-shou-quan-deng-lu/huo-qu-ke-hu-wang-zhan-yi-deng-lu-yong-hu-xin-xi.md)
   * [获取指定用户的访问明细](ke-hu-wang-zhan-shou-quan-deng-lu/get-user-visits.md)
 * [播放页 API](get-activity-id-iframe/README.md)

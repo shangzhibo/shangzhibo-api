@@ -43,7 +43,7 @@ curl -H 'authorization: bearer <accessToken>' \
 | 参数 | 类型 | 描述 |
 | :--- | :--- | :--- |
 | count | integer | 并发人数 |
-| createdAt | string | 并发时间 |
+| time | string | 并发时间 |
 
 ## 响应示例
 
@@ -51,19 +51,19 @@ curl -H 'authorization: bearer <accessToken>' \
 [
   {
     "count": 1,
-    "createdAt": "2020-07-14T02:17:00.000Z"
+    "time": "2020-07-14T02:17:00.000Z"
   },
   {
     "count": 1,
-    "createdAt": "2020-07-14T10:08:00.000Z"
+    "time": "2020-07-14T10:08:00.000Z"
   },
   {
     "count": 10,
-    "createdAt": "2020-07-20T09:25:00.000Z"
+    "time": "2020-07-20T09:25:00.000Z"
   },
   {
     "count": 120,
-    "createdAt": "2020-07-20T09:26:00.000Z"
+    "time": "2020-07-20T09:26:00.000Z"
   }
 ]
 ```

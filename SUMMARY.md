@@ -60,6 +60,7 @@
   * [获取指定活动的用户观看明细](huo-qu-zhi-ding-huo-dong-lei-ji-tui-liu-shi-chang/huo-qu-yong-hu-guan-kan-ming-xi-lie-biao-xu-yao-kai-tong-yong-hu-ming-xi-gong-neng.md)
   * [获取指定活动累计推流时长](huo-qu-zhi-ding-huo-dong-lei-ji-tui-liu-shi-chang/huo-qu-zhi-ding-huo-dong-lei-ji-tui-liu-shi-chang.md)
   * [获取指定活动统计数据](huo-qu-zhi-ding-huo-dong-lei-ji-tui-liu-shi-chang/huo-qu-zhi-ding-huo-dong-tong-ji-shu-ju.md)
+  * [获取指定时间段内活动历史并发人数](huo-qu-zhi-ding-huo-dong-lei-ji-tui-liu-shi-chang/get-activity-history-timeline.md)
 * [APP WebView 嵌入直播页 Demo](ios-webview-demo/README.md)
   * [iOS WebView Demo](ios-webview-demo/ios-webview-demo.md)
   * [Android WebView Demo](ios-webview-demo/android-webview-demo.md)

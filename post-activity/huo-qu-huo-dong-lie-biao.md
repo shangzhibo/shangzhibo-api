@@ -42,7 +42,6 @@ GET /api/activity?isArchived=false&page=42&pageSize=42&groupId=-1
 | id | string | 活动 ID |
 | name | string | 活动名称 |
 | imgCover | string | 封面图片 |
-| categoryId | integer | 活动分类 ID |
 | status | string | 活动状态，enabled 允许推流 disabled 禁止推流 forbidden 管理员禁止推流 |
 | agentId | integer | 账号 ID |
 | startedAt | string | 活动开始时间 |
@@ -90,7 +89,6 @@ GET /api/activity?isArchived=false&page=42&pageSize=42&groupId=-1
         {
             "id": "2837888",
             "name": "创想人工智能峰会-深圳站",
-            "categoryId": 1,
             "status": "disabled",
             "agentId": 101691,
             "startedAt": "2018-01-29T06:58:26.000Z",

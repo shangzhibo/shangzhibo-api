@@ -36,7 +36,6 @@ Content-Type: application/json
 | id | string | 活动 ID |
 | name | string | 活动名称 |
 | imgCover | string | 封面图片 |
-| categoryId | integer | 活动分类 ID |
 | status | string | 活动状态，enabled 允许推流 disabled 禁止推流 forbidden 管理员禁止推流 |
 | agentId | integer | 账号 ID |
 | startedAt | string | 活动开始时间 |
@@ -79,7 +78,6 @@ Content-Type: application/json
     "isPushing":false,
     "id":"10075533",
     "agentId":105131,
-    "categoryId":1,
     "name":"热敷法发",
     "status":"enabled",
     "startedAt":"2020-06-30T06:31:00.000Z",

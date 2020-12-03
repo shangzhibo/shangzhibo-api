@@ -57,7 +57,6 @@ curl 'shangzhibo.tv/api/v3/agent/105131/user/15460259/stats/visits?page=1&pageSi
 | activity            | object  | 活动信息                                                              |
 | activity.id         | string  | 活动 ID                                                               |
 | activity.name       | string  | 活动名称                                                              |
-| activity.categoryId | integer | 活动分类 ID                                                           |
 | activity.status     | string  | 活动状态，enabled 允许推流 disabled 禁止推流 forbidden 管理员禁止推流 |
 | activity.agentId    | integer | 账号 ID                                                               |
 | activity.startedAt  | string  | 活动开始时间                                                          |
@@ -83,7 +82,6 @@ curl 'shangzhibo.tv/api/v3/agent/105131/user/15460259/stats/visits?page=1&pageSi
                 "id":"10096289",
                 "agentId":105131,
                 "subagentId":null,
-                "categoryId":1,
                 "name":"这是一场直播",
                 "status":"disabled",
                 "startedAt":"2020-06-24T00:00:00.000Z",
@@ -106,7 +104,6 @@ curl 'shangzhibo.tv/api/v3/agent/105131/user/15460259/stats/visits?page=1&pageSi
                 "id":"10096289",
                 "agentId":105131,
                 "subagentId":null,
-                "categoryId":1,
                 "name":"这是一场直播",
                 "status":"disabled",
                 "startedAt":"2020-06-24T00:00:00.000Z",

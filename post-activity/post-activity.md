@@ -90,7 +90,6 @@ Authorization: Bearer <accessToken>
 | id                   | string               | 活动 ID                                                                                    |
 | name                 | string               | 活动名称                                                                                   |
 | imgCover             | string               | 封面图片                                                                                   |
-| categoryId           | integer              | 活动分类 ID                                                                                |
 | status               | string               | 活动状态，enabled 允许推流 disabled 禁止推流 forbidden 管理员禁止推流 |
 | agentId              | integer              | 账号 ID                                                                                    |
 | startedAt            | string               | 活动开始时间                                                                               |
@@ -130,7 +129,6 @@ Authorization: Bearer <accessToken>
     "id": "8930091",
     "name": "哈哈哈",
     "imgCover": "//shangzhibo-img.b0.upaiyun.com/system/activity/template/default-preview.jpg",
-    "categoryId": 1,
     "status": "enabled",
     "agentId": 100020,
     "startedAt": "2017-08-09T09:48:02.000Z",

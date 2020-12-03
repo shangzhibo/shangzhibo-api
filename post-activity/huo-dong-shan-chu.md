@@ -5,7 +5,7 @@
 请求地址
 
 ```javascript
-DELETE api/activity
+DELETE /api/activity/:id
 ```
 
 ## 授权

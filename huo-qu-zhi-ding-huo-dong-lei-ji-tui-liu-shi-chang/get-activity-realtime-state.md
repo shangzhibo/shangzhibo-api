@@ -35,12 +35,19 @@ curl -H 'authorization: bearer <accessToken>' \
 | 参数 | 类型 | 描述 |
 | :--- | :--- | :--- |
 | concurrent | integer | 实时并发人数 |
+| highestUvToday | object | 今日最高并发 |
+| highestUvToday.time | string |  最高并发时间 |
+| highestUvToday.count | integer| 最高并发人数 | 
 
 ## 响应示例
 
 ```javascript
 {
-  "concurrent": 100
+  "concurrent": 100,
+  "highestUvToday": {
+    "time": "2020-12-04T01:50:52.659Z",
+    "count": 0
+  }
 }
 ```
 

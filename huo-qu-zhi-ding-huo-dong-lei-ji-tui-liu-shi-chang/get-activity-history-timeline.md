@@ -2,7 +2,7 @@
 
 ## 接口
 
-获取指定时间段内活动历史并发人数, 该接口限频 5次 / 分钟
+获取指定时间段内活动历史并发人数, 该接口限频 1 次 / 5 秒
 
 ```javascript
 GET /api/v3/activity/:id/stats/timeline

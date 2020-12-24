@@ -29,7 +29,6 @@ Content-Type: application/json
 | :--- | :--- | :--- | :--- |
 | page | integer | 页数（默认第一页） | 否 |
 | pageSize | integer | 每页显示数量（默认 10） | 否 |
-| order | string | 排序方式（默认 id asc） | 否 |
 
 ## 请求样例
 

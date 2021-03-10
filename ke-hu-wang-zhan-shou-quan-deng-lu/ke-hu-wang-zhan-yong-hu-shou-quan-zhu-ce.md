@@ -32,6 +32,7 @@ Content-Type: application/json
 | country | string | 国家\(最大 20 位\) | 否 |
 | province | string | 省份 \(最大 20 位\) | 否 |
 | city | string | 城市 \(最大 20 位\) | 否 |
+| openid | string | 用户微信服务号 openid, openid 与 uid 一样，都是属于全局唯一字段 |
 
 ### 请求示例:
 
@@ -63,6 +64,7 @@ curl -H "Content-Type: application/json" -H "Authorization: Bearer <access_token
 | createdAt | string | 创建时间 |
 | updatedAt | string | 最后更新时间 |
 | owner | integer | 其所属的AgentId |
+| openid | string | 用户微信服务号 openid, openid 与 uid 一样，都是属于全局唯一字段 |
 
 ### 响应示例:
 
@@ -75,6 +77,7 @@ curl -H "Content-Type: application/json" -H "Authorization: Bearer <access_token
     "sex":"male",
     "owner":233435,
     "uid":"xxx",
+    "openid": "xxxxxxx",
     "createdAt":"2019-10-09T03:04:23.000Z",
     "updatedAt":"2019-10-09T03:04:23.000Z"
   }

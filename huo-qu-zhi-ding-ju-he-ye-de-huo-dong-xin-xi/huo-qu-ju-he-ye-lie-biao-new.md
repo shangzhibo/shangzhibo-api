@@ -1,4 +1,4 @@
-# 获取聚合页列表\(new\)
+# 获取门户列表
 
 ## 接口
 
@@ -7,6 +7,8 @@ GET /api/page
 ```
 
 ## 授权
+
+请求头参数
 
 ```text
 Authorization: Bearer <accessToken>

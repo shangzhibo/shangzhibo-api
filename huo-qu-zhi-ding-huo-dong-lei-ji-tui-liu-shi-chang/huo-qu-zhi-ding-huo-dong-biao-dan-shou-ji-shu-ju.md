@@ -1,6 +1,6 @@
 # 获取指定活动表单收集数据
 
-### 接口
+## 接口
 
 获取观众表单收集数据列表
 
@@ -8,9 +8,9 @@
 GET /api/v2/activity/:id/checkin/data/json
 ```
 
-### 授权
+## 授权
 
- 请求header
+请求header
 
 ```text
 Authorization: Bearer <accessToken>
@@ -19,20 +19,20 @@ Content-Type: application/json
 
 注：请将上方的`<accessToken>`替换为分配给您的秘钥串。关于如何获取 accessToken ，请咨询杨经理（18968187008）。
 
-### 参数
+## 参数
 
 | 参数 | 参数类型 | 参数说明 | 是否必填 |
 | :--- | :--- | :--- | :--- |
 | page | integer | 页数（默认第一页） | 否 |
 | pageSize | integer | 每页显示数量（默认 10） | 否 |
 
-### 请求样例
+## 请求样例
 
 ```text
 GET /api/v2/activity/<活动ID>/checkin/data/json
 ```
 
-### 响应参数
+## 响应参数
 
 | 参数 | 类型 | 描述 |
 | :--- | :--- | :--- |
@@ -50,7 +50,7 @@ GET /api/v2/activity/<活动ID>/checkin/data/json
 | title | string | 表单收集 agent 规定收集字段的名称 |
 | value | string | 表单收集 agent 规定收集字段,用户填写的对应的值 |
 
-### 响应示例
+## 响应示例
 
 ```text
 {
@@ -59,7 +59,7 @@ GET /api/v2/activity/<活动ID>/checkin/data/json
     "page": 1,
     "pageSize": 10
   },
-  
+
   "items": [
     {
       "data": [

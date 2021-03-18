@@ -25,14 +25,14 @@ Content-Type: application/json
 
 ## 参数
 
-| 参数       | 类型                                  | 参数位置  | 描述                                 | 是否必传 |
-| :--------- | :------------------------------------ | :-------- | :----------------------------------- | :------- |
-| id         | int                                   | url path  | 客户 id                              | 是       |
-| userId     | int                                   | url path  | 客户所属用户 id                      | 是       |
-| activityId | string                                | url query | 活动 id                              | 否       |
-| page       | int                                   | url query | 当前页, 默认为 1                     | 否       |
-| pageSize   | int                                   | url query | 每页返回个数，默认为 10，最大为 1000 | 否       |
-| order      | enum&lt;visitAt asc, visitAt desc&gt; | url query | 排序方式, 默认为 visitAt desc        | 否       |
+| 参数 | 类型 | 参数位置 | 描述 | 是否必传 |
+| :--- | :--- | :--- | :--- | :--- |
+| id | int | url path | 客户 id | 是 |
+| userId | int | url path | 客户所属用户 id | 是 |
+| activityId | string | url query | 活动 id | 否 |
+| page | int | url query | 当前页, 默认为 1 | 否 |
+| pageSize | int | url query | 每页返回个数，默认为 10，最大为 1000 | 否 |
+| order | enum&lt;visitAt asc, visitAt desc&gt; | url query | 排序方式, 默认为 visitAt desc | 否 |
 
 ### 请求样例
 
@@ -43,30 +43,30 @@ curl 'shangzhibo.tv/api/v3/agent/105131/user/15460259/stats/visits?page=1&pageSi
 
 ## 响应
 
-| 参数                | 类型    | 描述                                                                  |
-| :------------------ | :------ | :-------------------------------------------------------------------- |
-| pager               | object  | 分页信息                                                              |
-| pager.page          | integer | 当前页                                                                |
-| pager.pageSize      | integer | 每页返回个数                                                          |
-| pager.total         | integer | 总个数                                                                |
-| visitAt             | string  | 访问时间                                                              |
-| lastOnlineAt        | string  | 最后在线时间                                                          |
-| duration            | integer | 在线时长 (lastOnlineAt - visitAt), 单位分钟                           |
-| userId              | integer | 用户 ID                                                               |
-| activityId          | string  | 活动 ID                                                               |
-| activity            | object  | 活动信息                                                              |
-| activity.id         | string  | 活动 ID                                                               |
-| activity.name       | string  | 活动名称                                                              |
-| activity.status     | string  | 活动状态，enabled 允许推流 disabled 禁止推流 forbidden 管理员禁止推流 |
-| activity.agentId    | integer | 账号 ID                                                               |
-| activity.startedAt  | string  | 活动开始时间                                                          |
-| activity.endedAt    | string  | 活动结束时间                                                          |
-| activity.pushDomain | string  | 推流域名                                                              |
-| activity.pullDomain | string  | 拉流域名                                                              |
-| activity.isPushing  | boolean | 是否在推流                                                            |
-| activity.createdAt  | string  | 活动创建时间                                                          |
-| activity.groupId    | integer | 活动分组 ID                                                           |
-| activity.updateAt   | string  | 活动更新时间                                                          |
+| 参数 | 类型 | 描述 |
+| :--- | :--- | :--- |
+| pager | object | 分页信息 |
+| pager.page | integer | 当前页 |
+| pager.pageSize | integer | 每页返回个数 |
+| pager.total | integer | 总个数 |
+| visitAt | string | 访问时间 |
+| lastOnlineAt | string | 最后在线时间 |
+| duration | integer | 在线时长 \(lastOnlineAt - visitAt\), 单位分钟 |
+| userId | integer | 用户 ID |
+| activityId | string | 活动 ID |
+| activity | object | 活动信息 |
+| activity.id | string | 活动 ID |
+| activity.name | string | 活动名称 |
+| activity.status | string | 活动状态，enabled 允许推流 disabled 禁止推流 forbidden 管理员禁止推流 |
+| activity.agentId | integer | 账号 ID |
+| activity.startedAt | string | 活动开始时间 |
+| activity.endedAt | string | 活动结束时间 |
+| activity.pushDomain | string | 推流域名 |
+| activity.pullDomain | string | 拉流域名 |
+| activity.isPushing | boolean | 是否在推流 |
+| activity.createdAt | string | 活动创建时间 |
+| activity.groupId | integer | 活动分组 ID |
+| activity.updateAt | string | 活动更新时间 |
 
 ```javascript
 {
@@ -122,3 +122,4 @@ curl 'shangzhibo.tv/api/v3/agent/105131/user/15460259/stats/visits?page=1&pageSi
         }]
 }
 ```
+

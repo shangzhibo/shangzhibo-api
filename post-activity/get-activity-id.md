@@ -69,7 +69,6 @@ Content-Type: application/json
 | pullUrls.flv | string | flv 拉流地址 |
 | pullUrls.m3u8 | string | hls 拉流地址 |
 
-
 ### 响应样例
 
 ```javascript
@@ -120,3 +119,4 @@ Content-Type: application/json
     }
 }
 ```
+

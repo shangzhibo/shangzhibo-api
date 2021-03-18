@@ -27,7 +27,7 @@ Content-Type: application/json
 
 ```bash
 curl -H 'authorization: bearer <accessToken>' \
-	https://shangzhibo.tv/api/v3/activity/:id/state
+    https://shangzhibo.tv/api/v3/activity/:id/state
 ```
 
 ## 响应参数
@@ -36,8 +36,8 @@ curl -H 'authorization: bearer <accessToken>' \
 | :--- | :--- | :--- |
 | concurrent | integer | 实时并发人数 |
 | highestUvToday | object | 今日最高并发 |
-| highestUvToday.time | string |  最高并发时间 |
-| highestUvToday.count | integer| 最高并发人数 | 
+| highestUvToday.time | string | 最高并发时间 |
+| highestUvToday.count | integer | 最高并发人数 |
 
 ## 响应示例
 

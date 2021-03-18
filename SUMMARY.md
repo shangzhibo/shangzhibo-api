@@ -46,6 +46,7 @@
 * [聚合页 API](huo-qu-zhi-ding-ju-he-ye-de-huo-dong-xin-xi/README.md)
   * [获取指定聚合页的活动信息](huo-qu-zhi-ding-ju-he-ye-de-huo-dong-xin-xi/huo-qu-zhi-ding-ju-he-ye-de-huo-dong-xin-xi.md)
   * [获取聚合页列表](huo-qu-zhi-ding-ju-he-ye-de-huo-dong-xin-xi/huo-qu-ju-he-ye-lie-biao.md)
+  * [获取聚合页列表\(new\)](huo-qu-zhi-ding-ju-he-ye-de-huo-dong-xin-xi/huo-qu-ju-he-ye-lie-biao-new.md)
 * [观众账号 API](ke-hu-wang-zhan-shou-quan-deng-lu/README.md)
   * [客户网站用户授权\(创建用户\)](ke-hu-wang-zhan-shou-quan-deng-lu/ke-hu-wang-zhan-yong-hu-shou-quan-zhu-ce.md)
   * [客户网站用户授权\(同步用户标识\)](ke-hu-wang-zhan-shou-quan-deng-lu/ke-hu-wang-zhan-yong-hu-shou-quan-deng-lu.md)

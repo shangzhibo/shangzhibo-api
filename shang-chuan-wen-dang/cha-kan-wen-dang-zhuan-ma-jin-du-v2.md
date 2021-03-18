@@ -20,8 +20,8 @@ Content-Type: application/json
 ## 参数
 
 | 参数 | 参数类型 | 参数说明 | 是否必填 |
-| :--- | :--- | :--- | :---|
-| taskId | string| 文档转码任务 id | 是 |
+| :--- | :--- | :--- | :--- |
+| taskId | string | 文档转码任务 id | 是 |
 
 ### 请求样例
 
@@ -88,3 +88,4 @@ errorCode 错误码:
     "status":429
 }
 ```
+

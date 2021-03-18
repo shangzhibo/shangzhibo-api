@@ -32,7 +32,7 @@ Content-Type: application/json
 | country | string | 国家\(最大 20 位\) | 否 |
 | province | string | 省份 \(最大 20 位\) | 否 |
 | city | string | 城市 \(最大 20 位\) | 否 |
-| openid | string | 用户微信服务号 openid, openid 与 uid 一样，都是属于全局唯一字段 |
+| openid | string | 用户微信服务号 openid, openid 与 uid 一样，都是属于全局唯一字段 |  |
 
 ### 请求示例:
 

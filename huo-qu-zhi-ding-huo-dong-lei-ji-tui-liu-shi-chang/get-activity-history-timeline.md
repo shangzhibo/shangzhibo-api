@@ -26,7 +26,6 @@ Content-Type: application/json
 | startedAt | string | 开始时间 | 是 |
 | endedAt | string | 结束时间 | 是 |
 
-
 开始时间与结束时间间隔不能超过 7 天
 
 开始时间与结束时间格式必须符合正则: `^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(\.\d{0,3})?Z$`
@@ -35,7 +34,7 @@ Content-Type: application/json
 
 ```bash
 curl -H 'authorization: bearer <accessToken>' \
-	https://shangzhibo.tv/api/v3/activity/:id/stats/timeline\?startedAt=2020-07-13T10:27:00Z\&endedAt=2020-07-20T10:27:00Z
+    https://shangzhibo.tv/api/v3/activity/:id/stats/timeline\?startedAt=2020-07-13T10:27:00Z\&endedAt=2020-07-20T10:27:00Z
 ```
 
 ## 响应参数

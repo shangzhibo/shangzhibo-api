@@ -67,6 +67,7 @@ PUT /api/v2/activity/:id/doc/:docId
 ```
 
 ### 响应 400
+
 ```javascript
 // 文档未转码完成时
 {
@@ -102,3 +103,4 @@ PUT /api/v2/activity/:id/doc/:docId
     "status":429
 }
 ```
+

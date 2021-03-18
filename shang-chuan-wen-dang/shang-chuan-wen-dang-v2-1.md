@@ -31,7 +31,7 @@ curl -H "Authorization: bearer <Access Token>" "http://shangzhibo.tv/api/v2/acti
 
 ### 文件上传示例代码:
 
-```html
+```markup
 <html>
     <form name="form" action="https://shangzhibo.tv/api/v2/activity/12345678/doc" method="POST" enctype ="multipart/form-data">
         <input type="file" name="filename">
@@ -45,9 +45,10 @@ curl -H "Authorization: bearer <Access Token>" "http://shangzhibo.tv/api/v2/acti
 HTTP/1.1 200 OK
 
 ### 响应样例
-| 参数                 | 参数类型             | 参数说明 |
-| :------------------- | :------------------- | :------------------- |
-| taskId| string | 转码任务 id，用于查询文档转码进度|
+
+| 参数 | 参数类型 | 参数说明 |
+| :--- | :--- | :--- |
+| taskId | string | 转码任务 id，用于查询文档转码进度 |
 
 ```javascript
 {
@@ -89,3 +90,4 @@ HTTP/1.1 200 OK
     "status":429
 }
 ```
+

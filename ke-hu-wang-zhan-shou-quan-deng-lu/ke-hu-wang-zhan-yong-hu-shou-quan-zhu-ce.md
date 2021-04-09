@@ -53,8 +53,8 @@ curl -H "Content-Type: application/json" -H "Authorization: Bearer <access_token
 
 | 参数 | 参数类型 | 参数说明 |
 | :--- | :--- | :--- |
-| id | integer | 主键 |
-| uid | string | 唯一标识用户的 ID |
+| id | integer | 用户唯一标识 |
+| uid | string | 客户平台的用户唯一标识，仅限做了第三方登录定制的客户 |
 | nickname | string | 用户昵称（最长 45 位） |
 | avatar | string | 用户头像 |
 | sex | string | 用户性别\(male、female、unknown\) |

@@ -27,9 +27,9 @@ Content-Type: application/json
 
 | 参数 | 类型 | 参数位置 | 描述 | 是否必传 |
 | :--- | :--- | :--- | :--- | :--- |
-| id | int | url path | 客户 id | 是 |
-| userId | int | url path | 客户所属用户 id | 是 |
-| activityId | string | url query | 活动 id | 否 |
+| id | int | url path | 客户唯一标识 | 是 |
+| userId | int | url path | 用户唯一标识 | 是 |
+| activityId | string | url query | 活动唯一标识 | 否 |
 | page | int | url query | 当前页, 默认为 1 | 否 |
 | pageSize | int | url query | 每页返回个数，默认为 10，最大为 1000 | 否 |
 | order | enum&lt;visitAt asc, visitAt desc&gt; | url query | 排序方式, 默认为 visitAt desc | 否 |

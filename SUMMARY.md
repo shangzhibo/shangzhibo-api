@@ -52,7 +52,6 @@
   * [客户网站用户授权\(创建用户\)](ke-hu-wang-zhan-shou-quan-deng-lu/ke-hu-wang-zhan-yong-hu-shou-quan-zhu-ce.md)
   * [客户网站用户授权\(同步用户标识\)](ke-hu-wang-zhan-shou-quan-deng-lu/ke-hu-wang-zhan-yong-hu-shou-quan-deng-lu.md)
   * [客户网站授权登录\(已废弃\)](ke-hu-wang-zhan-shou-quan-deng-lu/ke-hu-wang-zhan-shou-quan-deng-lu.md)
-  * [回传订单数据](ke-hu-wang-zhan-shou-quan-deng-lu/post-callback-pay.md)
   * [获取客户网站已授权用户信息](ke-hu-wang-zhan-shou-quan-deng-lu/huo-qu-ke-hu-wang-zhan-yi-deng-lu-yong-hu-xin-xi.md)
   * [获取指定用户的访问明细](ke-hu-wang-zhan-shou-quan-deng-lu/get-user-visits.md)
 * [播放页 API](get-activity-id-iframe/README.md)

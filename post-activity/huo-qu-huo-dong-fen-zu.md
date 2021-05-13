@@ -4,7 +4,7 @@
 
 获取活动分组
 
-```text
+```bash
 GET /api/agent/activity-group
 ```
 

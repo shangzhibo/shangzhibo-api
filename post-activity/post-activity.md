@@ -69,15 +69,24 @@ Authorization: Bearer <accessToken>
       <td style="text-align:left">
         <ul>
           <li>push-global &#x5168;&#x7403;&#x63A8;&#x6D41;</li>
-          <li>push-us &#x7F8E;&#x56FD;&#x63A8;&#x6D41;</li>
-          <li>push-de &#x5FB7;&#x56FD;&#x63A8;&#x6D41;</li>
-          <li>push-hk &#x9999;&#x6E2F;&#x63A8;&#x6D41;</li>
-          <li>push-sg &#x65B0;&#x52A0;&#x5761;&#x63A8;&#x6D41;</li>
           <li>pull-global &#x5168;&#x7403;&#x64AD;&#x653E;</li>
-          <li>pull-us &#x7F8E;&#x56FD;&#x64AD;&#x653E;</li>
-          <li>pull-de &#x5FB7;&#x56FD;&#x64AD;&#x653E;</li>
-          <li>pull-hk &#x9999;&#x6E2F;&#x64AD;&#x653E;</li>
-          <li>pull-sg &#x65B0;&#x52A0;&#x5761;&#x64AD;&#x653E;</li>
+          <li>all-global &#x5168;&#x7403;&#x63A8;&#x6D41; + &#x5168;&#x7403;&#x64AD;&#x653E;</li>
+          <li><del>push-us &#x7F8E;&#x56FD;&#x63A8;&#x6D41;</del>
+          </li>
+          <li><del>push-de &#x5FB7;&#x56FD;&#x63A8;&#x6D41;</del>
+          </li>
+          <li><del>push-hk &#x9999;&#x6E2F;&#x63A8;&#x6D41;</del>
+          </li>
+          <li><del>push-sg &#x65B0;&#x52A0;&#x5761;&#x63A8;&#x6D41;</del>
+          </li>
+          <li><del>pull-us &#x7F8E;&#x56FD;&#x64AD;&#x653E;</del>
+          </li>
+          <li><del>pull-de &#x5FB7;&#x56FD;&#x64AD;&#x653E;</del>
+          </li>
+          <li><del>pull-hk &#x9999;&#x6E2F;&#x64AD;&#x653E;</del>
+          </li>
+          <li><del>pull-sg &#x65B0;&#x52A0;&#x5761;&#x64AD;&#x653E;</del>
+          </li>
         </ul>
         <p>&#x8BE5;&#x53C2;&#x6570;&#x9700;&#x989D;&#x5916;&#x5F00;&#x901A;&#x6D77;&#x5916;&#x8282;&#x70B9;&#x529F;&#x80FD;</p>
       </td>

@@ -38,7 +38,6 @@
   * [获取指定活动的回看视频列表](123/huo-qu-zhi-ding-huo-dong-de-hui-kan-shi-pin-lie-biao.md)
   * [获取活动视频列表](123/huo-qu-huo-dong-shi-pin-lie-biao.md)
   * [修改活动视频列表](123/xiu-gai-huo-dong-shi-pin-lie-biao.md)
-  * [获取活动视频列表](123/huo-qu-huo-dong-shi-pin-lie-biao-1.md)
 * [子账号 API](chuang-jian-zi-zhang-hao/README.md)
   * [创建子账号](chuang-jian-zi-zhang-hao/chuang-jian-zi-zhang-hao.md)
   * [修改子账号](chuang-jian-zi-zhang-hao/xiu-gai-zi-zhang-hao.md)

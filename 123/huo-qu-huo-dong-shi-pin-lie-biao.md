@@ -40,6 +40,7 @@ Content-Type: application/json
 | name | string | 视频列表名称 |
 | updatedAt | string | 更新时间 |
 | createdAt | string | 创建时间 |
+| mediaId | array | 视频 id |
 | medias | array | 视频信息列表 |
 
 ## 响应示例

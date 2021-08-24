@@ -32,6 +32,8 @@ Content-Type: application/json
 | startedAt | string | 查询开始时间 | 否 |
 | endedAt | string | 查询截止时间（最多支持查询 7 天范围内的数据） | 否 |
 
+注：查询的时间采用**格林尼治标准时间**，格式为：`2019-06-21T01:52:12.736Z`
+
 ## 请求样例
 
 ```text

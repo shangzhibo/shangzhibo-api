@@ -29,6 +29,8 @@ Content-Type: application/json
 | :--- | :--- | :--- | :--- |
 | page | integer | 页数（默认第一页） | 否 |
 | pageSize | integer | 每页显示数量（默认 10） | 否 |
+| startedAt | string | 查询开始时间 | 否 |
+| endedAt | string | 查询截止时间（最多支持查询 7 天范围内的数据） | 否 |
 
 ## 请求样例
 

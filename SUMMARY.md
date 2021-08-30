@@ -89,4 +89,6 @@
   * [开启容器](la-liu-zhuan-tui/start-stream-job.md)
   * [关闭容器](la-liu-zhuan-tui/stop-stream-job.md)
 * [合辑](he-ji.md)
+  * [创建合辑](catalog/create-catalog.md)
+  * [更新合辑内容](catalog/update-catalog-chapters.md)
 

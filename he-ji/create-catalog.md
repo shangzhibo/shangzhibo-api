@@ -58,6 +58,7 @@ curl -H "Content-Type: application/json" \
   "id": 1,
   "name": "测试",
   "agentId": 105131,
+  "link": "https://shangzhibo.tv/w/catalog/1",
   "chapters": [{
     "selection": "",
     "activityIds": [],

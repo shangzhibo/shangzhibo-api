@@ -88,7 +88,7 @@
   * [删除推、拉流容器](la-liu-zhuan-tui/remove-a-stream-job.md)
   * [开启容器](la-liu-zhuan-tui/start-stream-job.md)
   * [关闭容器](la-liu-zhuan-tui/stop-stream-job.md)
-* [合辑](he-ji.md)
-  * [创建合辑](catalog/create-catalog.md)
-  * [更新合辑内容](catalog/update-catalog-chapters.md)
+* [合辑](he-ji/README.md)
+  * [创建合辑](he-ji/create-catalog.md)
+  * [更新合辑内容](he-ji/update-catalog-chapters.md)
 

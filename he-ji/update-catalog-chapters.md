@@ -1,4 +1,4 @@
-# 更新合辑内容设置
+# 更新合辑内容
 
 ## 接口
 
@@ -23,13 +23,13 @@ Authorization: Bearer <accessToken>
 | 参数 | 参数类型 | 是否必填 | 描述 |
 | :--- | :--- | :--- | :--- |
 | catalogId | integer | 是 | 合辑 ID |
-| chapters | array<object> | 是 | 合辑内容 |
-| chapters[N].selection | string | 章节名称, 默认为空字符串 |
-| chapters[N].activityIds | array<string> | 活动 ID 列表 |
+| chapters | array | 是 | 合辑内容 |
+| chapters\[N\].selection | string | 章节名称, 默认为空字符串 |  |
+| chapters\[N\].activityIds | array | 活动 ID 列表 |  |
 
 ### 请求示例
 
-```bash 
+```bash
 curl -H "Content-Type: application/json" \
   -H "Authorization: Bearer <accessToken>"  \
   -X "PUT" http://shangzhibo.tv/api/v3/catalog/1/chapters -d $'{
@@ -48,15 +48,14 @@ curl -H "Content-Type: application/json" \
 
 | 参数 | 参数类型 | 描述 |
 | :--- | :--- | :--- |
-| chapters | array<object> | 合辑内容 |
-| chapters[N].selection | string | 章节名称, 默认为空字符串 |
-| chapters[N].activityIds | array<string> | 活动 ID 列表 |
-| chapters[N].activities | array<object> | 活动列表对应的活动内容 |
-| chapters[N].activities[M].id | string | 活动ID |
-| chapters[N].activities[M].name | string | 活动名称 |
-| chapters[N].activities[M].link | string | 活动打开链接 |
-| chapters[N].activities[M].type | enum["video", "live"] | 活动类型， video 表示视频，live 表示直播 |
-
+| chapters | array | 合辑内容 |
+| chapters\[N\].selection | string | 章节名称, 默认为空字符串 |
+| chapters\[N\].activityIds | array | 活动 ID 列表 |
+| chapters\[N\].activities | array | 活动列表对应的活动内容 |
+| chapters\[N\].activities\[M\].id | string | 活动ID |
+| chapters\[N\].activities\[M\].name | string | 活动名称 |
+| chapters\[N\].activities\[M\].link | string | 活动打开链接 |
+| chapters\[N\].activities\[M\].type | enum\["video", "live"\] | 活动类型， video 表示视频，live 表示直播 |
 
 ### 响应样例
 
@@ -104,3 +103,4 @@ curl -H "Content-Type: application/json" \
   "name": "NotFound"
 }
 ```
+

@@ -91,4 +91,5 @@
 * [合辑](he-ji/README.md)
   * [创建合辑](he-ji/create-catalog.md)
   * [更新合辑内容](he-ji/update-catalog-chapters.md)
+  * [获取合辑列表](he-ji/huo-qu-he-ji-lie-biao.md)
 

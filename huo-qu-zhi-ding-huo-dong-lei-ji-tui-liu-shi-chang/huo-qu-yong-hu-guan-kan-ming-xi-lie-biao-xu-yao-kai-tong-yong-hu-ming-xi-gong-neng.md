@@ -55,6 +55,7 @@ GET /api/activity/<活动Id>/stats/user-visits
 | visitAt | string | 访问时间 |
 | lastOnlineAt | string | 最后在线时间 |
 | duration | integer | 在线时长（单位**分钟**） |
+| type | string | 观看内容类型, none 无 live 直播 video 视频 playback 回看 unknown 未知 |
 | referer | string | 用户来源 |
 | userAgent | string | 浏览器 ua |
 | device | string | 访问设备 |
@@ -87,7 +88,8 @@ GET /api/activity/<活动Id>/stats/user-visits
             "nickname":"测试",
             "avatar":"http://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTJdhX8EJDyyxX3NHRRqu30ia6ibCdft438GpiayNiaO2NYoKxiaCQCQIx0GMu3CKvN0jHu1lzNWufaS9ibA/132",
             "anonymousId":"",
-            "partnerUID":""
+            "partnerUID":"",
+            "type": "unknown",
         }
     ]
 }

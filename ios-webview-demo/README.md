@@ -6,5 +6,4 @@
 
 ## 下载 Demo
 
-前往下载：[http://doc.shangzhibo.tv/DEMO/iOS\_TestWebview.zip](http://doc.shangzhibo.tv/DEMO/iOS_TestWebview.zip)
-
+前往下载：[https://doc.shangzhibo.tv/DEMO/iOS\_TestWebview.zip](https://doc.shangzhibo.tv/DEMO/iOS\_TestWebview.zip)

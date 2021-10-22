@@ -51,6 +51,8 @@ curl 'shangzhibo.tv/api/v3/agent/105131/user/15460259/stats/visits?page=1&pageSi
 | pager.total | integer | 总个数 |
 | visitAt | string | 访问时间 |
 | type | string | 观看内容类型, none 无 live 直播 video 视频 playback 回看 unknown 未知 |
+| promoteSign | string | 推广渠道唯一标识 |
+| promoteName | string | 推广渠道名称，默认为未知 |
 | lastOnlineAt | string | 最后在线时间 |
 | duration | integer | 在线时长 \(lastOnlineAt - visitAt\), 单位分钟 |
 | userId | integer | 用户 ID |
@@ -99,6 +101,8 @@ curl 'shangzhibo.tv/api/v3/agent/105131/user/15460259/stats/visits?page=1&pageSi
             "userId":15460259,
             "activityId":"10096289",
             "type":"video",
+            "promoteSign": "hGyAXgwnz7_lcR",
+            "type": "测试",
         }, {
             "activity":{
                 "isArchived":false,

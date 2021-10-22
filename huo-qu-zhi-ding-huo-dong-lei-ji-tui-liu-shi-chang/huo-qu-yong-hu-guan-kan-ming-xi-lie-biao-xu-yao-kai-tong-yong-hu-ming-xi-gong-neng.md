@@ -56,6 +56,8 @@ GET /api/activity/<活动Id>/stats/user-visits
 | lastOnlineAt | string | 最后在线时间 |
 | duration | integer | 在线时长（单位**分钟**） |
 | type | string | 观看内容类型, none 无 live 直播 video 视频 playback 回看 unknown 未知 |
+| promoteSign | string | 推广渠道唯一标识 |
+| promoteName | string | 推广渠道名称，默认为未知 |
 | referer | string | 用户来源 |
 | userAgent | string | 浏览器 ua |
 | device | string | 访问设备 |
@@ -90,6 +92,8 @@ GET /api/activity/<活动Id>/stats/user-visits
             "anonymousId":"",
             "partnerUID":"",
             "type": "unknown",
+            "promoteSign": "hGyAXgwnz7_lcR",
+            "type": "测试",
         }
     ]
 }

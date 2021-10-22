@@ -124,6 +124,8 @@ curl 'shangzhibo.tv/api/v3/agent/105131/user/15460259/stats/visits?page=1&pageSi
             "lastOnlineAt":"2020-06-24T01:44:04.000Z",
             "duration":4,
             "type":"live",
+            "promoteSign": "hGyAXgwnz7_lcR",
+            "type": "测试",
             "userId":15460259,
             "activityId":"10096289"
         }]
